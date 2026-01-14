@@ -28,7 +28,8 @@ class Vocabulary:
 
     # 获取词的id
     def word_id(self, word):
-        return self.word2id[word]
+        # 返回词的id，若不存在则返回0（用于未知字/填充）
+        return self.word2id.get(word, 0)
 
     # 获取id对应的词
     def id_word(self, idx):

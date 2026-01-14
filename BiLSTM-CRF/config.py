@@ -32,41 +32,28 @@ patience_num = 5
 
 gpu = '0'
 
-labels = ['address', 'book', 'company', 'game', 'government',
-          'movie', 'name', 'organization', 'position', 'scene']
+labels = [
+        #   'address', 'book', 'company', 'game', 'government',
+        #   'movie', 'name', 'organization', 'position', 'scene',
+          # new dataset tags
+          'ORG', 'ACTION', 'OBJ', 'LEVEL_KEY', 'VALUE']
 
-label2id = {
-    "O": 0,
-    "B-address": 1,
-    "B-book": 2,
-    "B-company": 3,
-    'B-game': 4,
-    'B-government': 5,
-    'B-movie': 6,
-    'B-name': 7,
-    'B-organization': 8,
-    'B-position': 9,
-    'B-scene': 10,
-    "I-address": 11,
-    "I-book": 12,
-    "I-company": 13,
-    'I-game': 14,
-    'I-government': 15,
-    'I-movie': 16,
-    'I-name': 17,
-    'I-organization': 18,
-    'I-position': 19,
-    'I-scene': 20,
-    "S-address": 21,
-    "S-book": 22,
-    "S-company": 23,
-    'S-game': 24,
-    'S-government': 25,
-    'S-movie': 26,
-    'S-name': 27,
-    'S-organization': 28,
-    'S-position': 29,
-    'S-scene': 30,
-}
+# 自动生成 label2id，包含 O / B- / I- / S-
+label2id = {}
+idx = 0
+label2id['O'] = idx
+idx += 1
+# B-*
+for tag in labels:
+    label2id[f'B-{tag}'] = idx
+    idx += 1
+# I-*
+for tag in labels:
+    label2id[f'I-{tag}'] = idx
+    idx += 1
+# S-*
+for tag in labels:
+    label2id[f'S-{tag}'] = idx
+    idx += 1
 
 id2label = {_id: _label for _label, _id in list(label2id.items())}
