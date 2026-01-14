@@ -32,8 +32,11 @@ class NERDataset(Dataset):
             words = []
             word_lens = []
             for token in line:
-                words.append(self.tokenizer.tokenize(token))
-                word_lens.append(len(token))
+                tokens = self.tokenizer.tokenize(token)
+                if not tokens:
+                    tokens = ['[UNK]']
+                words.append(tokens)
+                word_lens.append(len(tokens))
             # 变成单个字的列表，开头加上[CLS]
             words = ['[CLS]'] + [item for token in words for item in token]
             token_start_idxs = 1 + np.cumsum([0] + word_lens[:-1])

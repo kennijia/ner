@@ -16,7 +16,18 @@ def train_epoch(train_loader, model, optimizer, scheduler, epoch):
     train_losses = 0
     for idx, batch_samples in enumerate(tqdm(train_loader)):
         batch_data, batch_token_starts, batch_labels = batch_samples
-        batch_masks = batch_data.gt(0)  # get padding mask
+        # 因为 BERT 序列中有 [CLS]，所以第一个位置永远不应该是 padding (0)
+        # 且 CRF 要求的 mask 必须第一位全是 1。
+        batch_masks = batch_data.gt(0) 
+        # 显式确保 mask 第一列为 True
+        batch_masks[:, 0] = True
+        
+        # 对于 labels 也要处理：确保 labels 的 mask 与 logits 维度匹配
+        # labels 本身在 data_loader 中 padding 成了 -1
+        label_masks = batch_labels.gt(-1)
+        # CRF 要求 label mask 的第一列也必须是 1 (对应预测序列的起点)
+        label_masks[:, 0] = True
+
         # compute model output and loss
         loss = model((batch_data, batch_token_starts),
                      token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)[0]

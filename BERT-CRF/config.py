@@ -1,15 +1,16 @@
 import os
 import torch
 
-data_dir = os.getcwd() + '/data/clue/'
-train_dir = data_dir + 'train.npz'
-test_dir = data_dir + 'test.npz'
-files = ['train', 'test']
+base_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(base_dir, 'data', 'my') + '/'
+train_dir = data_dir + 'admin_train.npz'
+test_dir = data_dir + 'admin_test.npz'
+files = ['admin_train', 'admin_test']
 bert_model = 'pretrained_bert_models/bert-base-chinese/'
 roberta_model = 'pretrained_bert_models/chinese_roberta_wwm_large_ext/'
-model_dir = os.getcwd() + '/experiments/clue/'
-log_dir = model_dir + 'train.log'
-case_dir = os.getcwd() + '/case/bad_case.txt'
+model_dir = os.path.join(base_dir, 'experiments', 'admin_split') + '/'
+log_dir = os.path.join(model_dir, 'train.log')
+case_dir = os.path.join(base_dir, 'case', 'bad_case.txt')
 
 # 训练集、验证集划分比例
 dev_split_size = 0.1
@@ -25,9 +26,8 @@ learning_rate = 3e-5
 weight_decay = 0.01
 clip_grad = 5
 
-batch_size = 32
+batch_size = 8
 epoch_num = 50
-# batch_size = 8
 # epoch_num = 1
 min_epoch_num = 5
 patience = 0.0002
@@ -40,41 +40,18 @@ if gpu != '':
 else:
     device = torch.device("cpu")
 
-labels = ['address', 'book', 'company', 'game', 'government',
-          'movie', 'name', 'organization', 'position', 'scene']
+# 这里的 labels 需要替换为你最新的 5 个标签
+labels = ['ORG', 'ACTION', 'OBJ', 'LEVEL_KEY', 'VALUE']
 
-label2id = {
-    "O": 0,
-    "B-address": 1,
-    "B-book": 2,
-    "B-company": 3,
-    'B-game': 4,
-    'B-government': 5,
-    'B-movie': 6,
-    'B-name': 7,
-    'B-organization': 8,
-    'B-position': 9,
-    'B-scene': 10,
-    "I-address": 11,
-    "I-book": 12,
-    "I-company": 13,
-    'I-game': 14,
-    'I-government': 15,
-    'I-movie': 16,
-    'I-name': 17,
-    'I-organization': 18,
-    'I-position': 19,
-    'I-scene': 20,
-    "S-address": 21,
-    "S-book": 22,
-    "S-company": 23,
-    'S-game': 24,
-    'S-government': 25,
-    'S-movie': 26,
-    'S-name': 27,
-    'S-organization': 28,
-    'S-position': 29,
-    'S-scene': 30
-}
+# 自动构建 BIO 标签映射
+label2id = {'O': 0}
+for i, label in enumerate(labels):
+    label2id[f'B-{label}'] = i * 2 + 1
+    label2id[f'I-{label}'] = i * 2 + 2
+    label2id[f'S-{label}'] = i * 2 + 1 # 简单起见，S 映射到 B（也可以单独加）
 
-id2label = {_id: _label for _label, _id in list(label2id.items())}
+id2label = {i: label for label, i in label2id.items()}
+num_labels = len(label2id)
+
+# 确保训练输出路径正确
+exp_dir = model_dir

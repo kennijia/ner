@@ -1,4 +1,5 @@
-from transformers.modeling_bert import *
+from transformers import BertPreTrainedModel, BertModel
+import torch.nn as nn
 from torch.nn.utils.rnn import pad_sequence
 from torchcrf import CRF
 
@@ -37,7 +38,9 @@ class BertNER(BertPreTrainedModel):
         logits = self.classifier(padded_sequence_output)
         outputs = (logits,)
         if labels is not None:
+            # 确保 mask 的第一位是 True，解决 torchcrf 的校验报错
             loss_mask = labels.gt(-1)
+            loss_mask[:, 0] = True
             loss = self.crf(logits, labels, loss_mask) * (-1)
             outputs = (loss,) + outputs
 

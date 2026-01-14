@@ -1,0 +1,963 @@
+2026-01-14 17:54:06,705:INFO: device: cuda:0
+2026-01-14 17:54:06,705:WARNING: Fixed: 水库主流长
+2026-01-14 17:54:06,705:WARNING: Fixed: 集雨面积
+2026-01-14 17:54:06,705:WARNING: Fixed: 8km
+2026-01-14 17:54:06,705:WARNING: Fixed: 20.67km2
+2026-01-14 17:54:06,705:WARNING: Fixed: 观测站
+2026-01-14 17:54:06,705:WARNING: Fixed: 水情调度中心
+2026-01-14 17:54:06,705:WARNING: Fixed: 平江县防汛抗旱指挥部
+2026-01-14 17:54:06,706:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,706:WARNING: Fixed: 审批
+2026-01-14 17:54:06,706:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,706:WARNING: Fixed: 取水闸
+2026-01-14 17:54:06,706:WARNING: Fixed: 死水位
+2026-01-14 17:54:06,706:WARNING: Fixed: 85.0m
+2026-01-14 17:54:06,706:WARNING: Fixed: 开启
+2026-01-14 17:54:06,706:WARNING: Fixed: 调度
+2026-01-14 17:54:06,706:WARNING: Fixed: 鹤山市址山镇三防指挥所
+2026-01-14 17:54:06,706:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,706:WARNING: Fixed: 汨罗江流域
+2026-01-14 17:54:06,706:WARNING: Fixed: 水库控制集雨面积
+2026-01-14 17:54:06,706:WARNING: Fixed: 水库总库容
+2026-01-14 17:54:06,706:WARNING: Fixed: 正常蓄水位
+2026-01-14 17:54:06,706:WARNING: Fixed: 20 年一遇设计洪水位
+2026-01-14 17:54:06,706:WARNING: Fixed: 200年一遇校核洪水位
+2026-01-14 17:54:06,706:WARNING: Fixed: 死水位
+2026-01-14 17:54:06,706:WARNING: Fixed: 1.34 km²
+2026-01-14 17:54:06,706:WARNING: Fixed: 44.30 万m³
+2026-01-14 17:54:06,706:WARNING: Fixed: 97.48 m
+2026-01-14 17:54:06,706:WARNING: Fixed: 97.21 m
+2026-01-14 17:54:06,706:WARNING: Fixed: 97.51 m
+2026-01-14 17:54:06,707:WARNING: Fixed: 89.36 m
+2026-01-14 17:54:06,707:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,707:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,707:WARNING: Fixed: 64.73～60.00m
+2026-01-14 17:54:06,707:WARNING: Fixed:  64.73～62.00m 
+2026-01-14 17:54:06,707:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,707:WARNING: Fixed: 浦阳江
+2026-01-14 17:54:06,707:WARNING: Fixed: 坝底海拔高程
+2026-01-14 17:54:06,707:WARNING: Fixed: 海拔高程
+2026-01-14 17:54:06,707:WARNING: Fixed: 自然落差
+2026-01-14 17:54:06,707:WARNING: Fixed: 318.12m
+2026-01-14 17:54:06,707:WARNING: Fixed: 70.12m
+2026-01-14 17:54:06,707:WARNING: Fixed: 248m
+2026-01-14 17:54:06,707:WARNING: Fixed: 水位
+2026-01-14 17:54:06,707:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,707:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,707:WARNING: Fixed: 防洪特征水位
+2026-01-14 17:54:06,707:WARNING: Fixed: 集雨面积
+2026-01-14 17:54:06,707:WARNING: Fixed: 集雨面积
+2026-01-14 17:54:06,707:WARNING: Fixed: 控制泄量
+2026-01-14 17:54:06,707:WARNING: Fixed: 56.5km²
+2026-01-14 17:54:06,708:WARNING: Fixed: 47.97km²
+2026-01-14 17:54:06,708:WARNING: Fixed: 300m³/s
+2026-01-14 17:54:06,708:WARNING: Fixed: 水库库水位
+2026-01-14 17:54:06,708:WARNING: Fixed: 库内水位
+2026-01-14 17:54:06,708:WARNING: Fixed: 96.39 m
+2026-01-14 17:54:06,708:WARNING: Fixed:  50 （mm）
+2026-01-14 17:54:06,708:WARNING: Fixed: 95.39 m
+2026-01-14 17:54:06,708:WARNING: Fixed: 预报降雨
+2026-01-14 17:54:06,708:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,708:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,708:WARNING: Fixed: 62.99m
+2026-01-14 17:54:06,708:WARNING: Fixed:  300m³/s 
+2026-01-14 17:54:06,708:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,708:WARNING: Fixed: 62.99～64.73m
+2026-01-14 17:54:06,708:WARNING: Fixed: 下游下王控制断面安全泄量
+2026-01-14 17:54:06,708:WARNING: Fixed: 最大下泄流量
+2026-01-14 17:54:06,708:WARNING: Fixed: 关闸蓄洪
+2026-01-14 17:54:06,708:WARNING: Fixed: 水库管理及水库调度
+2026-01-14 17:54:06,708:WARNING: Fixed: 妥善保管水库调度运行有关资料并归档
+2026-01-14 17:54:06,708:WARNING: Fixed: 上级主管部门
+2026-01-14 17:54:06,708:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,709:WARNING: Fixed: 水库
+2026-01-14 17:54:06,709:WARNING: Fixed:  60.48m
+2026-01-14 17:54:06,709:WARNING: Fixed: 60.68m
+2026-01-14 17:54:06,709:WARNING: Fixed: 关闸蓄洪
+2026-01-14 17:54:06,709:WARNING: Fixed: 控制水位
+2026-01-14 17:54:06,709:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,709:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,709:WARNING: Fixed: 水位
+2026-01-14 17:54:06,709:WARNING: Fixed: 紧急水位
+2026-01-14 17:54:06,709:WARNING: Fixed: 指挥所全体人员及物资进入现场
+2026-01-14 17:54:06,709:WARNING: Fixed: 并通知下游作好防洪避险准备
+2026-01-14 17:54:06,709:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,709:WARNING: Fixed: 150m
+2026-01-14 17:54:06,709:WARNING: Fixed: 155m
+2026-01-14 17:54:06,709:WARNING: Fixed: 采取错峰调度
+2026-01-14 17:54:06,709:WARNING: Fixed: 水库
+2026-01-14 17:54:06,709:WARNING: Fixed: 防洪调度
+2026-01-14 17:54:06,709:WARNING: Fixed: 兴利调度
+2026-01-14 17:54:06,709:WARNING: Fixed: 梅汛期限制水位
+2026-01-14 17:54:06,709:WARNING: Fixed: 台汛期限制水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 批复水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 非汛期正常蓄水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,710:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,710:WARNING: Fixed: 62.00m
+2026-01-14 17:54:06,710:WARNING: Fixed: 防汛抗旱指挥机构
+2026-01-14 17:54:06,710:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,710:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 下泄流量
+2026-01-14 17:54:06,710:WARNING: Fixed: 设计洪水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 天然洪峰
+2026-01-14 17:54:06,710:WARNING: Fixed: 汛限水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 泄洪
+2026-01-14 17:54:06,710:WARNING: Fixed: 农业灌溉
+2026-01-14 17:54:06,710:WARNING: Fixed: 启动抗旱应急调度
+2026-01-14 17:54:06,710:WARNING: Fixed: 正常蓄水位
+2026-01-14 17:54:06,710:WARNING: Fixed: 105.00m
+2026-01-14 17:54:06,710:WARNING: Fixed: 水库流域
+2026-01-14 17:54:06,710:WARNING: Fixed: 钱塘江流域
+2026-01-14 17:54:06,710:WARNING: Fixed: 壶源江
+2026-01-14 17:54:06,710:WARNING: Fixed: 库岭溪
+2026-01-14 17:54:06,710:WARNING: Fixed: 富春江
+2026-01-14 17:54:06,711:WARNING: Fixed: 海拔
+2026-01-14 17:54:06,711:WARNING: Fixed: 流域面积
+2026-01-14 17:54:06,711:WARNING: Fixed: 流域面积
+2026-01-14 17:54:06,711:WARNING: Fixed: 818m
+2026-01-14 17:54:06,711:WARNING: Fixed: 760.9km2
+2026-01-14 17:54:06,711:WARNING: Fixed: 383.1km2
+2026-01-14 17:54:06,711:WARNING: Fixed: 雨量站
+2026-01-14 17:54:06,711:WARNING: Fixed: 鹤山市气象站
+2026-01-14 17:54:06,711:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,711:WARNING: Fixed: 金坑岭水库
+2026-01-14 17:54:06,711:WARNING: Fixed: 年平均供水总量
+2026-01-14 17:54:06,711:WARNING: Fixed:  868 万 m3
+2026-01-14 17:54:06,711:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,711:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,711:WARNING: Fixed:  20 年一遇洪水位
+2026-01-14 17:54:06,711:WARNING: Fixed: 水库最大下泄流量
+2026-01-14 17:54:06,711:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,711:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,711:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,711:WARNING: Fixed: 200年一遇校核洪水位
+2026-01-14 17:54:06,712:WARNING: Fixed:  200 年一遇洪水位
+2026-01-14 17:54:06,712:WARNING: Fixed: 165.82m
+2026-01-14 17:54:06,712:WARNING: Fixed: 165.82m
+2026-01-14 17:54:06,712:WARNING: Fixed: 水库及下游抗洪抢险工作
+2026-01-14 17:54:06,712:WARNING: Fixed: 址山镇三防指挥
+2026-01-14 17:54:06,712:WARNING: Fixed: 址山镇三防指挥所
+2026-01-14 17:54:06,712:WARNING: Fixed: 市三防指挥部
+2026-01-14 17:54:06,712:WARNING: Fixed: 调度运行计划
+2026-01-14 17:54:06,712:WARNING: Fixed: 备案
+2026-01-14 17:54:06,712:WARNING: Fixed: 水利局
+2026-01-14 17:54:06,712:WARNING: Fixed: 省防指
+2026-01-14 17:54:06,712:WARNING: Fixed: 鹤山市址山镇三防指挥所
+2026-01-14 17:54:06,712:WARNING: Fixed: 水情中心站
+2026-01-14 17:54:06,712:WARNING: Fixed: 水情中心站
+2026-01-14 17:54:06,712:WARNING: Fixed: 遥测站
+2026-01-14 17:54:06,712:WARNING: Fixed: 水库调度管理
+2026-01-14 17:54:06,712:WARNING: Fixed: 水库险情监测与巡视检查
+2026-01-14 17:54:06,712:WARNING: Fixed: 抢险
+2026-01-14 17:54:06,712:WARNING: Fixed: 应急调度
+2026-01-14 17:54:06,712:WARNING: Fixed: 信息报告
+2026-01-14 17:54:06,712:WARNING: Fixed: 参与预案的全过程
+2026-01-14 17:54:06,713:WARNING: Fixed: 参与应急会商
+2026-01-14 17:54:06,713:WARNING: Fixed: 成应急指挥机构交办的任务
+2026-01-14 17:54:06,713:WARNING: Fixed: 址山镇三防指挥所
+2026-01-14 17:54:06,713:WARNING: Fixed: 奉化区水文站
+2026-01-14 17:54:06,713:WARNING: Fixed: 宁波市葛岙水库开发有限公司
+2026-01-14 17:54:06,713:WARNING: Fixed: 宁波市水利水电规划设计研究院有限公司
+2026-01-14 17:54:06,713:WARNING: Fixed: 浙江省正邦水电建设有限公司
+2026-01-14 17:54:06,713:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,713:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,713:WARNING: Fixed: 水库库区
+2026-01-14 17:54:06,713:WARNING: Fixed: 水库枢纽
+2026-01-14 17:54:06,713:WARNING: Fixed: 水库保护范围面积
+2026-01-14 17:54:06,713:WARNING: Fixed: 0.792km2
+2026-01-14 17:54:06,713:WARNING: Fixed: 下泄流量
+2026-01-14 17:54:06,713:WARNING: Fixed: 下游城镇防洪标准
+2026-01-14 17:54:06,713:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,713:WARNING: Fixed: 库容
+2026-01-14 17:54:06,713:WARNING: Fixed: 60.00～62.00m
+2026-01-14 17:54:06,713:WARNING: Fixed: 重叠库容
+2026-01-14 17:54:06,714:WARNING: Fixed: 水库
+2026-01-14 17:54:06,714:WARNING: Fixed: 水库
+2026-01-14 17:54:06,714:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,714:WARNING: Fixed: 正常水位
+2026-01-14 17:54:06,714:WARNING: Fixed:  163m
+2026-01-14 17:54:06,714:WARNING: Fixed: 设计洪水标准
+2026-01-14 17:54:06,714:WARNING: Fixed: 校核洪水标准
+2026-01-14 17:54:06,714:WARNING: Fixed: 白云水库
+2026-01-14 17:54:06,714:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,714:WARNING: Fixed: 放水涵管
+2026-01-14 17:54:06,714:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,714:WARNING: Fixed: 防洪调度任务
+2026-01-14 17:54:06,714:WARNING: Fixed: 水库大坝
+2026-01-14 17:54:06,714:WARNING: Fixed: 20年一遇设计洪水标准
+2026-01-14 17:54:06,714:WARNING: Fixed: 200年一遇的校核洪水标准
+2026-01-14 17:54:06,714:WARNING: Fixed: 水库防洪控制断面
+2026-01-14 17:54:06,714:WARNING: Fixed: 安全泄量
+2026-01-14 17:54:06,714:WARNING: Fixed: 10.75*1.7m
+2026-01-14 17:54:06,714:WARNING: Fixed: 15.72   m3/s
+2026-01-14 17:54:06,715:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,715:WARNING: Fixed: 水库
+2026-01-14 17:54:06,715:WARNING: Fixed: 61.22m
+2026-01-14 17:54:06,715:WARNING: Fixed: 加大下泄流量
+2026-01-14 17:54:06,715:WARNING: Fixed: 敞泄
+2026-01-14 17:54:06,715:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,715:WARNING: Fixed: 启动
+2026-01-14 17:54:06,715:WARNING: Fixed: 气象台
+2026-01-14 17:54:06,715:WARNING: Fixed: 水库管理处
+2026-01-14 17:54:06,715:WARNING: Fixed: 100mm
+2026-01-14 17:54:06,715:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,715:WARNING: Fixed: 巡视检查
+2026-01-14 17:54:06,715:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,715:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,715:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,715:WARNING: Fixed: 72.50m
+2026-01-14 17:54:06,715:WARNING: Fixed: 自由溢流
+2026-01-14 17:54:06,715:WARNING: Fixed: 三市镇
+2026-01-14 17:54:06,716:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,716:WARNING: Fixed: 审批
+2026-01-14 17:54:06,716:WARNING: Fixed: 协调
+2026-01-14 17:54:06,716:WARNING: Fixed: 最高水位
+2026-01-14 17:54:06,716:WARNING: Fixed: 1000年一遇校核洪水位
+2026-01-14 17:54:06,716:WARNING: Fixed: 66.33m
+2026-01-14 17:54:06,716:WARNING: Fixed: 水库
+2026-01-14 17:54:06,716:WARNING: Fixed: 水位
+2026-01-14 17:54:06,716:WARNING: Fixed: 水底孔
+2026-01-14 17:54:06,716:WARNING: Fixed: 165.50m
+2026-01-14 17:54:06,716:WARNING: Fixed: 开启
+2026-01-14 17:54:06,716:WARNING: Fixed: 排沙
+2026-01-14 17:54:06,716:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,716:WARNING: Fixed: 水库
+2026-01-14 17:54:06,716:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,716:WARNING: Fixed: 校核洪水标
+2026-01-14 17:54:06,716:WARNING: Fixed: 66.33m
+2026-01-14 17:54:06,716:WARNING: Fixed: 泄洪
+2026-01-14 17:54:06,716:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,716:WARNING: Fixed: 防限水位
+2026-01-14 17:54:06,717:WARNING: Fixed: 163m
+2026-01-14 17:54:06,717:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,717:WARNING: Fixed: 每隔一小时将水库水位、降雨量等情况报告
+2026-01-14 17:54:06,717:WARNING: Fixed: 汛期水位
+2026-01-14 17:54:06,717:WARNING: Fixed: 355.12m 
+2026-01-14 17:54:06,717:WARNING: Fixed: 鹤山市址山镇农业综合服务中心
+2026-01-14 17:54:06,717:WARNING: Fixed: 大坝、输水涵管和溢洪道
+2026-01-14 17:54:06,717:WARNING: Fixed: 抢险
+2026-01-14 17:54:06,717:WARNING: Fixed: 采取切实有效的保坝措施
+2026-01-14 17:54:06,717:WARNING: Fixed: 防洪限制水位
+2026-01-14 17:54:06,717:WARNING: Fixed: 96.39m
+2026-01-14 17:54:06,717:WARNING: Fixed: 万安水库
+2026-01-14 17:54:06,717:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,717:WARNING: Fixed: 防洪限制水位
+2026-01-14 17:54:06,717:WARNING: Fixed: 145.0m
+2026-01-14 17:54:06,717:WARNING: Fixed: 市水务局
+2026-01-14 17:54:06,717:WARNING: Fixed: 下达调度令
+2026-01-14 17:54:06,717:WARNING: Fixed: 开启
+2026-01-14 17:54:06,717:WARNING: Fixed: 长山水库
+2026-01-14 17:54:06,717:WARNING: Fixed: 1500
+2026-01-14 17:54:06,717:WARNING: Fixed: 2000
+2026-01-14 17:54:06,718:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,718:WARNING: Fixed: 金坑岭水库
+2026-01-14 17:54:06,718:WARNING: Fixed: 壶源江电站
+2026-01-14 17:54:06,718:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,718:WARNING: Fixed: 下游下王控制断面安全泄量
+2026-01-14 17:54:06,718:WARNING: Fixed: 水库最大下泄流量
+2026-01-14 17:54:06,718:WARNING: Fixed: 300m³/s
+2026-01-14 17:54:06,718:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,718:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,718:WARNING: Fixed: 20年一遇设计洪水位
+2026-01-14 17:54:06,718:WARNING: Fixed: 200年一遇校核洪水位
+2026-01-14 17:54:06,718:WARNING: Fixed: 溢洪水深
+2026-01-14 17:54:06,718:WARNING: Fixed: 165.20m
+2026-01-14 17:54:06,718:WARNING: Fixed: 165.82m
+2026-01-14 17:54:06,718:WARNING: Fixed: 2.82m
+2026-01-14 17:54:06,718:WARNING: Fixed: 水库防汛工作
+2026-01-14 17:54:06,718:WARNING: Fixed: 址山镇三防指挥
+2026-01-14 17:54:06,718:WARNING: Fixed: 金坑岭水库
+2026-01-14 17:54:06,718:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,718:WARNING: Fixed: 最低运行水位
+2026-01-14 17:54:06,719:WARNING: Fixed: 324.92m
+2026-01-14 17:54:06,719:WARNING: Fixed:  338.12m
+2026-01-14 17:54:06,719:WARNING: Fixed: 停止发电
+2026-01-14 17:54:06,719:WARNING: Fixed: 坝址
+2026-01-14 17:54:06,719:WARNING: Fixed: 防洪控制点
+2026-01-14 17:54:06,719:WARNING: Fixed: 水库下泄流量
+2026-01-14 17:54:06,719:WARNING: Fixed: 固定泄量调度
+2026-01-14 17:54:06,719:WARNING: Fixed: 累计降雨量
+2026-01-14 17:54:06,719:WARNING: Fixed: 1小时降雨量
+2026-01-14 17:54:06,719:WARNING: Fixed: 降雨量
+2026-01-14 17:54:06,719:WARNING: Fixed: 100mm
+2026-01-14 17:54:06,719:WARNING: Fixed: 50mm
+2026-01-14 17:54:06,719:WARNING: Fixed: 30mm
+2026-01-14 17:54:06,719:WARNING: Fixed: 在30分钟内将降雨情况报告
+2026-01-14 17:54:06,719:WARNING: Fixed: 加报一次
+2026-01-14 17:54:06,719:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,719:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,719:WARNING: Fixed: 汛限水位
+2026-01-14 17:54:06,719:WARNING: Fixed: 65.5m
+2026-01-14 17:54:06,719:WARNING: Fixed: 镇农办
+2026-01-14 17:54:06,719:WARNING: Fixed: 汇报
+2026-01-14 17:54:06,719:WARNING: Fixed: 梅汛期限制水位
+2026-01-14 17:54:06,720:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,720:WARNING: Fixed: 60.00m 
+2026-01-14 17:54:06,720:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,720:WARNING: Fixed: 下泄
+2026-01-14 17:54:06,720:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,720:WARNING: Fixed: 东江河道
+2026-01-14 17:54:06,720:WARNING: Fixed: 汛期水位
+2026-01-14 17:54:06,720:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,720:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,720:WARNING: Fixed: 发电放水
+2026-01-14 17:54:06,720:WARNING: Fixed: 自由泄洪
+2026-01-14 17:54:06,720:WARNING: Fixed: 水位
+2026-01-14 17:54:06,720:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,720:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,720:WARNING: Fixed: 坝址
+2026-01-14 17:54:06,720:WARNING: Fixed: 防洪控制点
+2026-01-14 17:54:06,720:WARNING: Fixed: 防洪控制点洪水
+2026-01-14 17:54:06,720:WARNING: Fixed: 补偿调度
+2026-01-14 17:54:06,720:WARNING: Fixed: 坝体
+2026-01-14 17:54:06,720:WARNING: Fixed: 坝基
+2026-01-14 17:54:06,721:WARNING: Fixed: 坝肩渗漏点
+2026-01-14 17:54:06,721:WARNING: Fixed: 输水涵管
+2026-01-14 17:54:06,721:WARNING: Fixed: 定期进行重点巡视检查
+2026-01-14 17:54:06,721:WARNING: Fixed: 防洪调度
+2026-01-14 17:54:06,721:WARNING: Fixed: 奉化区水利局
+2026-01-14 17:54:06,721:WARNING: Fixed: 宁波市水利局
+2026-01-14 17:54:06,721:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,721:WARNING: Fixed:  338.12m
+2026-01-14 17:54:06,721:WARNING: Fixed: 灌溉
+2026-01-14 17:54:06,721:WARNING: Fixed: 供水
+2026-01-14 17:54:06,721:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,721:WARNING: Fixed:  338.12m
+2026-01-14 17:54:06,721:WARNING: Fixed: 供水调度
+2026-01-14 17:54:06,721:WARNING: Fixed: 年平均相对湿度
+2026-01-14 17:54:06,721:WARNING: Fixed: 年平均陆面蒸发量
+2026-01-14 17:54:06,721:WARNING: Fixed: 平均径流
+2026-01-14 17:54:06,721:WARNING: Fixed:  80%以上
+2026-01-14 17:54:06,721:WARNING: Fixed: 75%以上
+2026-01-14 17:54:06,721:WARNING: Fixed: 650mm～700mm
+2026-01-14 17:54:06,721:WARNING: Fixed: 750mm～800mm
+2026-01-14 17:54:06,721:WARNING: Fixed: 1000mm～400mm
+2026-01-14 17:54:06,722:WARNING: Fixed: 720mm
+2026-01-14 17:54:06,722:WARNING: Fixed: 控制水位
+2026-01-14 17:54:06,722:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,722:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,722:WARNING: Fixed: 水库坝前水位
+2026-01-14 17:54:06,722:WARNING: Fixed: 设计水位
+2026-01-14 17:54:06,722:WARNING: Fixed: 防汛领导小组
+2026-01-14 17:54:06,722:WARNING: Fixed: 向上级有关部门报告
+2026-01-14 17:54:06,722:WARNING: Fixed: 启动上下游群众转移预案
+2026-01-14 17:54:06,722:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,722:WARNING: Fixed: 61.22m
+2026-01-14 17:54:06,722:WARNING: Fixed: 加大下泄流量
+2026-01-14 17:54:06,722:WARNING: Fixed: 敞泄
+2026-01-14 17:54:06,722:WARNING: Fixed: 汛限水位
+2026-01-14 17:54:06,722:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,722:WARNING: Fixed: 奉化江干流
+2026-01-14 17:54:06,722:WARNING: Fixed: 奉化江
+2026-01-14 17:54:06,722:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,722:WARNING: Fixed: 雨量将
+2026-01-14 17:54:06,723:WARNING: Fixed: 150mm
+2026-01-14 17:54:06,723:WARNING: Fixed: 水库
+2026-01-14 17:54:06,723:WARNING: Fixed: 泄洪
+2026-01-14 17:54:06,723:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,723:WARNING: Fixed: 河床
+2026-01-14 17:54:06,723:WARNING: Fixed: 高程
+2026-01-14 17:54:06,723:WARNING: Fixed: 10～35m
+2026-01-14 17:54:06,723:WARNING: Fixed: 65.0～36.0m
+2026-01-14 17:54:06,723:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,723:WARNING: Fixed: 水库
+2026-01-14 17:54:06,723:WARNING: Fixed: 历史最高水位
+2026-01-14 17:54:06,723:WARNING: Fixed: 设计洪水位
+2026-01-14 17:54:06,723:WARNING: Fixed: 设计死水位
+2026-01-14 17:54:06,723:WARNING: Fixed: 356.86 m
+2026-01-14 17:54:06,723:WARNING: Fixed: 324.92m
+2026-01-14 17:54:06,723:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,723:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,723:WARNING: Fixed: 20mm
+2026-01-14 17:54:06,723:WARNING: Fixed: 三市镇人民政府
+2026-01-14 17:54:06,723:WARNING: Fixed: 死水位
+2026-01-14 17:54:06,723:WARNING: Fixed: 130.0m
+2026-01-14 17:54:06,723:WARNING: Fixed: 水库
+2026-01-14 17:54:06,724:WARNING: Fixed: 停止发电
+2026-01-14 17:54:06,724:WARNING: Fixed: 水位
+2026-01-14 17:54:06,724:WARNING: Fixed: 水库
+2026-01-14 17:54:06,724:WARNING: Fixed: 危急水位
+2026-01-14 17:54:06,724:WARNING: Fixed: 总指所
+2026-01-14 17:54:06,724:WARNING: Fixed: 决策
+2026-01-14 17:54:06,724:WARNING: Fixed: 视情况采取措施
+2026-01-14 17:54:06,724:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,724:WARNING: Fixed: 浦江县水电局
+2026-01-14 17:54:06,724:WARNING: Fixed: 东江
+2026-01-14 17:54:06,724:WARNING: Fixed: 山顶高程
+2026-01-14 17:54:06,724:WARNING: Fixed: 岸坡坡度
+2026-01-14 17:54:06,724:WARNING: Fixed: 120～600m
+2026-01-14 17:54:06,724:WARNING: Fixed: 10～35°
+2026-01-14 17:54:06,724:WARNING: Fixed: 鹤山市址山镇三防指挥所
+2026-01-14 17:54:06,724:WARNING: Fixed: 组织协调有关职能部门工作
+2026-01-14 17:54:06,724:WARNING: Fixed: 水库设计防洪标准
+2026-01-14 17:54:06,724:WARNING: Fixed: 水位
+2026-01-14 17:54:06,724:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,724:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,725:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,725:WARNING: Fixed: 壶源江
+2026-01-14 17:54:06,725:WARNING: Fixed: 主流长
+2026-01-14 17:54:06,725:WARNING: Fixed: 集雨面积
+2026-01-14 17:54:06,725:WARNING: Fixed: 8km
+2026-01-14 17:54:06,725:WARNING: Fixed: 20.67km2
+2026-01-14 17:54:06,725:WARNING: Fixed: 起调水位
+2026-01-14 17:54:06,725:WARNING: Fixed: 水库最大下泄流量
+2026-01-14 17:54:06,725:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,725:WARNING: Fixed: 60.48m
+2026-01-14 17:54:06,725:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,725:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,725:WARNING: Fixed: 管理单位
+2026-01-14 17:54:06,725:WARNING: Fixed: 防汛预案
+2026-01-14 17:54:06,725:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,725:WARNING: Fixed: 水库
+2026-01-14 17:54:06,725:WARNING: Fixed: 下泄
+2026-01-14 17:54:06,725:WARNING: Fixed: 汛限水位
+2026-01-14 17:54:06,725:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,725:WARNING: Fixed: 横山水库
+2026-01-14 17:54:06,725:WARNING: Fixed: 灌溉面积
+2026-01-14 17:54:06,725:WARNING: Fixed: 3766亩
+2026-01-14 17:54:06,726:WARNING: Fixed: 启动防御超标准洪水预案
+2026-01-14 17:54:06,726:WARNING: Fixed: 应急指挥机构
+2026-01-14 17:54:06,726:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,726:WARNING: Fixed: 控制蓄水位
+2026-01-14 17:54:06,726:WARNING: Fixed: 62.00m
+2026-01-14 17:54:06,726:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,726:WARNING: Fixed: 设计洪水位
+2026-01-14 17:54:06,726:WARNING: Fixed: 校核洪水位
+2026-01-14 17:54:06,726:WARNING: Fixed:  65.31m
+2026-01-14 17:54:06,726:WARNING: Fixed: 66.33m
+2026-01-14 17:54:06,726:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,726:WARNING: Fixed: 浦江县人民政府防汛防旱指挥部
+2026-01-14 17:54:06,726:WARNING: Fixed: 浦江县水务局
+2026-01-14 17:54:06,726:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,726:WARNING: Fixed: 水库
+2026-01-14 17:54:06,726:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,726:WARNING: Fixed: 设计洪水标准
+2026-01-14 17:54:06,727:WARNING: Fixed: 65.31m
+2026-01-14 17:54:06,727:WARNING: Fixed: 全开泄洪
+2026-01-14 17:54:06,727:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,727:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,727:WARNING: Fixed: 管理所
+2026-01-14 17:54:06,727:WARNING: Fixed: 东江
+2026-01-14 17:54:06,727:WARNING: Fixed: 流域面积
+2026-01-14 17:54:06,727:WARNING: Fixed: 116km²
+2026-01-14 17:54:06,727:WARNING: Fixed: 水情监测站
+2026-01-14 17:54:06,727:WARNING: Fixed: 入库流量
+2026-01-14 17:54:06,727:WARNING: Fixed: 库水位数据
+2026-01-14 17:54:06,727:WARNING: Fixed: 实时采集
+2026-01-14 17:54:06,727:WARNING: Fixed: 县防汛指挥部
+2026-01-14 17:54:06,727:WARNING: Fixed: 应急抢险
+2026-01-14 17:54:06,727:WARNING: Fixed: 信息报送
+2026-01-14 17:54:06,727:WARNING: Fixed: 水库
+2026-01-14 17:54:06,727:WARNING: Fixed: 调度运行管理工作
+2026-01-14 17:54:06,727:WARNING: Fixed: 100年一遇校核洪水
+2026-01-14 17:54:06,727:WARNING: Fixed: 启动特大洪水应急预案
+2026-01-14 17:54:06,727:WARNING: Fixed: 省水利厅
+2026-01-14 17:54:06,728:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,728:WARNING: Fixed: 市三防办
+2026-01-14 17:54:06,728:WARNING: Fixed: 报告
+2026-01-14 17:54:06,728:WARNING: Fixed: 水位
+2026-01-14 17:54:06,728:WARNING: Fixed: 112.3m
+2026-01-14 17:54:06,728:WARNING: Fixed: 防灾预警线
+2026-01-14 17:54:06,728:WARNING: Fixed: 正常蓄水位
+2026-01-14 17:54:06,728:WARNING: Fixed: 控制水位
+2026-01-14 17:54:06,728:WARNING: Fixed:  355.12m
+2026-01-14 17:54:06,728:WARNING: Fixed: 355.12m
+2026-01-14 17:54:06,728:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,728:WARNING: Fixed: 浦江县西水东调管理处
+2026-01-14 17:54:06,728:WARNING: Fixed: 浦江县水务局
+2026-01-14 17:54:06,728:WARNING: Fixed: 启闭闸门
+2026-01-14 17:54:06,728:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,728:WARNING: Fixed: 东江干流
+2026-01-14 17:54:06,728:WARNING: Fixed: 枢纽工程
+2026-01-14 17:54:06,728:WARNING: Fixed: 非溢流坝
+2026-01-14 17:54:06,728:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,728:WARNING: Fixed: 灌溉电站
+2026-01-14 17:54:06,729:WARNING: Fixed: 防洪调度指令
+2026-01-14 17:54:06,729:WARNING: Fixed: 操作闸门
+2026-01-14 17:54:06,729:WARNING: Fixed: 省水利厅
+2026-01-14 17:54:06,729:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,729:WARNING: Fixed: 163m
+2026-01-14 17:54:06,729:WARNING: Fixed: 15分钟内，要将水库的水位、降雨量等情况报告
+2026-01-14 17:54:06,729:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,729:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,729:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,729:WARNING: Fixed: 水库库水位
+2026-01-14 17:54:06,729:WARNING: Fixed:  96.39 m
+2026-01-14 17:54:06,729:WARNING: Fixed: 100 （mm
+2026-01-14 17:54:06,729:WARNING: Fixed: 94.39 m
+2026-01-14 17:54:06,729:WARNING: Fixed: 预报降雨
+2026-01-14 17:54:06,729:WARNING: Fixed: 库内水位
+2026-01-14 17:54:06,729:WARNING: Fixed: 上级主管部门
+2026-01-14 17:54:06,729:WARNING: Fixed: 调蓄
+2026-01-14 17:54:06,729:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,729:WARNING: Fixed: 奉化气象站
+2026-01-14 17:54:06,729:WARNING: Fixed: 平均气温
+2026-01-14 17:54:06,729:WARNING: Fixed: 极端最高气温
+2026-01-14 17:54:06,729:WARNING: Fixed: 极端最低气温
+2026-01-14 17:54:06,730:WARNING: Fixed: 16.3℃
+2026-01-14 17:54:06,730:WARNING: Fixed: 39.0℃
+2026-01-14 17:54:06,730:WARNING: Fixed: -11.1℃
+2026-01-14 17:54:06,730:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,730:WARNING: Fixed: 62.00m
+2026-01-14 17:54:06,730:WARNING: Fixed:  20mm
+2026-01-14 17:54:06,730:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,730:WARNING: Fixed: 60.68m
+2026-01-14 17:54:06,730:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,730:WARNING: Fixed: 水库最大下泄流量
+2026-01-14 17:54:06,730:WARNING: Fixed: 水库坝前水位
+2026-01-14 17:54:06,730:WARNING: Fixed: 超标准洪水
+2026-01-14 17:54:06,730:WARNING: Fixed: 应急指挥机构
+2026-01-14 17:54:06,730:WARNING: Fixed: 启动防御超标准洪水预案
+2026-01-14 17:54:06,730:WARNING: Fixed: 下泄流量
+2026-01-14 17:54:06,730:WARNING: Fixed: 下游城镇防洪标准
+2026-01-14 17:54:06,730:WARNING: Fixed: 启动
+2026-01-14 17:54:06,730:WARNING: Fixed: 县江
+2026-01-14 17:54:06,730:WARNING: Fixed: 横山水库
+2026-01-14 17:54:06,730:WARNING: Fixed: 编制相应的调度方案
+2026-01-14 17:54:06,731:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,731:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,731:WARNING: Fixed: 输水设备
+2026-01-14 17:54:06,731:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,731:WARNING: Fixed: 最大泄量
+2026-01-14 17:54:06,731:WARNING: Fixed: 1200m³/s
+2026-01-14 17:54:06,731:WARNING: Fixed: 敞泄
+2026-01-14 17:54:06,731:WARNING: Fixed: 防洪限制水位
+2026-01-14 17:54:06,731:WARNING: Fixed: 163m
+2026-01-14 17:54:06,731:WARNING: Fixed: 三市镇渡头村
+2026-01-14 17:54:06,731:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,731:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,731:WARNING: Fixed: 杭坪镇外胡村
+2026-01-14 17:54:06,731:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,731:WARNING: Fixed:  64.73～65.31m
+2026-01-14 17:54:06,731:WARNING: Fixed:  50m³/s
+2026-01-14 17:54:06,731:WARNING: Fixed: 20～50年一遇洪水位
+2026-01-14 17:54:06,731:WARNING: Fixed: 最大下泄流量
+2026-01-14 17:54:06,731:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,731:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,731:WARNING: Fixed: 多年平均供水
+2026-01-14 17:54:06,732:WARNING: Fixed: 优质水供水量
+2026-01-14 17:54:06,732:WARNING: Fixed: 供水保证率
+2026-01-14 17:54:06,732:WARNING: Fixed: 2800万m³
+2026-01-14 17:54:06,732:WARNING: Fixed: 2272 万 m³/年
+2026-01-14 17:54:06,732:WARNING: Fixed: 95%
+2026-01-14 17:54:06,732:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,732:WARNING: Fixed: 54.09m
+2026-01-14 17:54:06,732:WARNING: Fixed: 2022年底水位
+2026-01-14 17:54:06,732:WARNING: Fixed: 防洪高水位
+2026-01-14 17:54:06,732:WARNING: Fixed: 校核洪水位
+2026-01-14 17:54:06,732:WARNING: Fixed: 正常蓄水位
+2026-01-14 17:54:06,732:WARNING: Fixed: 158.20m
+2026-01-14 17:54:06,732:WARNING: Fixed: 160.50m
+2026-01-14 17:54:06,732:WARNING: Fixed: 155.00m
+2026-01-14 17:54:06,732:WARNING: Fixed: 青山水库
+2026-01-14 17:54:06,732:WARNING: Fixed: 总库容
+2026-01-14 17:54:06,732:WARNING: Fixed: 1200 万m³
+2026-01-14 17:54:06,732:WARNING: Fixed: 坝高
+2026-01-14 17:54:06,732:WARNING: Fixed: 总库容
+2026-01-14 17:54:06,732:WARNING: Fixed: 40m
+2026-01-14 17:54:06,732:WARNING: Fixed: 655万m³
+2026-01-14 17:54:06,732:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,733:WARNING: Fixed: 科学调蓄
+2026-01-14 17:54:06,733:WARNING: Fixed: 补水
+2026-01-14 17:54:06,733:WARNING: Fixed: 水库
+2026-01-14 17:54:06,733:WARNING: Fixed: 下游河道
+2026-01-14 17:54:06,733:WARNING: Fixed: 水库溢洪道
+2026-01-14 17:54:06,733:WARNING: Fixed: 水库排洪调度工作
+2026-01-14 17:54:06,733:WARNING: Fixed: 库区
+2026-01-14 17:54:06,733:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,733:WARNING: Fixed: 水政监察大队
+2026-01-14 17:54:06,733:WARNING: Fixed: 巡查
+2026-01-14 17:54:06,733:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,733:WARNING: Fixed: 报告水库情况并做好记录
+2026-01-14 17:54:06,744:INFO: --------admin_train data process DONE!--------
+2026-01-14 17:54:06,745:WARNING: Fixed: 宁波市葛岙水库开发有限公司
+2026-01-14 17:54:06,745:WARNING: Fixed: 宁波市水利局
+2026-01-14 17:54:06,745:WARNING: Fixed: 奉化区水利局
+2026-01-14 17:54:06,745:WARNING: Fixed: 实施调度
+2026-01-14 17:54:06,745:WARNING: Fixed: 调度
+2026-01-14 17:54:06,745:WARNING: Fixed: 洪水调度
+2026-01-14 17:54:06,745:WARNING: Fixed: 水位
+2026-01-14 17:54:06,745:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,745:WARNING: Fixed: 溢洪道
+2026-01-14 17:54:06,745:WARNING: Fixed: 正常水位
+2026-01-14 17:54:06,745:WARNING: Fixed: 预计水位
+2026-01-14 17:54:06,745:WARNING: Fixed: 163m
+2026-01-14 17:54:06,745:WARNING: Fixed: 下游
+2026-01-14 17:54:06,745:WARNING: Fixed: 保护耕地
+2026-01-14 17:54:06,745:WARNING: Fixed: 5.2 万人
+2026-01-14 17:54:06,745:WARNING: Fixed:  3.5 万亩
+2026-01-14 17:54:06,745:WARNING: Fixed: 启闭机房
+2026-01-14 17:54:06,745:WARNING: Fixed: 发电机组
+2026-01-14 17:54:06,745:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,745:WARNING: Fixed: 平均灌溉供水总量
+2026-01-14 17:54:06,745:WARNING: Fixed: 年平均生态供水总量
+2026-01-14 17:54:06,745:WARNING: Fixed: 鄞江
+2026-01-14 17:54:06,746:WARNING: Fixed: 周公宅水库
+2026-01-14 17:54:06,746:WARNING: Fixed: 皎口水库
+2026-01-14 17:54:06,746:WARNING: Fixed: 河长
+2026-01-14 17:54:06,746:WARNING: Fixed: 69km
+2026-01-14 17:54:06,746:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,746:WARNING: Fixed: 正常水位
+2026-01-14 17:54:06,746:WARNING: Fixed: 20年一遇设计洪水位
+2026-01-14 17:54:06,746:WARNING: Fixed: 溢洪水深
+2026-01-14 17:54:06,746:WARNING: Fixed: 163m
+2026-01-14 17:54:06,746:WARNING: Fixed: 165.20m
+2026-01-14 17:54:06,746:WARNING: Fixed: 2.20m
+2026-01-14 17:54:06,746:WARNING: Fixed: 水库防汛工作
+2026-01-14 17:54:06,746:WARNING: Fixed: 址山镇三防指挥所
+2026-01-14 17:54:06,746:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,746:WARNING: Fixed:  62.99m 
+2026-01-14 17:54:06,746:WARNING: Fixed: 64.73m
+2026-01-14 17:54:06,746:WARNING: Fixed: 水库关闸蓄洪
+2026-01-14 17:54:06,746:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,746:WARNING: Fixed: 64.73m
+2026-01-14 17:54:06,746:WARNING: Fixed: 65.31m
+2026-01-14 17:54:06,746:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,746:WARNING: Fixed: 水库控制最大下泄流量
+2026-01-14 17:54:06,746:WARNING: Fixed: 水库
+2026-01-14 17:54:06,747:WARNING: Fixed: 敞泄
+2026-01-14 17:54:06,747:WARNING: Fixed: 最大下泄流量
+2026-01-14 17:54:06,747:WARNING: Fixed: 设计洪水的洪峰流量
+2026-01-14 17:54:06,747:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,747:WARNING: Fixed: 关闸蓄洪
+2026-01-14 17:54:06,747:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,747:WARNING: Fixed: 163m
+2026-01-14 17:54:06,747:WARNING: Fixed: 流域累计面雨量
+2026-01-14 17:54:06,747:WARNING: Fixed: 瞬时流量
+2026-01-14 17:54:06,747:WARNING: Fixed: 100mm
+2026-01-14 17:54:06,747:WARNING: Fixed: 100m³/s
+2026-01-14 17:54:06,747:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,747:WARNING: Fixed: 60.48m
+2026-01-14 17:54:06,747:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,747:WARNING: Fixed: 水库最大下泄流量
+2026-01-14 17:54:06,747:WARNING: Fixed: 防洪高水位线
+2026-01-14 17:54:06,747:WARNING: Fixed: 防洪高水位线
+2026-01-14 17:54:06,747:WARNING: Fixed: 校核洪水位线
+2026-01-14 17:54:06,747:WARNING: Fixed: 防洪限制水位线
+2026-01-14 17:54:06,747:WARNING: Fixed: 水库防洪调度区
+2026-01-14 17:54:06,747:WARNING: Fixed: 下游防洪调度区
+2026-01-14 17:54:06,747:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,747:WARNING: Fixed: 校核洪水位
+2026-01-14 17:54:06,747:WARNING: Fixed: 设计洪水位
+2026-01-14 17:54:06,748:WARNING: Fixed:  357.52m
+2026-01-14 17:54:06,748:WARNING: Fixed: 356.86m
+2026-01-14 17:54:06,748:WARNING: Fixed: 排洪闸
+2026-01-14 17:54:06,748:WARNING: Fixed: 开度及下泄流量
+2026-01-14 17:54:06,748:WARNING: Fixed: 上报
+2026-01-14 17:54:06,748:WARNING: Fixed: 镇三防办
+2026-01-14 17:54:06,748:WARNING: Fixed: 编制
+2026-01-14 17:54:06,748:WARNING: Fixed: 奉化区水利局
+2026-01-14 17:54:06,748:WARNING: Fixed: 宁波市水利局
+2026-01-14 17:54:06,748:WARNING: Fixed: 奉化江
+2026-01-14 17:54:06,748:WARNING: Fixed: 海拔
+2026-01-14 17:54:06,748:WARNING: Fixed: 976m
+2026-01-14 17:54:06,748:WARNING: Fixed: 限制水位
+2026-01-14 17:54:06,748:WARNING: Fixed: 限制水位
+2026-01-14 17:54:06,748:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,748:WARNING: Fixed: 60.00m
+2026-01-14 17:54:06,748:WARNING: Fixed: 库水位
+2026-01-14 17:54:06,748:WARNING: Fixed: 下泄
+2026-01-14 17:54:06,748:WARNING: Fixed: 剡江
+2026-01-14 17:54:06,748:WARNING: Fixed: 亭下水库
+2026-01-14 17:54:06,748:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,748:WARNING: Fixed: 163m
+2026-01-14 17:54:06,748:WARNING: Fixed: 防洪调度
+2026-01-14 17:54:06,749:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,749:WARNING: Fixed: 汛前水位
+2026-01-14 17:54:06,749:WARNING: Fixed: 正常水位
+2026-01-14 17:54:06,749:WARNING: Fixed: 163m
+2026-01-14 17:54:06,749:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,749:WARNING: Fixed: 外胡水库
+2026-01-14 17:54:06,749:WARNING: Fixed: 金坑岭水库
+2026-01-14 17:54:06,749:WARNING: Fixed: 浦江县电网
+2026-01-14 17:54:06,749:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,749:WARNING: Fixed: 62.99m
+2026-01-14 17:54:06,749:WARNING: Fixed: 300m³/s 
+2026-01-14 17:54:06,749:WARNING: Fixed: 50m³/s
+2026-01-14 17:54:06,749:WARNING: Fixed: 下游河道下王控制断面安全泄量
+2026-01-14 17:54:06,749:WARNING: Fixed: 最大下泄流量
+2026-01-14 17:54:06,749:WARNING: Fixed: 渡头村
+2026-01-14 17:54:06,749:WARNING: Fixed: 斗岭水库
+2026-01-14 17:54:06,749:WARNING: Fixed: 执行
+2026-01-14 17:54:06,749:WARNING: Fixed: 葛岙水库
+2026-01-14 17:54:06,749:WARNING: Fixed: 水库
+2026-01-14 17:54:06,749:WARNING: Fixed: 控制蓄水位
+2026-01-14 17:54:06,749:WARNING: Fixed:  60.00m
+2026-01-14 17:54:06,750:WARNING: Fixed: 水库水位
+2026-01-14 17:54:06,750:WARNING: Fixed: 88.0m
+2026-01-14 17:54:06,750:WARNING: Fixed: 警戒水位
+2026-01-14 17:54:06,750:WARNING: Fixed: 防汛抢险队
+2026-01-14 17:54:06,750:WARNING: Fixed: 坝高
+2026-01-14 17:54:06,750:WARNING: Fixed: 坝顶高程
+2026-01-14 17:54:06,750:WARNING: Fixed: 坝顶轴线长
+2026-01-14 17:54:06,750:WARNING: Fixed: 坝顶宽
+2026-01-14 17:54:06,750:WARNING: Fixed: 8.6 m
+2026-01-14 17:54:06,750:WARNING: Fixed: 99.08 m
+2026-01-14 17:54:06,750:WARNING: Fixed: 139 m
+2026-01-14 17:54:06,750:WARNING: Fixed: 6.00m
+2026-01-14 17:54:06,750:WARNING: Fixed: 东江
+2026-01-14 17:54:06,750:WARNING: Fixed: 东江
+2026-01-14 17:54:06,750:WARNING: Fixed: 东江干流
+2026-01-14 17:54:06,750:WARNING: Fixed: 镇三防指挥所
+2026-01-14 17:54:06,750:WARNING: Fixed: 防汛机构
+2026-01-14 17:54:06,750:WARNING: Fixed: 输水涵管
+2026-01-14 17:54:06,750:WARNING: Fixed: 启闭设备
+2026-01-14 17:54:06,750:WARNING: Fixed: 维修养护
+2026-01-14 17:54:06,750:WARNING: Fixed: 大坝
+2026-01-14 17:54:06,750:WARNING: Fixed: 撤离预警
+2026-01-14 17:54:06,750:WARNING: Fixed: 市三防指挥所
+2026-01-14 17:54:06,750:WARNING: Fixed: 水库
+2026-01-14 17:54:06,751:WARNING: Fixed: 监测
+2026-01-14 17:54:06,751:WARNING: Fixed: 入库流量
+2026-01-14 17:54:06,751:WARNING: Fixed: 500m³/s
+2026-01-14 17:54:06,751:WARNING: Fixed: 市应急管理局
+2026-01-14 17:54:06,754:INFO: --------admin_test data process DONE!--------
+2026-01-14 17:54:06,754:INFO: --------Process Done!--------
+2026-01-14 17:54:06,761:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2026-01-14 17:54:06,761:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2026-01-14 17:54:06,761:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2026-01-14 17:54:06,761:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2026-01-14 17:54:06,761:INFO: loading file pretrained_bert_models/bert-base-chinese/vocab.txt
+2026-01-14 17:54:06,761:INFO: loading file None
+2026-01-14 17:54:06,761:INFO: loading file None
+2026-01-14 17:54:06,761:INFO: loading file None
+2026-01-14 17:54:07,099:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2026-01-14 17:54:07,099:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2026-01-14 17:54:07,099:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2026-01-14 17:54:07,099:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2026-01-14 17:54:07,100:INFO: loading file pretrained_bert_models/bert-base-chinese/vocab.txt
+2026-01-14 17:54:07,100:INFO: loading file None
+2026-01-14 17:54:07,100:INFO: loading file None
+2026-01-14 17:54:07,100:INFO: loading file None
+2026-01-14 17:54:07,146:INFO: --------Dataset Build!--------
+2026-01-14 17:54:07,146:INFO: --------Get Dataloader!--------
+2026-01-14 17:54:07,146:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-14 17:54:07,146:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-14 17:54:07,146:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-14 17:54:15,441:INFO: Weights of BertNER not initialized from pretrained model: ['classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-14 17:54:15,441:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-14 17:54:16,972:INFO: --------Start Training!--------
+2026-01-14 17:54:41,214:INFO: device: cuda:0
+2026-01-14 17:54:41,214:INFO: --------Process Done!--------
+2026-01-14 17:54:41,221:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2026-01-14 17:54:41,221:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2026-01-14 17:54:41,221:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2026-01-14 17:54:41,221:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2026-01-14 17:54:41,222:INFO: loading file pretrained_bert_models/bert-base-chinese/vocab.txt
+2026-01-14 17:54:41,222:INFO: loading file None
+2026-01-14 17:54:41,222:INFO: loading file None
+2026-01-14 17:54:41,222:INFO: loading file None
+2026-01-14 17:54:41,567:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2026-01-14 17:54:41,567:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2026-01-14 17:54:41,568:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2026-01-14 17:54:41,568:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2026-01-14 17:54:41,568:INFO: loading file pretrained_bert_models/bert-base-chinese/vocab.txt
+2026-01-14 17:54:41,568:INFO: loading file None
+2026-01-14 17:54:41,568:INFO: loading file None
+2026-01-14 17:54:41,568:INFO: loading file None
+2026-01-14 17:54:41,615:INFO: --------Dataset Build!--------
+2026-01-14 17:54:41,616:INFO: --------Get Dataloader!--------
+2026-01-14 17:54:41,616:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-14 17:54:41,616:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-14 17:54:41,616:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-14 17:54:48,504:INFO: Weights of BertNER not initialized from pretrained model: ['classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-14 17:54:48,504:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-14 17:54:49,996:INFO: --------Start Training!--------
+2026-01-14 17:54:55,727:INFO: Epoch: 1, train loss: 646.7825578962054
+2026-01-14 17:54:55,957:INFO: Epoch: 1, dev loss: 169.4457950592041, f1 score: 0.20192307692307693
+2026-01-14 17:54:55,958:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:54:57,755:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:54:57,755:INFO: --------Save best model!--------
+2026-01-14 17:55:02,409:INFO: Epoch: 2, train loss: 189.56388064793177
+2026-01-14 17:55:02,649:INFO: Epoch: 2, dev loss: 81.36262512207031, f1 score: 0.5821596244131455
+2026-01-14 17:55:02,650:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:55:07,465:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:55:07,465:INFO: --------Save best model!--------
+2026-01-14 17:55:12,054:INFO: Epoch: 3, train loss: 98.3636109488351
+2026-01-14 17:55:12,282:INFO: Epoch: 3, dev loss: 97.02805709838867, f1 score: 0.5632653061224488
+2026-01-14 17:55:16,837:INFO: Epoch: 4, train loss: 68.4154908316476
+2026-01-14 17:55:17,065:INFO: Epoch: 4, dev loss: 122.73533248901367, f1 score: 0.5608856088560886
+2026-01-14 17:55:21,593:INFO: Epoch: 5, train loss: 61.49203736441476
+2026-01-14 17:55:21,824:INFO: Epoch: 5, dev loss: 95.63207244873047, f1 score: 0.631578947368421
+2026-01-14 17:55:21,825:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:55:26,517:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:55:26,517:INFO: --------Save best model!--------
+2026-01-14 17:55:31,126:INFO: Epoch: 6, train loss: 61.32385989597866
+2026-01-14 17:55:31,356:INFO: Epoch: 6, dev loss: 114.27766799926758, f1 score: 0.5637065637065637
+2026-01-14 17:55:35,905:INFO: Epoch: 7, train loss: 48.52794592721121
+2026-01-14 17:55:36,126:INFO: Epoch: 7, dev loss: 102.89844512939453, f1 score: 0.6470588235294118
+2026-01-14 17:55:36,127:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:55:39,655:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:55:39,655:INFO: --------Save best model!--------
+2026-01-14 17:55:44,174:INFO: Epoch: 8, train loss: 35.158312933785574
+2026-01-14 17:55:44,395:INFO: Epoch: 8, dev loss: 134.4620246887207, f1 score: 0.6057692307692307
+2026-01-14 17:55:48,786:INFO: Epoch: 9, train loss: 29.288076673235214
+2026-01-14 17:55:49,013:INFO: Epoch: 9, dev loss: 121.28433609008789, f1 score: 0.6495726495726495
+2026-01-14 17:55:49,014:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:55:53,881:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:55:53,881:INFO: --------Save best model!--------
+2026-01-14 17:55:58,203:INFO: Epoch: 10, train loss: 21.32053347996303
+2026-01-14 17:55:58,422:INFO: Epoch: 10, dev loss: 85.91369247436523, f1 score: 0.6751054852320676
+2026-01-14 17:55:58,423:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:56:03,145:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:56:03,146:INFO: --------Save best model!--------
+2026-01-14 17:56:07,468:INFO: Epoch: 11, train loss: 19.731780460902623
+2026-01-14 17:56:07,694:INFO: Epoch: 11, dev loss: 145.67163848876953, f1 score: 0.658008658008658
+2026-01-14 17:56:12,091:INFO: Epoch: 12, train loss: 19.91665131705148
+2026-01-14 17:56:12,319:INFO: Epoch: 12, dev loss: 179.70476531982422, f1 score: 0.6015625
+2026-01-14 17:56:16,706:INFO: Epoch: 13, train loss: 16.490568705967494
+2026-01-14 17:56:16,935:INFO: Epoch: 13, dev loss: 153.3507843017578, f1 score: 0.6804979253112033
+2026-01-14 17:56:16,936:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:56:21,565:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:56:21,565:INFO: --------Save best model!--------
+2026-01-14 17:56:25,928:INFO: Epoch: 14, train loss: 15.179930278233119
+2026-01-14 17:56:26,150:INFO: Epoch: 14, dev loss: 119.86022186279297, f1 score: 0.7004608294930875
+2026-01-14 17:56:26,151:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:56:30,849:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:56:30,850:INFO: --------Save best model!--------
+2026-01-14 17:56:35,361:INFO: Epoch: 15, train loss: 8.212691170828682
+2026-01-14 17:56:35,590:INFO: Epoch: 15, dev loss: 179.9184455871582, f1 score: 0.6359832635983264
+2026-01-14 17:56:40,457:INFO: Epoch: 16, train loss: 11.014314379010882
+2026-01-14 17:56:40,675:INFO: Epoch: 16, dev loss: 142.77293014526367, f1 score: 0.7238095238095238
+2026-01-14 17:56:40,676:INFO: Configuration saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:56:45,410:INFO: Model weights saved in /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:56:45,410:INFO: --------Save best model!--------
+2026-01-14 17:56:49,989:INFO: Epoch: 17, train loss: 7.7471049172537665
+2026-01-14 17:56:50,205:INFO: Epoch: 17, dev loss: 187.02506256103516, f1 score: 0.6666666666666666
+2026-01-14 17:56:54,664:INFO: Epoch: 18, train loss: 8.737783976963588
+2026-01-14 17:56:54,889:INFO: Epoch: 18, dev loss: 154.72409057617188, f1 score: 0.6812227074235807
+2026-01-14 17:56:59,385:INFO: Epoch: 19, train loss: 7.692071642194476
+2026-01-14 17:56:59,616:INFO: Epoch: 19, dev loss: 184.5287971496582, f1 score: 0.6872246696035241
+2026-01-14 17:57:04,131:INFO: Epoch: 20, train loss: 10.294184003557477
+2026-01-14 17:57:04,345:INFO: Epoch: 20, dev loss: 176.68963241577148, f1 score: 0.6727272727272728
+2026-01-14 17:57:08,726:INFO: Epoch: 21, train loss: 3.980114528111049
+2026-01-14 17:57:08,941:INFO: Epoch: 21, dev loss: 179.15911865234375, f1 score: 0.6666666666666666
+2026-01-14 17:57:13,305:INFO: Epoch: 22, train loss: 2.767991747174944
+2026-01-14 17:57:13,516:INFO: Epoch: 22, dev loss: 187.15331649780273, f1 score: 0.6604651162790699
+2026-01-14 17:57:17,945:INFO: Epoch: 23, train loss: 2.4409566606794084
+2026-01-14 17:57:18,179:INFO: Epoch: 23, dev loss: 177.9774932861328, f1 score: 0.6547085201793722
+2026-01-14 17:57:22,485:INFO: Epoch: 24, train loss: 9.200949805123466
+2026-01-14 17:57:22,697:INFO: Epoch: 24, dev loss: 197.59503173828125, f1 score: 0.6905829596412556
+2026-01-14 17:57:26,997:INFO: Epoch: 25, train loss: 5.177800859723773
+2026-01-14 17:57:27,219:INFO: Epoch: 25, dev loss: 198.40696716308594, f1 score: 0.6724890829694323
+2026-01-14 17:57:31,606:INFO: Epoch: 26, train loss: 2.232403891427176
+2026-01-14 17:57:31,823:INFO: Epoch: 26, dev loss: 190.99749755859375, f1 score: 0.696035242290749
+2026-01-14 17:57:31,824:INFO: Best val f1: 0.7238095238095238
+2026-01-14 17:57:31,824:INFO: Training Finished!
+2026-01-14 17:57:31,830:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2026-01-14 17:57:31,831:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2026-01-14 17:57:31,831:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2026-01-14 17:57:31,831:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2026-01-14 17:57:31,831:INFO: loading file pretrained_bert_models/bert-base-chinese/vocab.txt
+2026-01-14 17:57:31,831:INFO: loading file None
+2026-01-14 17:57:31,831:INFO: loading file None
+2026-01-14 17:57:31,831:INFO: loading file None
+2026-01-14 17:57:31,929:INFO: --------Dataset Build!--------
+2026-01-14 17:57:31,929:INFO: --------Get Data-loader!--------
+2026-01-14 17:57:31,929:INFO: loading configuration file /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/config.json
+2026-01-14 17:57:31,929:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-14 17:57:31,929:INFO: loading weights file /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/pytorch_model.bin
+2026-01-14 17:57:38,810:INFO: --------Load model from /home/c403/msy/CLUENER2020/BERT-CRF/experiments/admin_split/--------
+2026-01-14 17:57:38,812:INFO: Model name 'pretrained_bert_models/bert-base-chinese/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/bert-base-chinese/' is a path or url to a directory containing tokenizer files.
+2026-01-14 17:57:38,812:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/added_tokens.json. We won't load it.
+2026-01-14 17:57:38,812:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/special_tokens_map.json. We won't load it.
+2026-01-14 17:57:38,812:INFO: Didn't find file pretrained_bert_models/bert-base-chinese/tokenizer_config.json. We won't load it.
+2026-01-14 17:57:38,812:INFO: loading file pretrained_bert_models/bert-base-chinese/vocab.txt
+2026-01-14 17:57:38,812:INFO: loading file None
+2026-01-14 17:57:38,812:INFO: loading file None
+2026-01-14 17:57:38,812:INFO: loading file None
+2026-01-14 17:57:39,488:INFO: --------Bad Cases reserved !--------
+2026-01-14 17:57:39,494:INFO: test loss: 281.22524070739746, f1 score: 0.7465940054495912
+2026-01-14 17:57:39,494:INFO: f1 score of ORG: 0.8297872340425533
+2026-01-14 17:57:39,494:INFO: f1 score of ACTION: 0.6280991735537191
+2026-01-14 17:57:39,494:INFO: f1 score of OBJ: 0.736318407960199
+2026-01-14 17:57:39,494:INFO: f1 score of LEVEL_KEY: 0.7407407407407408
+2026-01-14 17:57:39,494:INFO: f1 score of VALUE: 0.8076923076923076

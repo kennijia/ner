@@ -6,3 +6,5 @@
 data/
 # 忽略日志和输出
 outputs/
+tensorboard/
+__pycache__/
