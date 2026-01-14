@@ -3,7 +3,6 @@
 *.pth
 *.tar.gz
 # 忽略数据集文件夹
-data/
 # 忽略日志和输出
 outputs/
 tensorboard/
