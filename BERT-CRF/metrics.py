@@ -26,8 +26,12 @@ def get_entities(seq):
     begin_offset = 0
     chunks = []
     for i, chunk in enumerate(seq + ['O']):
-        tag = chunk[0]
-        type_ = chunk.split('-')[-1]
+        if chunk is None:
+            tag = 'O'
+            type_ = ''
+        else:
+            tag = chunk[0]
+            type_ = chunk.split('-')[-1]
 
         if end_of_chunk(prev_tag, tag, prev_type, type_):
             chunks.append((prev_type, begin_offset, i - 1))

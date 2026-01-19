@@ -27,8 +27,11 @@ class Processor:
         """
         input_dir = self.data_dir + str(mode) + '.json'
         output_dir = self.data_dir + str(mode) + '.npz'
-        if os.path.exists(output_dir) is True:
-            return
+        
+        # 暂时移除缓存检查，强制重新处理以过滤标签
+        if os.path.exists(output_dir):
+            os.remove(output_dir)
+            
         word_list = []
         label_list = []
         with open(input_dir, 'r', encoding='utf-8') as f:
@@ -56,6 +59,9 @@ class Processor:
 
                 if label_entities is not None:
                     for key, value in label_entities.items():
+                        # 核心修复点：只处理配置中定义的 5 个标签，过滤掉其他标签引起的 None 错误
+                        if key not in self.config.labels:
+                            continue
                         for sub_name, sub_index in value.items():
                             for start_index, end_index in sub_index:
                                 span_text = ''.join(words[start_index:end_index + 1])

@@ -1,45 +1,85 @@
 import torch
 import logging
 import torch.nn as nn
+import torch.nn.functional as F
 from tqdm import tqdm
 
 import config
 from model import BertNER
 from metrics import f1_score, bad_case
 from transformers import BertTokenizer
+from utils import FGM, EMA
 
 
-def train_epoch(train_loader, model, optimizer, scheduler, epoch):
+def train_epoch_with_ema(train_loader, model, optimizer, scheduler, epoch, ema):
     # set model to training mode
     model.train()
-    # step number in one epoch: 336
+    fgm = FGM(model)
+    
     train_losses = 0
+    # 构造辅助损失的类别权重 Tensor
+    weights = torch.ones(len(config.label2id)).to(config.device)
+    for label, w in config.class_weights.items():
+        if f'B-{label}' in config.label2id:
+            weights[config.label2id[f'B-{label}']] = w
+        if f'I-{label}' in config.label2id:
+            weights[config.label2id[f'I-{label}']] = w
+        if f'S-{label}' in config.label2id:
+            weights[config.label2id[f'S-{label}']] = w
+
     for idx, batch_samples in enumerate(tqdm(train_loader)):
         batch_data, batch_token_starts, batch_labels = batch_samples
-        # 因为 BERT 序列中有 [CLS]，所以第一个位置永远不应该是 padding (0)
-        # 且 CRF 要求的 mask 必须第一位全是 1。
         batch_masks = batch_data.gt(0) 
-        # 显式确保 mask 第一列为 True
         batch_masks[:, 0] = True
         
-        # 对于 labels 也要处理：确保 labels 的 mask 与 logits 维度匹配
-        # labels 本身在 data_loader 中 padding 成了 -1
         label_masks = batch_labels.gt(-1)
-        # CRF 要求 label mask 的第一列也必须是 1 (对应预测序列的起点)
         label_masks[:, 0] = True
 
-        # compute model output and loss
-        loss = model((batch_data, batch_token_starts),
-                     token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)[0]
-        train_losses += loss.item()
-        # clear previous gradients, compute gradients of all variables wrt loss
-        model.zero_grad()
+        # R-Drop: 跑两次
+        loss1, logits1 = model((batch_data, batch_token_starts),
+                              token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+        loss2, logits2 = model((batch_data, batch_token_starts),
+                              token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+        
+        # 1. CRF Loss (NLL)
+        crf_loss = (loss1 + loss2) / 2
+        
+        # 2. 辅助加权 CE Loss (增强难分类别)
+        active_loss = label_masks.view(-1)
+        active_logits = logits1.view(-1, model.num_labels)
+        active_labels = torch.where(
+            active_loss, batch_labels.view(-1), torch.tensor(0).type_as(batch_labels)
+        ).long()
+        aux_loss = F.cross_entropy(active_logits, active_labels, weight=weights, reduction='mean')
+        
+        # 3. KL 一致性损失
+        p_loss = F.kl_div(F.log_softmax(logits1, dim=-1), F.softmax(logits2, dim=-1), reduction='none')
+        q_loss = F.kl_div(F.log_softmax(logits2, dim=-1), F.softmax(logits1, dim=-1), reduction='none')
+        mask_expand = label_masks.unsqueeze(-1).expand_as(p_loss)
+        kl_loss = ((p_loss * mask_expand).sum() + (q_loss * mask_expand).sum()) / 2
+        
+        # 总 Loss
+        loss = (crf_loss + config.aux_loss_alpha * aux_loss + config.rdrop_alpha * kl_loss) / config.gradient_accumulation_steps
+        
+        train_losses += loss.item() * config.gradient_accumulation_steps
         loss.backward()
-        # gradient clipping
-        nn.utils.clip_grad_norm_(parameters=model.parameters(), max_norm=config.clip_grad)
-        # performs updates using calculated gradients
-        optimizer.step()
-        scheduler.step()
+
+        # 对抗训练
+        fgm.attack(epsilon=0.5) 
+        loss_adv, _ = model((batch_data, batch_token_starts),
+                         token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+        (loss_adv / config.gradient_accumulation_steps).backward() 
+        fgm.restore() 
+
+        # 达到累积步数后更新参数
+        if (idx + 1) % config.gradient_accumulation_steps == 0:
+            nn.utils.clip_grad_norm_(parameters=model.parameters(), max_norm=config.clip_grad)
+            optimizer.step()
+            scheduler.step()
+            model.zero_grad()
+            # 更新 EMA
+            ema.update()
+        
     train_loss = float(train_losses) / len(train_loader)
     logging.info("Epoch: {}, train loss: {}".format(epoch, train_loss))
     return train_loss
@@ -52,12 +92,24 @@ def train(train_loader, dev_loader, model, optimizer, scheduler, model_dir, writ
         model = BertNER.from_pretrained(model_dir)
         model.to(config.device)
         logging.info("--------Load model from {}--------".format(model_dir))
+    
+    # 统一管理 EMA 实例
+    ema = EMA(model, config.ema_decay)
+    ema.register()
+
     best_val_f1 = 0.0
     patience_counter = 0
     # start training
     for epoch in range(1, config.epoch_num + 1):
-        train_loss = train_epoch(train_loader, model, optimizer, scheduler, epoch)
+        # 传递 ema 实例到 train_epoch 内部进行 update
+        train_loss = train_epoch_with_ema(train_loader, model, optimizer, scheduler, epoch, ema)
+        
+        # 评估前应用 EMA 影子权重
+        ema.apply_shadow()
         val_metrics = evaluate(dev_loader, model, mode='dev')
+        # 评估后恢复原始权重，以便继续训练
+        ema.restore()
+
         val_f1 = val_metrics['f1']
         val_loss = val_metrics['loss']
         logging.info("Epoch: {}, dev loss: {}, f1 score: {}".format(epoch, val_loss, val_f1))
@@ -86,6 +138,11 @@ def train(train_loader, dev_loader, model, optimizer, scheduler, model_dir, writ
 def evaluate(dev_loader, model, mode='dev'):
     # set model to evaluation mode
     model.eval()
+    
+    # 应用 EMA (如果有的话，通常在测试阶段应用)
+    # 注意：为了逻辑严密，我们需要在 train.py 全局创建一个 ema 实例
+    # 这里我们临时通过手动方式模拟，更严谨的做法是在 train 里持有它。
+    
     if mode == 'test':
         tokenizer = BertTokenizer.from_pretrained(config.bert_model, do_lower_case=True, skip_special_tokens=True)
     id2label = config.id2label

@@ -21,17 +21,36 @@ load_before = False
 # 是否对整个BERT进行fine tuning
 full_fine_tuning = True
 
-# hyper-parameter
-learning_rate = 3e-5
-weight_decay = 0.01
-clip_grad = 5
+# 更换更强的预训练模型路径
+bert_model = roberta_model  # 切换到 chinese_roberta_wwm_large_ext
 
-batch_size = 8
-epoch_num = 50
-# epoch_num = 1
-min_epoch_num = 5
-patience = 0.0002
-patience_num = 10
+# hyper-parameter
+# 考虑到 Large 模型的学习和稳定性
+learning_rate = 3e-5 # 提高一些学习速
+weight_decay = 0.01
+clip_grad = 1 
+
+batch_size = 4 
+gradient_accumulation_steps = 4 
+
+epoch_num = 60 # 实验显示 40 轮左右收敛，设为 60
+min_epoch_num = 10
+patience = 0.0001
+patience_num = 12
+
+# R-Drop 超参数
+rdrop_alpha = 4 # 进一步加强一致性约束，有助于提高泛化性
+
+# EMA 平滑系数
+ema_decay = 0.99 
+
+# 辅助损失权重
+aux_loss_alpha = 0.3 # 加大辅助分类损失比重，引导 BERT 提取更清晰的特征
+
+# 为不同层设置不同的学习率（这种策略在 Large 模型非常有效）
+# BERT 层使用 1e-5，下游层（BiLSTM, Linear, CRF）使用 5e-5
+bert_lr = 1e-5
+head_lr = 5e-5
 
 gpu = '0'
 
@@ -43,15 +62,25 @@ else:
 # 这里的 labels 需要替换为你最新的 5 个标签
 labels = ['ORG', 'ACTION', 'OBJ', 'LEVEL_KEY', 'VALUE']
 
-# 自动构建 BIO 标签映射
+# 类别权重（根据你的训练表现微调）
+# ACTION 和 LEVEL_KEY 表现较差，这里赋予更高的权重（用于加权 Loss 或者作为论文分析点）
+class_weights = {
+    'ORG': 1.0,
+    'ACTION': 2.5, # 重点提升项
+    'OBJ': 1.5,
+    'LEVEL_KEY': 2.0, # 重点提升项
+    'VALUE': 1.0
+}
+
+# 自动构建 BIOS 标签映射，确保每个标签都有唯一 ID，避免 predict 出 None
 label2id = {'O': 0}
 for i, label in enumerate(labels):
-    label2id[f'B-{label}'] = i * 2 + 1
-    label2id[f'I-{label}'] = i * 2 + 2
-    label2id[f'S-{label}'] = i * 2 + 1 # 简单起见，S 映射到 B（也可以单独加）
+    label2id[f'B-{label}'] = i * 3 + 1
+    label2id[f'I-{label}'] = i * 3 + 2
+    label2id[f'S-{label}'] = i * 3 + 3
 
 id2label = {i: label for label, i in label2id.items()}
-num_labels = len(label2id)
+num_labels = len(id2label)
 
 # 确保训练输出路径正确
 exp_dir = model_dir
