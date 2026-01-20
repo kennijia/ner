@@ -44,6 +44,11 @@ def test():
     else:
         logging.info("--------No model to test !--------")
         return
+
+    # 在测试前需要先构建一个 EMA 实例并加载影子权重（如果有保存的话）
+    # 或者直接使用 best 模型运行。通常 save_pretrained 保存的是原始模型参数。
+    # 为了确保存储的是 EMA 的参数，我们需要在保存前 apply_shadow
+    
     val_metrics = evaluate(test_loader, model, mode='test')
     val_f1 = val_metrics['f1']
     logging.info("test loss: {}, f1 score: {}".format(val_metrics['loss'], val_f1))
@@ -131,9 +136,11 @@ def run():
     # Train the model
     logging.info("--------Start Training!--------")
     train(train_loader, dev_loader, model, optimizer, scheduler, config.model_dir, writer)
+    
+    # 训练结束后，加载最佳模型并运行测试
+    test()
     writer.close()
 
 
 if __name__ == '__main__':
     run()
-    test()
