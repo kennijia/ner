@@ -14,71 +14,30 @@ from utils import FGM, EMA
 def train_epoch_with_ema(train_loader, model, optimizer, scheduler, epoch, ema):
     # set model to training mode
     model.train()
-    fgm = FGM(model)
     
     train_losses = 0
-    # 构造辅助损失的类别权重 Tensor
-    weights = torch.ones(len(config.label2id)).to(config.device)
-    for label, w in config.class_weights.items():
-        if f'B-{label}' in config.label2id:
-            weights[config.label2id[f'B-{label}']] = w
-        if f'I-{label}' in config.label2id:
-            weights[config.label2id[f'I-{label}']] = w
-        if f'S-{label}' in config.label2id:
-            weights[config.label2id[f'S-{label}']] = w
 
     for idx, batch_samples in enumerate(tqdm(train_loader)):
         batch_data, batch_token_starts, batch_labels = batch_samples
         batch_masks = batch_data.gt(0) 
         batch_masks[:, 0] = True
         
-        label_masks = batch_labels.gt(-1)
-        label_masks[:, 0] = True
-
-        # R-Drop: 跑两次
-        loss1, logits1 = model((batch_data, batch_token_starts),
-                              token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
-        loss2, logits2 = model((batch_data, batch_token_starts),
+        # 基础训练逻辑
+        loss, logits = model((batch_data, batch_token_starts),
                               token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
         
-        # 1. CRF Loss (NLL)
-        crf_loss = (loss1 + loss2) / 2
-        
-        # 2. 辅助加权 CE Loss (增强难分类别)
-        active_loss = label_masks.view(-1)
-        active_logits = logits1.view(-1, model.num_labels)
-        active_labels = torch.where(
-            active_loss, batch_labels.view(-1), torch.tensor(0).type_as(batch_labels)
-        ).long()
-        aux_loss = F.cross_entropy(active_logits, active_labels, weight=weights, reduction='mean')
-        
-        # 3. KL 一致性损失
-        p_loss = F.kl_div(F.log_softmax(logits1, dim=-1), F.softmax(logits2, dim=-1), reduction='none')
-        q_loss = F.kl_div(F.log_softmax(logits2, dim=-1), F.softmax(logits1, dim=-1), reduction='none')
-        mask_expand = label_masks.unsqueeze(-1).expand_as(p_loss)
-        kl_loss = ((p_loss * mask_expand).sum() + (q_loss * mask_expand).sum()) / 2
-        
-        # 总 Loss
-        loss = (crf_loss + config.aux_loss_alpha * aux_loss + config.rdrop_alpha * kl_loss) / config.gradient_accumulation_steps
-        
+        loss = loss / config.gradient_accumulation_steps
         train_losses += loss.item() * config.gradient_accumulation_steps
         loss.backward()
-
-        # 对抗训练
-        fgm.attack(epsilon=0.5) 
-        loss_adv, _ = model((batch_data, batch_token_starts),
-                         token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
-        (loss_adv / config.gradient_accumulation_steps).backward() 
-        fgm.restore() 
 
         # 达到累积步数后更新参数
         if (idx + 1) % config.gradient_accumulation_steps == 0:
             nn.utils.clip_grad_norm_(parameters=model.parameters(), max_norm=config.clip_grad)
             optimizer.step()
             scheduler.step()
-            model.zero_grad()
-            # 更新 EMA
+            # 更新 EMA 影子权重
             ema.update()
+            model.zero_grad()
         
     train_loss = float(train_losses) / len(train_loader)
     logging.info("Epoch: {}, train loss: {}".format(epoch, train_loss))
@@ -120,8 +79,12 @@ def train(train_loader, dev_loader, model, optimizer, scheduler, model_dir, writ
         improve_f1 = val_f1 - best_val_f1
         if improve_f1 > 1e-5:
             best_val_f1 = val_f1
+            # 在保存之前先应用 EMA 的权重，这样保存的模型就是 EMA 的平均权重
+            ema.apply_shadow()
             model.save_pretrained(model_dir)
-            logging.info("--------Save best model!--------")
+            # 保存完之后再恢复，以便继续使用原始权重训练
+            ema.restore()
+            logging.info("--------Save best model (with EMA weights)!--------")
             if improve_f1 < config.patience:
                 patience_counter += 1
             else:
@@ -159,15 +122,15 @@ def evaluate(dev_loader, model, mode='dev'):
                                    if (idx.item() > 0 and idx.item() != 101)] for indices in batch_data])
             batch_masks = batch_data.gt(0)  # get padding mask, gt(x): get index greater than x
             label_masks = batch_tags.gt(-1)  # get padding mask, gt(x): get index greater than x
-            # compute model output and loss
-            loss = model((batch_data, batch_token_starts),
-                         token_type_ids=None, attention_mask=batch_masks, labels=batch_tags)[0]
+            
+            # 同时计算 loss 和 logits，减少一次前向传播
+            outputs = model((batch_data, batch_token_starts),
+                             token_type_ids=None, attention_mask=batch_masks, labels=batch_tags)
+            loss, logits = outputs[0], outputs[1]
             dev_losses += loss.item()
-            # (batch_size, max_len, num_labels)
-            batch_output = model((batch_data, batch_token_starts),
-                                 token_type_ids=None, attention_mask=batch_masks)[0]
-            # (batch_size, max_len - padding_label_len)
-            batch_output = model.crf.decode(batch_output, mask=label_masks)
+            
+            # 直接使用解出的一对进行解码
+            batch_output = model.crf.decode(logits, mask=label_masks)
             # (batch_size, max_len)
             batch_tags = batch_tags.to('cpu').numpy()
             pred_tags.extend([[id2label.get(idx) for idx in indices] for indices in batch_output])
