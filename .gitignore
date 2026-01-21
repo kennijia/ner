@@ -7,3 +7,4 @@
 outputs/
 tensorboard/
 __pycache__/
+*.venv
