@@ -4,7 +4,7 @@ from collections import defaultdict
 # 将新旧数据合并
 
 # 路径配置
-new_path = '/home/c403/msy/CLUENER2020/BiLSTM-CRF/data/my/new.jsonl'
+new_path = '/home/c403/msy/CLUENER2020/BiLSTM-CRF/data/my/121.jsonl'
 old_path = '/home/c403/msy/CLUENER2020/BiLSTM-CRF/data/my/admin_aug.json'
 out_path = '/home/c403/msy/CLUENER2020/BiLSTM-CRF/data/my/admin_merged.json'
 

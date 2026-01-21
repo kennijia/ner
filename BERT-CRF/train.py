@@ -16,6 +16,7 @@ def train_epoch_with_ema(train_loader, model, optimizer, scheduler, epoch, ema):
     model.train()
     
     train_losses = 0
+    fgm = FGM(model) if config.use_fgm else None
 
     for idx, batch_samples in enumerate(tqdm(train_loader)):
         batch_data, batch_token_starts, batch_labels = batch_samples
@@ -23,12 +24,45 @@ def train_epoch_with_ema(train_loader, model, optimizer, scheduler, epoch, ema):
         batch_masks[:, 0] = True
         
         # 基础训练逻辑
-        loss, logits = model((batch_data, batch_token_starts),
-                              token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+        if config.use_rdrop:
+            # Forward two passes for R-Drop
+            loss1, logits1 = model((batch_data, batch_token_starts),
+                                    token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+            loss2, logits2 = model((batch_data, batch_token_starts),
+                                    token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+            
+            # CE Loss average
+            loss = (loss1 + loss2) / 2
+            
+            # KL divergence for R-Drop
+            p = F.log_softmax(logits1, dim=-1)
+            q = F.log_softmax(logits2, dim=-1)
+            p_tec = F.softmax(logits1, dim=-1)
+            q_tec = F.softmax(logits2, dim=-1)
+            
+            # Mask out padding for KL (CRF labels usually -1 for padding)
+            kl_mask = batch_labels.gt(-1)
+            kl_loss = (F.kl_div(p, q_tec, reduction='none') + F.kl_div(q, p_tec, reduction='none')) / 2
+            kl_loss = (kl_loss.sum(dim=-1) * kl_mask).sum() / kl_mask.sum()
+            
+            loss = loss + config.rdrop_alpha * kl_loss
+        else:
+            loss, logits = model((batch_data, batch_token_starts),
+                                  token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
         
         loss = loss / config.gradient_accumulation_steps
         train_losses += loss.item() * config.gradient_accumulation_steps
         loss.backward()
+
+        # FGM Adversarial Training
+        if fgm is not None:
+            # Update: RoBERTa/BERT usually use 'word_embeddings'
+            fgm.attack(epsilon=config.fgm_epsilon, emb_name='word_embeddings')
+            loss_adv, _ = model((batch_data, batch_token_starts),
+                                 token_type_ids=None, attention_mask=batch_masks, labels=batch_labels)
+            loss_adv = loss_adv / config.gradient_accumulation_steps
+            loss_adv.backward()
+            fgm.restore()
 
         # 达到累积步数后更新参数
         if (idx + 1) % config.gradient_accumulation_steps == 0:

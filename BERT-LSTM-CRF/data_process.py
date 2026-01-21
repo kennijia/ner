@@ -44,17 +44,38 @@ class Processor:
                 labels = ['O'] * len(words)
 
                 if label_entities is not None:
+                    joined = ''.join(words)
                     for key, value in label_entities.items():
                         for sub_name, sub_index in value.items():
+                            if not sub_name:
+                                continue
+                            sub_len = len(sub_name)
                             for start_index, end_index in sub_index:
-                                assert ''.join(words[start_index:end_index + 1]) == sub_name
+                                # 部分标注存在尾部多 1 的情况，尝试自动纠正
+                                if ''.join(words[start_index:start_index + sub_len]) == sub_name:
+                                    end_index = start_index + sub_len - 1
+                                else:
+                                    locate_from = start_index if start_index < len(words) else 0
+                                    new_start = joined.find(sub_name, locate_from)
+                                    if new_start == -1:
+                                        new_start = joined.find(sub_name)
+                                    if new_start == -1:
+                                        continue
+                                    start_index = new_start
+                                    end_index = start_index + sub_len - 1
+
+                                if start_index < 0 or end_index >= len(words):
+                                    continue
+
                                 if start_index == end_index:
                                     labels[start_index] = 'S-' + key
                                 else:
                                     labels[start_index] = 'B-' + key
-                                    labels[start_index + 1:end_index + 1] = ['I-' + key] * (len(sub_name) - 1)
+                                    labels[start_index + 1:end_index + 1] = ['I-' + key] * (sub_len - 1)
                 word_list.append(words)
                 label_list.append(labels)
                 # 保存成二进制文件
-            np.savez_compressed(output_dir, words=word_list, labels=label_list)
+            word_array = np.array(word_list, dtype=object)
+            label_array = np.array(label_list, dtype=object)
+            np.savez_compressed(output_dir, words=word_array, labels=label_array)
             logging.info("--------{} data process DONE!--------".format(mode))

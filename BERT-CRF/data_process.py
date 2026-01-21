@@ -34,8 +34,15 @@ class Processor:
         word_list = []
         label_list = []
         with open(input_dir, 'r', encoding='utf-8') as f:
-            for line in f.readlines():
-                json_line = json.loads(line.strip())
+            for i, line in enumerate(f.readlines()):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    json_line = json.loads(line)
+                except json.decoder.JSONDecodeError as e:
+                    logging.error(f"Error parsing JSON on line {i+1} of {input_dir}: {e}")
+                    raise e
                 text = json_line['text']
                 words = list(text)
                 if not words:

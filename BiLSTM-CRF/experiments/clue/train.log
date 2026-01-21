@@ -3765,3 +3765,2254 @@
 2026-01-14 19:25:29,204:INFO: f1 score of OBJ: 0.48598130841121495
 2026-01-14 19:25:29,204:INFO: f1 score of LEVEL_KEY: 0.32258064516129037
 2026-01-14 19:25:29,204:INFO: f1 score of VALUE: 0.6
+2026-01-21 11:18:46,925:INFO: device: cuda:0
+2026-01-21 11:18:46,931:INFO: -------- Vocabulary Loaded! --------
+2026-01-21 11:18:47,713:INFO: -------- Process Done! --------
+2026-01-21 11:18:47,714:INFO: -------- Process Done! --------
+2026-01-21 11:18:50,906:INFO: epoch: 1, train loss: 3461.493477957589
+2026-01-21 11:18:50,992:INFO: epoch: 1, f1 score: 0.0, dev loss: 1843.78759765625
+2026-01-21 11:18:51,688:INFO: epoch: 2, train loss: 2003.983677455357
+2026-01-21 11:18:51,773:INFO: epoch: 2, f1 score: 0.0, dev loss: 1668.60302734375
+2026-01-21 11:18:52,496:INFO: epoch: 3, train loss: 1688.5506591796875
+2026-01-21 11:18:52,581:INFO: epoch: 3, f1 score: 0.07751937984496123, dev loss: 1419.93798828125
+2026-01-21 11:18:52,669:INFO: --------Save best model!--------
+2026-01-21 11:18:53,369:INFO: epoch: 4, train loss: 1450.3115408761162
+2026-01-21 11:18:53,455:INFO: epoch: 4, f1 score: 0.06134969325153374, dev loss: 1241.932861328125
+2026-01-21 11:18:54,201:INFO: epoch: 5, train loss: 1236.6617431640625
+2026-01-21 11:18:54,286:INFO: epoch: 5, f1 score: 0.1037037037037037, dev loss: 1119.613037109375
+2026-01-21 11:18:54,366:INFO: --------Save best model!--------
+2026-01-21 11:18:55,055:INFO: epoch: 6, train loss: 1071.2340436662946
+2026-01-21 11:18:55,144:INFO: epoch: 6, f1 score: 0.18292682926829268, dev loss: 1042.45947265625
+2026-01-21 11:18:55,214:INFO: --------Save best model!--------
+2026-01-21 11:18:55,984:INFO: epoch: 7, train loss: 955.1922869001116
+2026-01-21 11:18:56,071:INFO: epoch: 7, f1 score: 0.16470588235294117, dev loss: 974.5103149414062
+2026-01-21 11:18:56,855:INFO: epoch: 8, train loss: 840.585205078125
+2026-01-21 11:18:56,943:INFO: epoch: 8, f1 score: 0.18072289156626503, dev loss: 944.5267944335938
+2026-01-21 11:18:57,631:INFO: epoch: 9, train loss: 738.065673828125
+2026-01-21 11:18:57,718:INFO: epoch: 9, f1 score: 0.2119205298013245, dev loss: 926.7520751953125
+2026-01-21 11:18:57,787:INFO: --------Save best model!--------
+2026-01-21 11:18:58,534:INFO: epoch: 10, train loss: 654.0373971121652
+2026-01-21 11:18:58,620:INFO: epoch: 10, f1 score: 0.2302158273381295, dev loss: 933.6638793945312
+2026-01-21 11:18:58,683:INFO: --------Save best model!--------
+2026-01-21 11:18:59,430:INFO: epoch: 11, train loss: 585.5056413922991
+2026-01-21 11:18:59,517:INFO: epoch: 11, f1 score: 0.25414364640883974, dev loss: 904.1826171875
+2026-01-21 11:18:59,595:INFO: --------Save best model!--------
+2026-01-21 11:19:00,330:INFO: epoch: 12, train loss: 529.4250837053571
+2026-01-21 11:19:00,421:INFO: epoch: 12, f1 score: 0.24858757062146894, dev loss: 958.9458618164062
+2026-01-21 11:19:01,119:INFO: epoch: 13, train loss: 464.81346348353793
+2026-01-21 11:19:01,205:INFO: epoch: 13, f1 score: 0.2732919254658386, dev loss: 931.0947265625
+2026-01-21 11:19:01,272:INFO: --------Save best model!--------
+2026-01-21 11:19:01,976:INFO: epoch: 14, train loss: 427.1383492606027
+2026-01-21 11:19:02,067:INFO: epoch: 14, f1 score: 0.3163841807909604, dev loss: 928.1720581054688
+2026-01-21 11:19:02,137:INFO: --------Save best model!--------
+2026-01-21 11:19:02,805:INFO: epoch: 15, train loss: 385.52743094308033
+2026-01-21 11:19:02,890:INFO: epoch: 15, f1 score: 0.3068181818181818, dev loss: 945.7435913085938
+2026-01-21 11:19:03,620:INFO: epoch: 16, train loss: 353.4905918666295
+2026-01-21 11:19:03,706:INFO: epoch: 16, f1 score: 0.2838709677419355, dev loss: 990.6686401367188
+2026-01-21 11:19:04,429:INFO: epoch: 17, train loss: 332.6123788016183
+2026-01-21 11:19:04,515:INFO: epoch: 17, f1 score: 0.3508771929824561, dev loss: 987.801513671875
+2026-01-21 11:19:04,577:INFO: --------Save best model!--------
+2026-01-21 11:19:05,329:INFO: epoch: 18, train loss: 314.4026903424944
+2026-01-21 11:19:05,414:INFO: epoch: 18, f1 score: 0.3440860215053763, dev loss: 942.25341796875
+2026-01-21 11:19:06,123:INFO: epoch: 19, train loss: 289.27774483816967
+2026-01-21 11:19:06,208:INFO: epoch: 19, f1 score: 0.384180790960452, dev loss: 1010.4674072265625
+2026-01-21 11:19:06,284:INFO: --------Save best model!--------
+2026-01-21 11:19:06,998:INFO: epoch: 20, train loss: 253.3540780203683
+2026-01-21 11:19:07,085:INFO: epoch: 20, f1 score: 0.3773584905660378, dev loss: 1092.9766845703125
+2026-01-21 11:19:07,758:INFO: epoch: 21, train loss: 229.36553519112724
+2026-01-21 11:19:07,844:INFO: epoch: 21, f1 score: 0.4025157232704403, dev loss: 1088.518310546875
+2026-01-21 11:19:07,906:INFO: --------Save best model!--------
+2026-01-21 11:19:08,661:INFO: epoch: 22, train loss: 196.64330836704798
+2026-01-21 11:19:08,747:INFO: epoch: 22, f1 score: 0.40476190476190477, dev loss: 1115.01171875
+2026-01-21 11:19:08,831:INFO: --------Save best model!--------
+2026-01-21 11:19:09,567:INFO: epoch: 23, train loss: 189.12486921037947
+2026-01-21 11:19:09,652:INFO: epoch: 23, f1 score: 0.3949044585987261, dev loss: 1141.8525390625
+2026-01-21 11:19:10,349:INFO: epoch: 24, train loss: 193.91948917933874
+2026-01-21 11:19:10,436:INFO: epoch: 24, f1 score: 0.35526315789473684, dev loss: 1217.692626953125
+2026-01-21 11:19:11,165:INFO: epoch: 25, train loss: 169.72508457728796
+2026-01-21 11:19:11,251:INFO: epoch: 25, f1 score: 0.43113772455089816, dev loss: 1149.7589111328125
+2026-01-21 11:19:11,313:INFO: --------Save best model!--------
+2026-01-21 11:19:12,045:INFO: epoch: 26, train loss: 144.42405264718192
+2026-01-21 11:19:12,131:INFO: epoch: 26, f1 score: 0.43478260869565216, dev loss: 1214.1597900390625
+2026-01-21 11:19:12,209:INFO: --------Save best model!--------
+2026-01-21 11:19:12,888:INFO: epoch: 27, train loss: 139.10590035574776
+2026-01-21 11:19:12,973:INFO: epoch: 27, f1 score: 0.4177215189873418, dev loss: 1201.432373046875
+2026-01-21 11:19:13,699:INFO: epoch: 28, train loss: 132.85450308663505
+2026-01-21 11:19:13,785:INFO: epoch: 28, f1 score: 0.43312101910828027, dev loss: 1241.919189453125
+2026-01-21 11:19:14,504:INFO: epoch: 29, train loss: 127.28229195731026
+2026-01-21 11:19:14,588:INFO: epoch: 29, f1 score: 0.41463414634146345, dev loss: 1195.013427734375
+2026-01-21 11:19:15,281:INFO: epoch: 30, train loss: 119.03994315011161
+2026-01-21 11:19:15,367:INFO: epoch: 30, f1 score: 0.4645161290322581, dev loss: 1326.70849609375
+2026-01-21 11:19:15,430:INFO: --------Save best model!--------
+2026-01-21 11:19:16,168:INFO: epoch: 31, train loss: 104.14967564174107
+2026-01-21 11:19:16,254:INFO: epoch: 31, f1 score: 0.45454545454545453, dev loss: 1249.71533203125
+2026-01-21 11:19:16,943:INFO: epoch: 32, train loss: 96.47424643380302
+2026-01-21 11:19:17,029:INFO: epoch: 32, f1 score: 0.45283018867924524, dev loss: 1298.001953125
+2026-01-21 11:19:17,770:INFO: epoch: 33, train loss: 91.54108319963727
+2026-01-21 11:19:17,857:INFO: epoch: 33, f1 score: 0.42580645161290326, dev loss: 1399.1246337890625
+2026-01-21 11:19:18,586:INFO: epoch: 34, train loss: 94.01182992117745
+2026-01-21 11:19:18,672:INFO: epoch: 34, f1 score: 0.4358974358974359, dev loss: 1421.2369384765625
+2026-01-21 11:19:19,408:INFO: epoch: 35, train loss: 80.9487784249442
+2026-01-21 11:19:19,494:INFO: epoch: 35, f1 score: 0.47204968944099385, dev loss: 1369.4698486328125
+2026-01-21 11:19:19,559:INFO: --------Save best model!--------
+2026-01-21 11:19:20,311:INFO: epoch: 36, train loss: 78.16574532645089
+2026-01-21 11:19:20,399:INFO: epoch: 36, f1 score: 0.43478260869565216, dev loss: 1374.8756103515625
+2026-01-21 11:19:21,139:INFO: epoch: 37, train loss: 75.99261910574776
+2026-01-21 11:19:21,227:INFO: epoch: 37, f1 score: 0.4675324675324675, dev loss: 1433.50341796875
+2026-01-21 11:19:22,001:INFO: epoch: 38, train loss: 68.20223127092633
+2026-01-21 11:19:22,088:INFO: epoch: 38, f1 score: 0.43373493975903615, dev loss: 1410.345947265625
+2026-01-21 11:19:22,869:INFO: epoch: 39, train loss: 64.2852543422154
+2026-01-21 11:19:22,957:INFO: epoch: 39, f1 score: 0.45, dev loss: 1478.493896484375
+2026-01-21 11:19:23,673:INFO: epoch: 40, train loss: 62.927757263183594
+2026-01-21 11:19:23,761:INFO: epoch: 40, f1 score: 0.4268292682926829, dev loss: 1454.3804931640625
+2026-01-21 11:19:23,762:INFO: Best val f1: 0.47204968944099385
+2026-01-21 11:19:23,762:INFO: Training Finished!
+2026-01-21 11:19:23,766:INFO: -------- Process Done! --------
+2026-01-21 11:19:23,778:INFO: --------Load model from /home/c403/msy/CLUENER2020/BiLSTM-CRF/experiments/clue/model.pth--------
+2026-01-21 11:19:23,950:INFO: --------Bad Cases reserved !--------
+2026-01-21 11:19:23,985:INFO: final test loss: 1484.21533203125, f1 score: 0.3701657458563536
+2026-01-21 11:19:23,985:INFO: f1 score of ORG: 0.22727272727272727
+2026-01-21 11:19:23,985:INFO: f1 score of ACTION: 0.23529411764705885
+2026-01-21 11:19:23,985:INFO: f1 score of OBJ: 0.4000000000000001
+2026-01-21 11:19:23,985:INFO: f1 score of LEVEL_KEY: 0.3428571428571428
+2026-01-21 11:19:23,985:INFO: f1 score of VALUE: 0.6
+2026-01-21 11:23:34,461:INFO: device: cuda:0
+2026-01-21 11:23:34,461:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:23:34,461:WARNING: Span mismatch fixed for '水库': 51-53 -> 51-52
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '历史最高水位': 13-19 -> 13-18
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '设计洪水位': 20-25 -> 20-24
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '设计死水位': 36-41 -> 36-40
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '356.86 m': 25-33 -> 25-32
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '324.92m': 41-48 -> 41-47
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '外胡水库': 31-35 -> 3-6
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '金坑岭水库': 62-67 -> 62-66
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '浦江县电网': 94-99 -> 94-98
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '年平均相对湿度': 6-13 -> 6-12
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '年平均陆面蒸发量': 33-41 -> 33-40
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '平均径流': 80-84 -> 80-83
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for ' 80%以上': 14-20 -> 14-19
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '75%以上': 27-32 -> 27-31
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '650mm～700mm': 47-58 -> 47-57
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '750mm～800mm': 65-76 -> 65-75
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '1000mm～400mm': 99-111 -> 99-110
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '720mm': 118-123 -> 118-122
+2026-01-21 11:23:34,462:WARNING: Span mismatch fixed for '调度运行计划': 0-6 -> 0-5
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '备案': 24-26 -> 24-25
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '水利局': 9-12 -> 9-11
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '省防指': 21-24 -> 21-23
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '溢洪道': 16-19 -> 16-18
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '大坝': 28-30 -> 28-29
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '72.50m': 7-13 -> 7-12
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '自由溢流': 21-25 -> 21-24
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '奉化气象站': 2-7 -> 2-6
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '平均气温': 29-33 -> 29-32
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '极端最高气温': 40-46 -> 40-45
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '极端最低气温': 69-75 -> 69-74
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '16.3℃': 34-39 -> 34-38
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '39.0℃': 46-51 -> 46-50
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '-11.1℃': 75-81 -> 75-80
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '水库流域': 0-4 -> 0-3
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '钱塘江流域': 6-11 -> 6-10
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '壶源江': 17-20 -> 11-13
+2026-01-21 11:23:34,463:WARNING: Span mismatch fixed for '库岭溪': 56-59 -> 56-58
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '富春江': 110-113 -> 110-112
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '海拔': 36-38 -> 36-37
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '流域面积': 114-118 -> 114-117
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '流域面积': 133-137 -> 114-117
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '818m': 38-42 -> 38-41
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '760.9km2': 118-126 -> 118-125
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '383.1km2': 137-145 -> 137-144
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '库水位': 37-40 -> 37-39
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '62.00m': 43-49 -> 43-48
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for ' 20mm': 59-64 -> 59-63
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '东江': 12-14 -> 12-13
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '东江': 43-45 -> 12-13
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '东江干流': 30-34 -> 12-15
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '坝体': 22-24 -> 22-23
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '坝基': 25-27 -> 25-26
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '坝肩渗漏点': 28-33 -> 28-32
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '输水涵管': 34-38 -> 34-37
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '定期进行重点巡视检查': 49-59 -> 49-58
+2026-01-21 11:23:34,464:WARNING: Span mismatch fixed for '水库水位': 4-8 -> 4-7
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for ' 338.12m': 9-17 -> 9-16
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '灌溉': 26-28 -> 26-27
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '供水': 37-39 -> 37-38
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '奉化区水文站': 31-37 -> 31-36
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '宁波市葛岙水库开发有限公司': 38-51 -> 38-50
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '宁波市水利水电规划设计研究院有限公司': 52-70 -> 52-69
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '浙江省正邦水电建设有限公司': 77-90 -> 77-89
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '葛岙水库': 106-110 -> 5-8
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '葛岙水库': 4-8 -> 4-7
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '奉化江干流': 31-36 -> 31-35
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '奉化江': 50-53 -> 31-33
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '镇农办': 13-16 -> 13-15
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '汇报': 16-18 -> 16-17
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '水库': 12-14 -> 12-13
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '敞泄': 18-20 -> 18-19
+2026-01-21 11:23:34,465:WARNING: Span mismatch fixed for '最大下泄流量': 24-30 -> 24-29
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '设计洪水的洪峰流量': 36-45 -> 36-44
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '100年一遇校核洪水': 3-13 -> 3-12
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '启动特大洪水应急预案': 15-25 -> 15-24
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '省水利厅': 27-31 -> 27-30
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '水库水位': 15-19 -> 15-18
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '溢洪道': 53-56 -> 53-55
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '正常水位': 21-25 -> 21-24
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '预计水位': 31-35 -> 31-34
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '163m': 25-29 -> 25-28
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '镇三防指挥所': 33-39 -> 33-38
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '启动': 57-59 -> 57-58
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '防洪高水位': 0-5 -> 0-4
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '校核洪水位': 14-19 -> 14-18
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '正常蓄水位': 28-33 -> 28-32
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '158.20m': 6-13 -> 6-12
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '160.50m': 20-27 -> 20-26
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '155.00m': 34-41 -> 34-40
+2026-01-21 11:23:34,466:WARNING: Span mismatch fixed for '防汛机构': 2-6 -> 2-5
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '输水涵管': 10-14 -> 10-13
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '启闭设备': 15-19 -> 15-18
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '维修养护': 20-24 -> 20-23
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '坝高': 9-11 -> 9-10
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '坝顶高程': 17-21 -> 17-20
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '坝顶轴线长': 29-34 -> 29-33
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '坝顶宽': 40-43 -> 40-42
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '8.6 m': 11-16 -> 11-15
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '99.08 m': 21-28 -> 21-27
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '139 m': 34-39 -> 34-38
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '6.00m': 43-48 -> 43-47
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '下泄流量': 43-47 -> 30-33
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '设计洪水位': 7-12 -> 7-11
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '天然洪峰': 50-54 -> 50-53
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '汛限水位': 82-86 -> 82-85
+2026-01-21 11:23:34,467:WARNING: Span mismatch fixed for '泄洪': 72-74 -> 72-73
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '61.22m': 7-13 -> 7-12
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '加大下泄流量': 30-36 -> 30-35
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '敞泄': 42-44 -> 42-43
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '汛限水位': 99-103 -> 99-102
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '镇三防指挥所': 8-14 -> 8-13
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '报告水库情况并做好记录': 14-25 -> 14-24
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '水库水位': 3-7 -> 3-6
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '163m': 10-14 -> 10-13
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '15分钟内，要将水库的水位、降雨量等情况报告': 16-38 -> 16-37
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '镇三防指挥所': 38-44 -> 38-43
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '下泄流量': 13-17 -> 13-16
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '下游城镇防洪标准': 19-27 -> 19-26
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '下泄流量': 12-16 -> 12-15
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '下游城镇防洪标准': 18-26 -> 18-25
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '启动': 40-42 -> 40-41
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '汛期水位': 1-5 -> 1-4
+2026-01-21 11:23:34,468:WARNING: Span mismatch fixed for '355.12m': 11-18 -> 11-17
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '355.12m': 77-84 -> 11-17
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '发电放水': 44-48 -> 44-47
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '自由泄洪': 90-94 -> 90-93
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '水位': 69-71 -> 3-4
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for ' 64.73～65.31m': 7-20 -> 7-19
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for ' 50m³/s': 48-55 -> 48-54
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '20～50年一遇洪水位': 22-33 -> 22-32
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '最大下泄流量': 39-45 -> 39-44
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '防洪高水位线': 6-12 -> 6-11
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '防洪高水位线': 46-52 -> 6-11
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '校核洪水位线': 15-21 -> 15-20
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '防洪限制水位线': 55-62 -> 55-61
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '水库防洪调度区': 22-29 -> 22-28
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '下游防洪调度区': 65-72 -> 65-71
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '浦江县水电局': 13-19 -> 13-18
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '水库溢洪道': 3-8 -> 3-7
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '水库排洪调度工作': 20-28 -> 20-27
+2026-01-21 11:23:34,469:WARNING: Span mismatch fixed for '溢洪道': 0-3 -> 0-2
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '最大泄量': 5-9 -> 5-8
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '1200m³/s': 11-19 -> 11-18
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '敞泄': 33-35 -> 33-34
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '东江河道': 34-38 -> 34-37
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '设计洪水标准': 3-9 -> 3-8
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '校核洪水标准': 18-24 -> 18-23
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '水库': 40-42 -> 3-4
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '溢洪道': 20-23 -> 20-22
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '正常水位': 6-10 -> 6-9
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for ' 163m': 10-15 -> 10-14
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '累计降雨量': 3-8 -> 3-7
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '1小时降雨量': 19-25 -> 19-24
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '降雨量': 56-59 -> 5-7
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '100mm': 10-15 -> 10-14
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '50mm': 26-30 -> 26-29
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '30mm': 62-66 -> 62-65
+2026-01-21 11:23:34,470:WARNING: Span mismatch fixed for '在30分钟内将降雨情况报告': 34-47 -> 34-46
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '加报一次': 66-70 -> 66-69
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '镇三防指挥所': 47-53 -> 47-52
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '水库库水位': 1-6 -> 1-5
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for ' 96.39 m': 7-15 -> 7-14
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '100 （mm': 29-36 -> 29-35
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '94.39 m': 53-60 -> 53-59
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '预报降雨': 22-26 -> 22-25
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '库内水位': 46-50 -> 46-49
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '防洪调度': 3-7 -> 3-6
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '大坝': 11-13 -> 11-12
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '汛前水位': 17-21 -> 17-20
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '正常水位': 24-28 -> 24-27
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '163m': 29-33 -> 29-32
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '镇三防指挥所': 0-6 -> 0-5
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '镇三防指挥所': 12-18 -> 0-5
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '水库调度管理': 0-6 -> 0-5
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '水库险情监测与巡视检查': 29-40 -> 29-39
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '抢险': 41-43 -> 41-42
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '应急调度': 44-48 -> 44-47
+2026-01-21 11:23:34,471:WARNING: Span mismatch fixed for '信息报告': 49-53 -> 49-52
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '参与预案的全过程': 57-65 -> 57-64
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '参与应急会商': 66-72 -> 66-71
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '成应急指挥机构交办的任务': 74-86 -> 74-85
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '址山镇三防指挥所': 7-15 -> 7-14
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '死水位': 6-9 -> 6-8
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '130.0m': 10-16 -> 10-15
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '水库': 21-23 -> 21-22
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '停止发电': 24-28 -> 24-27
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '宁波市葛岙水库开发有限公司': 4-17 -> 4-16
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '宁波市水利局': 40-46 -> 40-45
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '奉化区水利局': 47-53 -> 47-52
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '实施调度': 32-36 -> 32-35
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '调度': 53-55 -> 20-21
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '下游': 0-2 -> 0-1
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '保护耕地': 16-20 -> 16-19
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '5.2 万人': 9-15 -> 9-14
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for ' 3.5 万亩': 23-30 -> 23-29
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '洪水调度': 3-7 -> 3-6
+2026-01-21 11:23:34,472:WARNING: Span mismatch fixed for '水位': 9-11 -> 9-10
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '下游下王控制断面安全泄量': 41-53 -> 41-52
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '水库最大下泄流量': 68-76 -> 68-75
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '300m³/s': 53-60 -> 53-59
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '50m³/s': 80-86 -> 80-85
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '防洪限制水位': 0-6 -> 0-5
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '163m': 6-10 -> 6-9
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '葛岙水库': 17-21 -> 17-20
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '关闸蓄洪': 21-25 -> 21-24
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '库容': 21-23 -> 21-22
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '60.00～62.00m': 5-17 -> 5-16
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '重叠库容': 57-61 -> 57-60
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '管理单位': 13-17 -> 13-16
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '防汛预案': 24-28 -> 24-27
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '大坝': 0-2 -> 0-1
+2026-01-21 11:23:34,473:WARNING: Span mismatch fixed for '管理所': 27-30 -> 27-29
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '限制水位': 7-11 -> 7-10
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '限制水位': 17-21 -> 7-10
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '60.00m': 22-28 -> 22-27
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '60.00m': 36-42 -> 22-27
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '库水位': 29-32 -> 29-31
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '下泄': 45-47 -> 45-46
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '88.0m': 8-13 -> 8-12
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '警戒水位': 14-18 -> 14-17
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '防汛抢险队': 20-25 -> 20-24
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '防洪调度任务': 0-6 -> 0-5
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '水库大坝': 11-15 -> 11-14
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '20年一遇设计洪水标准': 32-43 -> 32-42
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '200年一遇的校核洪水标准': 44-57 -> 44-56
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '64.73m': 10-16 -> 10-15
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '65.31m': 22-28 -> 22-27
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '50m³/s': 45-51 -> 45-50
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '水库控制最大下泄流量': 31-41 -> 31-40
+2026-01-21 11:23:34,474:WARNING: Span mismatch fixed for '大坝': 1-3 -> 1-2
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '市三防办': 18-22 -> 18-21
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '报告': 22-24 -> 22-23
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '三市镇渡头村': 0-6 -> 0-5
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '斗岭水库': 7-11 -> 7-10
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '控制蓄水位': 3-8 -> 3-7
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for ' 60.00m': 8-15 -> 8-14
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '防洪调度': 0-4 -> 0-3
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '奉化区水利局': 5-11 -> 5-10
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '宁波市水利局': 19-25 -> 19-24
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '市三防指挥所': 0-6 -> 0-5
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '水库': 20-22 -> 20-21
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '监测': 24-26 -> 24-25
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '浦江县人民政府防汛防旱指挥部': 9-23 -> 9-22
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '浦江县水务局': 24-30 -> 24-29
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '正常蓄水位': 0-5 -> 0-4
+2026-01-21 11:23:34,475:WARNING: Span mismatch fixed for '控制水位': 45-49 -> 45-48
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for ' 355.12m': 6-14 -> 6-13
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '355.12m': 50-57 -> 7-13
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '外胡水库': 17-21 -> 17-20
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '雨量将': 11-14 -> 11-13
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '150mm': 17-22 -> 17-21
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '水库': 23-25 -> 23-24
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '泄洪': 28-30 -> 28-29
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '梅汛期限制水位': 13-20 -> 13-19
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '60.00m': 21-27 -> 21-26
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '60.00m ': 34-41 -> 34-40
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '库水位': 28-31 -> 28-30
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '下泄': 43-45 -> 43-44
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '观测站': 1-4 -> 1-3
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '水情调度中心': 20-26 -> 20-25
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '农业灌溉': 9-13 -> 9-12
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '启动抗旱应急调度': 24-32 -> 24-31
+2026-01-21 11:23:34,476:WARNING: Span mismatch fixed for '葛岙水库': 10-14 -> 10-13
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '54.09m': 22-28 -> 22-27
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '2022年底水位': 29-37 -> 29-36
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '水情监测站': 0-5 -> 0-4
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '入库流量': 11-15 -> 11-14
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '库水位数据': 16-21 -> 16-20
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '实时采集': 7-11 -> 7-10
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '控制水位': 3-7 -> 3-6
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '355.12m': 11-18 -> 11-17
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '355.12m': 22-29 -> 11-17
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '气象台': 1-4 -> 1-3
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '水库管理处': 29-34 -> 29-33
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '100mm': 19-24 -> 19-23
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '大坝': 38-40 -> 38-39
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '巡视检查': 41-45 -> 41-44
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '入库流量': 8-12 -> 8-11
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '500m³/s': 15-22 -> 15-21
+2026-01-21 11:23:34,477:WARNING: Span mismatch fixed for '市应急管理局': 31-37 -> 31-36
+2026-01-21 11:24:13,176:INFO: device: cuda:0
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '水库': 51-53 -> 51-52
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '历史最高水位': 13-19 -> 13-18
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '设计洪水位': 20-25 -> 20-24
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '设计死水位': 36-41 -> 36-40
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '356.86 m': 25-33 -> 25-32
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '324.92m': 41-48 -> 41-47
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '外胡水库': 31-35 -> 3-6
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '金坑岭水库': 62-67 -> 62-66
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '浦江县电网': 94-99 -> 94-98
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '年平均相对湿度': 6-13 -> 6-12
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '年平均陆面蒸发量': 33-41 -> 33-40
+2026-01-21 11:24:13,177:WARNING: Span mismatch fixed for '平均径流': 80-84 -> 80-83
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for ' 80%以上': 14-20 -> 14-19
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '75%以上': 27-32 -> 27-31
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '650mm～700mm': 47-58 -> 47-57
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '750mm～800mm': 65-76 -> 65-75
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '1000mm～400mm': 99-111 -> 99-110
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '720mm': 118-123 -> 118-122
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '调度运行计划': 0-6 -> 0-5
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '备案': 24-26 -> 24-25
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '水利局': 9-12 -> 9-11
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '省防指': 21-24 -> 21-23
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '溢洪道': 16-19 -> 16-18
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '大坝': 28-30 -> 28-29
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '72.50m': 7-13 -> 7-12
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '自由溢流': 21-25 -> 21-24
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '奉化气象站': 2-7 -> 2-6
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '平均气温': 29-33 -> 29-32
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '极端最高气温': 40-46 -> 40-45
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '极端最低气温': 69-75 -> 69-74
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '16.3℃': 34-39 -> 34-38
+2026-01-21 11:24:13,178:WARNING: Span mismatch fixed for '39.0℃': 46-51 -> 46-50
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '-11.1℃': 75-81 -> 75-80
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '水库流域': 0-4 -> 0-3
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '钱塘江流域': 6-11 -> 6-10
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '壶源江': 17-20 -> 11-13
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '库岭溪': 56-59 -> 56-58
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '富春江': 110-113 -> 110-112
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '海拔': 36-38 -> 36-37
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '流域面积': 114-118 -> 114-117
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '流域面积': 133-137 -> 114-117
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '818m': 38-42 -> 38-41
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '760.9km2': 118-126 -> 118-125
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '383.1km2': 137-145 -> 137-144
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '库水位': 37-40 -> 37-39
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '62.00m': 43-49 -> 43-48
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for ' 20mm': 59-64 -> 59-63
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '东江': 12-14 -> 12-13
+2026-01-21 11:24:13,179:WARNING: Span mismatch fixed for '东江': 43-45 -> 12-13
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '东江干流': 30-34 -> 12-15
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '坝体': 22-24 -> 22-23
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '坝基': 25-27 -> 25-26
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '坝肩渗漏点': 28-33 -> 28-32
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '输水涵管': 34-38 -> 34-37
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '定期进行重点巡视检查': 49-59 -> 49-58
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '水库水位': 4-8 -> 4-7
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for ' 338.12m': 9-17 -> 9-16
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '灌溉': 26-28 -> 26-27
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '供水': 37-39 -> 37-38
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '奉化区水文站': 31-37 -> 31-36
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '宁波市葛岙水库开发有限公司': 38-51 -> 38-50
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '宁波市水利水电规划设计研究院有限公司': 52-70 -> 52-69
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '浙江省正邦水电建设有限公司': 77-90 -> 77-89
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '葛岙水库': 106-110 -> 5-8
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '葛岙水库': 4-8 -> 4-7
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '奉化江干流': 31-36 -> 31-35
+2026-01-21 11:24:13,180:WARNING: Span mismatch fixed for '奉化江': 50-53 -> 31-33
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '镇农办': 13-16 -> 13-15
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '汇报': 16-18 -> 16-17
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '水库': 12-14 -> 12-13
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '敞泄': 18-20 -> 18-19
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '最大下泄流量': 24-30 -> 24-29
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '设计洪水的洪峰流量': 36-45 -> 36-44
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '100年一遇校核洪水': 3-13 -> 3-12
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '启动特大洪水应急预案': 15-25 -> 15-24
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '省水利厅': 27-31 -> 27-30
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '水库水位': 15-19 -> 15-18
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '溢洪道': 53-56 -> 53-55
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '正常水位': 21-25 -> 21-24
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '预计水位': 31-35 -> 31-34
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '163m': 25-29 -> 25-28
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '镇三防指挥所': 33-39 -> 33-38
+2026-01-21 11:24:13,181:WARNING: Span mismatch fixed for '启动': 57-59 -> 57-58
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '防洪高水位': 0-5 -> 0-4
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '校核洪水位': 14-19 -> 14-18
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '正常蓄水位': 28-33 -> 28-32
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '158.20m': 6-13 -> 6-12
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '160.50m': 20-27 -> 20-26
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '155.00m': 34-41 -> 34-40
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '防汛机构': 2-6 -> 2-5
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '输水涵管': 10-14 -> 10-13
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '启闭设备': 15-19 -> 15-18
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '维修养护': 20-24 -> 20-23
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '坝高': 9-11 -> 9-10
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '坝顶高程': 17-21 -> 17-20
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '坝顶轴线长': 29-34 -> 29-33
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '坝顶宽': 40-43 -> 40-42
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '8.6 m': 11-16 -> 11-15
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '99.08 m': 21-28 -> 21-27
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '139 m': 34-39 -> 34-38
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '6.00m': 43-48 -> 43-47
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '下泄流量': 43-47 -> 30-33
+2026-01-21 11:24:13,182:WARNING: Span mismatch fixed for '设计洪水位': 7-12 -> 7-11
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '天然洪峰': 50-54 -> 50-53
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '汛限水位': 82-86 -> 82-85
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '泄洪': 72-74 -> 72-73
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '61.22m': 7-13 -> 7-12
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '加大下泄流量': 30-36 -> 30-35
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '敞泄': 42-44 -> 42-43
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '汛限水位': 99-103 -> 99-102
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '镇三防指挥所': 8-14 -> 8-13
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '报告水库情况并做好记录': 14-25 -> 14-24
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '水库水位': 3-7 -> 3-6
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '163m': 10-14 -> 10-13
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '15分钟内，要将水库的水位、降雨量等情况报告': 16-38 -> 16-37
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '镇三防指挥所': 38-44 -> 38-43
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '下泄流量': 13-17 -> 13-16
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '下游城镇防洪标准': 19-27 -> 19-26
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '下泄流量': 12-16 -> 12-15
+2026-01-21 11:24:13,183:WARNING: Span mismatch fixed for '下游城镇防洪标准': 18-26 -> 18-25
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '启动': 40-42 -> 40-41
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '汛期水位': 1-5 -> 1-4
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '355.12m': 11-18 -> 11-17
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '355.12m': 77-84 -> 11-17
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '发电放水': 44-48 -> 44-47
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '自由泄洪': 90-94 -> 90-93
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '水位': 69-71 -> 3-4
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for ' 64.73～65.31m': 7-20 -> 7-19
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for ' 50m³/s': 48-55 -> 48-54
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '20～50年一遇洪水位': 22-33 -> 22-32
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '最大下泄流量': 39-45 -> 39-44
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '防洪高水位线': 6-12 -> 6-11
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '防洪高水位线': 46-52 -> 6-11
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '校核洪水位线': 15-21 -> 15-20
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '防洪限制水位线': 55-62 -> 55-61
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '水库防洪调度区': 22-29 -> 22-28
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '下游防洪调度区': 65-72 -> 65-71
+2026-01-21 11:24:13,184:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '浦江县水电局': 13-19 -> 13-18
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '水库溢洪道': 3-8 -> 3-7
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '水库排洪调度工作': 20-28 -> 20-27
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '溢洪道': 0-3 -> 0-2
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '最大泄量': 5-9 -> 5-8
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '1200m³/s': 11-19 -> 11-18
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '敞泄': 33-35 -> 33-34
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '东江河道': 34-38 -> 34-37
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '设计洪水标准': 3-9 -> 3-8
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '校核洪水标准': 18-24 -> 18-23
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '水库': 40-42 -> 3-4
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '溢洪道': 20-23 -> 20-22
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '正常水位': 6-10 -> 6-9
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for ' 163m': 10-15 -> 10-14
+2026-01-21 11:24:13,185:WARNING: Span mismatch fixed for '累计降雨量': 3-8 -> 3-7
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '1小时降雨量': 19-25 -> 19-24
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '降雨量': 56-59 -> 5-7
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '100mm': 10-15 -> 10-14
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '50mm': 26-30 -> 26-29
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '30mm': 62-66 -> 62-65
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '在30分钟内将降雨情况报告': 34-47 -> 34-46
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '加报一次': 66-70 -> 66-69
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '镇三防指挥所': 47-53 -> 47-52
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '水库库水位': 1-6 -> 1-5
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for ' 96.39 m': 7-15 -> 7-14
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '100 （mm': 29-36 -> 29-35
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '94.39 m': 53-60 -> 53-59
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '预报降雨': 22-26 -> 22-25
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '库内水位': 46-50 -> 46-49
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '防洪调度': 3-7 -> 3-6
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '大坝': 11-13 -> 11-12
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '汛前水位': 17-21 -> 17-20
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '正常水位': 24-28 -> 24-27
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '163m': 29-33 -> 29-32
+2026-01-21 11:24:13,186:WARNING: Span mismatch fixed for '镇三防指挥所': 0-6 -> 0-5
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '镇三防指挥所': 12-18 -> 0-5
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '水库调度管理': 0-6 -> 0-5
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '水库险情监测与巡视检查': 29-40 -> 29-39
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '抢险': 41-43 -> 41-42
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '应急调度': 44-48 -> 44-47
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '信息报告': 49-53 -> 49-52
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '参与预案的全过程': 57-65 -> 57-64
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '参与应急会商': 66-72 -> 66-71
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '成应急指挥机构交办的任务': 74-86 -> 74-85
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '址山镇三防指挥所': 7-15 -> 7-14
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '死水位': 6-9 -> 6-8
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '130.0m': 10-16 -> 10-15
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '水库': 21-23 -> 21-22
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '停止发电': 24-28 -> 24-27
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '宁波市葛岙水库开发有限公司': 4-17 -> 4-16
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '宁波市水利局': 40-46 -> 40-45
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '奉化区水利局': 47-53 -> 47-52
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '实施调度': 32-36 -> 32-35
+2026-01-21 11:24:13,187:WARNING: Span mismatch fixed for '调度': 53-55 -> 20-21
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '下游': 0-2 -> 0-1
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '保护耕地': 16-20 -> 16-19
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '5.2 万人': 9-15 -> 9-14
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for ' 3.5 万亩': 23-30 -> 23-29
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '洪水调度': 3-7 -> 3-6
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '水位': 9-11 -> 9-10
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '下游下王控制断面安全泄量': 41-53 -> 41-52
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '水库最大下泄流量': 68-76 -> 68-75
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '300m³/s': 53-60 -> 53-59
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '50m³/s': 80-86 -> 80-85
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '防洪限制水位': 0-6 -> 0-5
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '163m': 6-10 -> 6-9
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '葛岙水库': 17-21 -> 17-20
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '关闸蓄洪': 21-25 -> 21-24
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '库容': 21-23 -> 21-22
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '60.00～62.00m': 5-17 -> 5-16
+2026-01-21 11:24:13,188:WARNING: Span mismatch fixed for '重叠库容': 57-61 -> 57-60
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '管理单位': 13-17 -> 13-16
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '防汛预案': 24-28 -> 24-27
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '大坝': 0-2 -> 0-1
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '管理所': 27-30 -> 27-29
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '限制水位': 7-11 -> 7-10
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '限制水位': 17-21 -> 7-10
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '60.00m': 22-28 -> 22-27
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '60.00m': 36-42 -> 22-27
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '库水位': 29-32 -> 29-31
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '下泄': 45-47 -> 45-46
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '88.0m': 8-13 -> 8-12
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '警戒水位': 14-18 -> 14-17
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '防汛抢险队': 20-25 -> 20-24
+2026-01-21 11:24:13,189:WARNING: Span mismatch fixed for '防洪调度任务': 0-6 -> 0-5
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '水库大坝': 11-15 -> 11-14
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '20年一遇设计洪水标准': 32-43 -> 32-42
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '200年一遇的校核洪水标准': 44-57 -> 44-56
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '64.73m': 10-16 -> 10-15
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '65.31m': 22-28 -> 22-27
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '50m³/s': 45-51 -> 45-50
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '水库控制最大下泄流量': 31-41 -> 31-40
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '大坝': 1-3 -> 1-2
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '市三防办': 18-22 -> 18-21
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '报告': 22-24 -> 22-23
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '三市镇渡头村': 0-6 -> 0-5
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '斗岭水库': 7-11 -> 7-10
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '控制蓄水位': 3-8 -> 3-7
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for ' 60.00m': 8-15 -> 8-14
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '防洪调度': 0-4 -> 0-3
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '奉化区水利局': 5-11 -> 5-10
+2026-01-21 11:24:13,190:WARNING: Span mismatch fixed for '宁波市水利局': 19-25 -> 19-24
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '市三防指挥所': 0-6 -> 0-5
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '水库': 20-22 -> 20-21
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '监测': 24-26 -> 24-25
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '浦江县人民政府防汛防旱指挥部': 9-23 -> 9-22
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '浦江县水务局': 24-30 -> 24-29
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '正常蓄水位': 0-5 -> 0-4
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '控制水位': 45-49 -> 45-48
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for ' 355.12m': 6-14 -> 6-13
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '355.12m': 50-57 -> 7-13
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '外胡水库': 17-21 -> 17-20
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '雨量将': 11-14 -> 11-13
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '150mm': 17-22 -> 17-21
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '水库': 23-25 -> 23-24
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '泄洪': 28-30 -> 28-29
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '梅汛期限制水位': 13-20 -> 13-19
+2026-01-21 11:24:13,191:WARNING: Span mismatch fixed for '60.00m': 21-27 -> 21-26
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '60.00m ': 34-41 -> 34-40
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '库水位': 28-31 -> 28-30
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '下泄': 43-45 -> 43-44
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '观测站': 1-4 -> 1-3
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '水情调度中心': 20-26 -> 20-25
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '农业灌溉': 9-13 -> 9-12
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '启动抗旱应急调度': 24-32 -> 24-31
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '葛岙水库': 10-14 -> 10-13
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '54.09m': 22-28 -> 22-27
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '2022年底水位': 29-37 -> 29-36
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '水情监测站': 0-5 -> 0-4
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '入库流量': 11-15 -> 11-14
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '库水位数据': 16-21 -> 16-20
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '实时采集': 7-11 -> 7-10
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '控制水位': 3-7 -> 3-6
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '355.12m': 11-18 -> 11-17
+2026-01-21 11:24:13,192:WARNING: Span mismatch fixed for '355.12m': 22-29 -> 11-17
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '气象台': 1-4 -> 1-3
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '水库管理处': 29-34 -> 29-33
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '100mm': 19-24 -> 19-23
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '大坝': 38-40 -> 38-39
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '巡视检查': 41-45 -> 41-44
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '入库流量': 8-12 -> 8-11
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '500m³/s': 15-22 -> 15-21
+2026-01-21 11:24:13,193:WARNING: Span mismatch fixed for '市应急管理局': 31-37 -> 31-36
+2026-01-21 11:26:32,441:INFO: device: cuda:0
+2026-01-21 11:26:32,441:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:26:32,441:WARNING: Span mismatch fixed for '水库': 51-53 -> 51-52
+2026-01-21 11:26:32,441:WARNING: Span mismatch fixed for '历史最高水位': 13-19 -> 13-18
+2026-01-21 11:26:32,441:WARNING: Span mismatch fixed for '设计洪水位': 20-25 -> 20-24
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '设计死水位': 36-41 -> 36-40
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '356.86 m': 25-33 -> 25-32
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '324.92m': 41-48 -> 41-47
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '外胡水库': 31-35 -> 3-6
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '金坑岭水库': 62-67 -> 62-66
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '浦江县电网': 94-99 -> 94-98
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '年平均相对湿度': 6-13 -> 6-12
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '年平均陆面蒸发量': 33-41 -> 33-40
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '平均径流': 80-84 -> 80-83
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for ' 80%以上': 14-20 -> 14-19
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '75%以上': 27-32 -> 27-31
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '650mm～700mm': 47-58 -> 47-57
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '750mm～800mm': 65-76 -> 65-75
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '1000mm～400mm': 99-111 -> 99-110
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '720mm': 118-123 -> 118-122
+2026-01-21 11:26:32,442:WARNING: Span mismatch fixed for '调度运行计划': 0-6 -> 0-5
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '备案': 24-26 -> 24-25
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '水利局': 9-12 -> 9-11
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '省防指': 21-24 -> 21-23
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '溢洪道': 16-19 -> 16-18
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '大坝': 28-30 -> 28-29
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '72.50m': 7-13 -> 7-12
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '自由溢流': 21-25 -> 21-24
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '奉化气象站': 2-7 -> 2-6
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '平均气温': 29-33 -> 29-32
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '极端最高气温': 40-46 -> 40-45
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '极端最低气温': 69-75 -> 69-74
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '16.3℃': 34-39 -> 34-38
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '39.0℃': 46-51 -> 46-50
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '-11.1℃': 75-81 -> 75-80
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '水库流域': 0-4 -> 0-3
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '钱塘江流域': 6-11 -> 6-10
+2026-01-21 11:26:32,443:WARNING: Span mismatch fixed for '壶源江': 17-20 -> 11-13
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '库岭溪': 56-59 -> 56-58
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '富春江': 110-113 -> 110-112
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '海拔': 36-38 -> 36-37
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '流域面积': 114-118 -> 114-117
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '流域面积': 133-137 -> 114-117
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '818m': 38-42 -> 38-41
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '760.9km2': 118-126 -> 118-125
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '383.1km2': 137-145 -> 137-144
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '库水位': 37-40 -> 37-39
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '62.00m': 43-49 -> 43-48
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for ' 20mm': 59-64 -> 59-63
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '东江': 12-14 -> 12-13
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '东江': 43-45 -> 12-13
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '东江干流': 30-34 -> 12-15
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '坝体': 22-24 -> 22-23
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '坝基': 25-27 -> 25-26
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '坝肩渗漏点': 28-33 -> 28-32
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '输水涵管': 34-38 -> 34-37
+2026-01-21 11:26:32,444:WARNING: Span mismatch fixed for '定期进行重点巡视检查': 49-59 -> 49-58
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '水库水位': 4-8 -> 4-7
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for ' 338.12m': 9-17 -> 9-16
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '灌溉': 26-28 -> 26-27
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '供水': 37-39 -> 37-38
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '奉化区水文站': 31-37 -> 31-36
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '宁波市葛岙水库开发有限公司': 38-51 -> 38-50
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '宁波市水利水电规划设计研究院有限公司': 52-70 -> 52-69
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '浙江省正邦水电建设有限公司': 77-90 -> 77-89
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '葛岙水库': 106-110 -> 5-8
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '葛岙水库': 4-8 -> 4-7
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '奉化江干流': 31-36 -> 31-35
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '奉化江': 50-53 -> 31-33
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '镇农办': 13-16 -> 13-15
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '汇报': 16-18 -> 16-17
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '水库': 12-14 -> 12-13
+2026-01-21 11:26:32,445:WARNING: Span mismatch fixed for '敞泄': 18-20 -> 18-19
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '最大下泄流量': 24-30 -> 24-29
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '设计洪水的洪峰流量': 36-45 -> 36-44
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '100年一遇校核洪水': 3-13 -> 3-12
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '启动特大洪水应急预案': 15-25 -> 15-24
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '省水利厅': 27-31 -> 27-30
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '水库水位': 15-19 -> 15-18
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '溢洪道': 53-56 -> 53-55
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '正常水位': 21-25 -> 21-24
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '预计水位': 31-35 -> 31-34
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '163m': 25-29 -> 25-28
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '镇三防指挥所': 33-39 -> 33-38
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '启动': 57-59 -> 57-58
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '防洪高水位': 0-5 -> 0-4
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '校核洪水位': 14-19 -> 14-18
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '正常蓄水位': 28-33 -> 28-32
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '158.20m': 6-13 -> 6-12
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '160.50m': 20-27 -> 20-26
+2026-01-21 11:26:32,446:WARNING: Span mismatch fixed for '155.00m': 34-41 -> 34-40
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '防汛机构': 2-6 -> 2-5
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '输水涵管': 10-14 -> 10-13
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '启闭设备': 15-19 -> 15-18
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '维修养护': 20-24 -> 20-23
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '坝高': 9-11 -> 9-10
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '坝顶高程': 17-21 -> 17-20
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '坝顶轴线长': 29-34 -> 29-33
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '坝顶宽': 40-43 -> 40-42
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '8.6 m': 11-16 -> 11-15
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '99.08 m': 21-28 -> 21-27
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '139 m': 34-39 -> 34-38
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '6.00m': 43-48 -> 43-47
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '下泄流量': 43-47 -> 30-33
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '设计洪水位': 7-12 -> 7-11
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '天然洪峰': 50-54 -> 50-53
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '汛限水位': 82-86 -> 82-85
+2026-01-21 11:26:32,447:WARNING: Span mismatch fixed for '泄洪': 72-74 -> 72-73
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '61.22m': 7-13 -> 7-12
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '加大下泄流量': 30-36 -> 30-35
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '敞泄': 42-44 -> 42-43
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '汛限水位': 99-103 -> 99-102
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '镇三防指挥所': 8-14 -> 8-13
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '报告水库情况并做好记录': 14-25 -> 14-24
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '水库水位': 3-7 -> 3-6
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '163m': 10-14 -> 10-13
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '15分钟内，要将水库的水位、降雨量等情况报告': 16-38 -> 16-37
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '镇三防指挥所': 38-44 -> 38-43
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '下泄流量': 13-17 -> 13-16
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '下游城镇防洪标准': 19-27 -> 19-26
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '下泄流量': 12-16 -> 12-15
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '下游城镇防洪标准': 18-26 -> 18-25
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '启动': 40-42 -> 40-41
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:26:32,448:WARNING: Span mismatch fixed for '汛期水位': 1-5 -> 1-4
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '355.12m': 11-18 -> 11-17
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '355.12m': 77-84 -> 11-17
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '发电放水': 44-48 -> 44-47
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '自由泄洪': 90-94 -> 90-93
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '水位': 69-71 -> 3-4
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for ' 64.73～65.31m': 7-20 -> 7-19
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for ' 50m³/s': 48-55 -> 48-54
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '20～50年一遇洪水位': 22-33 -> 22-32
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '最大下泄流量': 39-45 -> 39-44
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '防洪高水位线': 6-12 -> 6-11
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '防洪高水位线': 46-52 -> 6-11
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '校核洪水位线': 15-21 -> 15-20
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '防洪限制水位线': 55-62 -> 55-61
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '水库防洪调度区': 22-29 -> 22-28
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '下游防洪调度区': 65-72 -> 65-71
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '浦江县水电局': 13-19 -> 13-18
+2026-01-21 11:26:32,449:WARNING: Span mismatch fixed for '水库溢洪道': 3-8 -> 3-7
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '水库排洪调度工作': 20-28 -> 20-27
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '溢洪道': 0-3 -> 0-2
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '最大泄量': 5-9 -> 5-8
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '1200m³/s': 11-19 -> 11-18
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '敞泄': 33-35 -> 33-34
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '东江河道': 34-38 -> 34-37
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '设计洪水标准': 3-9 -> 3-8
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '校核洪水标准': 18-24 -> 18-23
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '水库': 40-42 -> 3-4
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '溢洪道': 20-23 -> 20-22
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '正常水位': 6-10 -> 6-9
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for ' 163m': 10-15 -> 10-14
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '累计降雨量': 3-8 -> 3-7
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '1小时降雨量': 19-25 -> 19-24
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '降雨量': 56-59 -> 5-7
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '100mm': 10-15 -> 10-14
+2026-01-21 11:26:32,450:WARNING: Span mismatch fixed for '50mm': 26-30 -> 26-29
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '30mm': 62-66 -> 62-65
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '在30分钟内将降雨情况报告': 34-47 -> 34-46
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '加报一次': 66-70 -> 66-69
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '镇三防指挥所': 47-53 -> 47-52
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '水库库水位': 1-6 -> 1-5
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for ' 96.39 m': 7-15 -> 7-14
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '100 （mm': 29-36 -> 29-35
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '94.39 m': 53-60 -> 53-59
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '预报降雨': 22-26 -> 22-25
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '库内水位': 46-50 -> 46-49
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '防洪调度': 3-7 -> 3-6
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '大坝': 11-13 -> 11-12
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '汛前水位': 17-21 -> 17-20
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '正常水位': 24-28 -> 24-27
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '163m': 29-33 -> 29-32
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '镇三防指挥所': 0-6 -> 0-5
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '镇三防指挥所': 12-18 -> 0-5
+2026-01-21 11:26:32,451:WARNING: Span mismatch fixed for '水库调度管理': 0-6 -> 0-5
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '水库险情监测与巡视检查': 29-40 -> 29-39
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '抢险': 41-43 -> 41-42
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '应急调度': 44-48 -> 44-47
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '信息报告': 49-53 -> 49-52
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '参与预案的全过程': 57-65 -> 57-64
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '参与应急会商': 66-72 -> 66-71
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '成应急指挥机构交办的任务': 74-86 -> 74-85
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '址山镇三防指挥所': 7-15 -> 7-14
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '死水位': 6-9 -> 6-8
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '130.0m': 10-16 -> 10-15
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '水库': 21-23 -> 21-22
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '停止发电': 24-28 -> 24-27
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '宁波市葛岙水库开发有限公司': 4-17 -> 4-16
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '宁波市水利局': 40-46 -> 40-45
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '奉化区水利局': 47-53 -> 47-52
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '实施调度': 32-36 -> 32-35
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '调度': 53-55 -> 20-21
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '下游': 0-2 -> 0-1
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '保护耕地': 16-20 -> 16-19
+2026-01-21 11:26:32,452:WARNING: Span mismatch fixed for '5.2 万人': 9-15 -> 9-14
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for ' 3.5 万亩': 23-30 -> 23-29
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '洪水调度': 3-7 -> 3-6
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '水位': 9-11 -> 9-10
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '下游下王控制断面安全泄量': 41-53 -> 41-52
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '水库最大下泄流量': 68-76 -> 68-75
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '300m³/s': 53-60 -> 53-59
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '50m³/s': 80-86 -> 80-85
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '防洪限制水位': 0-6 -> 0-5
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '163m': 6-10 -> 6-9
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '葛岙水库': 17-21 -> 17-20
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '关闸蓄洪': 21-25 -> 21-24
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '库容': 21-23 -> 21-22
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '60.00～62.00m': 5-17 -> 5-16
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '重叠库容': 57-61 -> 57-60
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:26:32,453:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '管理单位': 13-17 -> 13-16
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '防汛预案': 24-28 -> 24-27
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '大坝': 0-2 -> 0-1
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '管理所': 27-30 -> 27-29
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '限制水位': 7-11 -> 7-10
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '限制水位': 17-21 -> 7-10
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '60.00m': 22-28 -> 22-27
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '60.00m': 36-42 -> 22-27
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '库水位': 29-32 -> 29-31
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '下泄': 45-47 -> 45-46
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '88.0m': 8-13 -> 8-12
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '警戒水位': 14-18 -> 14-17
+2026-01-21 11:26:32,454:WARNING: Span mismatch fixed for '防汛抢险队': 20-25 -> 20-24
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '防洪调度任务': 0-6 -> 0-5
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '水库大坝': 11-15 -> 11-14
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '20年一遇设计洪水标准': 32-43 -> 32-42
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '200年一遇的校核洪水标准': 44-57 -> 44-56
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '64.73m': 10-16 -> 10-15
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '65.31m': 22-28 -> 22-27
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '50m³/s': 45-51 -> 45-50
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '水库控制最大下泄流量': 31-41 -> 31-40
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '大坝': 1-3 -> 1-2
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '市三防办': 18-22 -> 18-21
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '报告': 22-24 -> 22-23
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '三市镇渡头村': 0-6 -> 0-5
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '斗岭水库': 7-11 -> 7-10
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '控制蓄水位': 3-8 -> 3-7
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for ' 60.00m': 8-15 -> 8-14
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '防洪调度': 0-4 -> 0-3
+2026-01-21 11:26:32,455:WARNING: Span mismatch fixed for '奉化区水利局': 5-11 -> 5-10
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '宁波市水利局': 19-25 -> 19-24
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '市三防指挥所': 0-6 -> 0-5
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '水库': 20-22 -> 20-21
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '监测': 24-26 -> 24-25
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '浦江县人民政府防汛防旱指挥部': 9-23 -> 9-22
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '浦江县水务局': 24-30 -> 24-29
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '正常蓄水位': 0-5 -> 0-4
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '控制水位': 45-49 -> 45-48
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for ' 355.12m': 6-14 -> 6-13
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '355.12m': 50-57 -> 7-13
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '外胡水库': 17-21 -> 17-20
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '雨量将': 11-14 -> 11-13
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '150mm': 17-22 -> 17-21
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '水库': 23-25 -> 23-24
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '泄洪': 28-30 -> 28-29
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '梅汛期限制水位': 13-20 -> 13-19
+2026-01-21 11:26:32,456:WARNING: Span mismatch fixed for '60.00m': 21-27 -> 21-26
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '60.00m ': 34-41 -> 34-40
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '库水位': 28-31 -> 28-30
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '下泄': 43-45 -> 43-44
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '观测站': 1-4 -> 1-3
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '水情调度中心': 20-26 -> 20-25
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '农业灌溉': 9-13 -> 9-12
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '启动抗旱应急调度': 24-32 -> 24-31
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '葛岙水库': 10-14 -> 10-13
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '54.09m': 22-28 -> 22-27
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '2022年底水位': 29-37 -> 29-36
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '水情监测站': 0-5 -> 0-4
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '入库流量': 11-15 -> 11-14
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '库水位数据': 16-21 -> 16-20
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '实时采集': 7-11 -> 7-10
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '控制水位': 3-7 -> 3-6
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '355.12m': 11-18 -> 11-17
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '355.12m': 22-29 -> 11-17
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '气象台': 1-4 -> 1-3
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '水库管理处': 29-34 -> 29-33
+2026-01-21 11:26:32,457:WARNING: Span mismatch fixed for '100mm': 19-24 -> 19-23
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '大坝': 38-40 -> 38-39
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '巡视检查': 41-45 -> 41-44
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '入库流量': 8-12 -> 8-11
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '500m³/s': 15-22 -> 15-21
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '市应急管理局': 31-37 -> 31-36
+2026-01-21 11:26:32,458:WARNING: Entity indices out of range after fix, skipping: 40-42 for '' in text length 40
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '水位': 1-3 -> 1-2
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '水库': 20-22 -> 20-21
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '危急水位': 9-13 -> 9-12
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '总指所': 15-18 -> 15-17
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '决策': 26-28 -> 26-27
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '视情况采取措施': 29-36 -> 29-35
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '水库水位': 4-8 -> 4-7
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '62.99m': 11-17 -> 11-16
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '300m³/s ': 37-45 -> 37-44
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '50m³/s': 63-69 -> 63-68
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '下游河道下王控制断面安全泄量': 23-37 -> 23-36
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '最大下泄流量': 54-60 -> 54-59
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '鹤山市址山镇农业综合服务中心': 9-23 -> 9-22
+2026-01-21 11:26:32,458:WARNING: Span mismatch fixed for '大坝、输水涵管和溢洪道': 53-64 -> 53-63
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '抢险': 70-72 -> 24-25
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '采取切实有效的保坝措施': 73-84 -> 73-83
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '防洪调度指令': 0-6 -> 0-5
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '操作闸门': 24-28 -> 24-27
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '省水利厅': 7-11 -> 7-10
+2026-01-21 11:26:32,459:WARNING: Entity indices out of range after fix, skipping: 30-32 for '' in text length 29
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '东江': 0-2 -> 0-1
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '流域面积': 22-26 -> 22-25
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '116km²': 26-32 -> 26-31
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '流域累计面雨量': 7-14 -> 7-13
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '瞬时流量': 25-29 -> 25-28
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '100mm': 17-22 -> 17-21
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '100m³/s': 31-38 -> 31-37
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '金坑岭水库': 14-19 -> 14-18
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '库水位': 66-69 -> 66-68
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '最低运行水位': 43-49 -> 43-48
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '324.92m': 54-61 -> 54-60
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for ' 338.12m': 71-79 -> 71-78
+2026-01-21 11:26:32,459:WARNING: Span mismatch fixed for '停止发电': 87-91 -> 87-90
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '起调水位': 3-7 -> 3-6
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '水库最大下泄流量': 31-39 -> 31-38
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '60.00m': 8-14 -> 8-13
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '60.48m': 22-28 -> 22-27
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '50m³/s': 43-49 -> 43-48
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '库水位': 16-19 -> 16-18
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '水库库区': 10-14 -> 10-13
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '水库枢纽': 15-19 -> 15-18
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '水库保护范围面积': 42-50 -> 42-49
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '0.792km2': 52-60 -> 52-59
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '坝址': 3-5 -> 3-4
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '防洪控制点': 6-11 -> 6-10
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '防洪控制点洪水': 19-26 -> 19-25
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '补偿调度': 37-41 -> 37-40
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '青山水库': 0-4 -> 0-3
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '总库容': 4-7 -> 4-6
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '1200 万m³': 9-17 -> 9-16
+2026-01-21 11:26:32,460:WARNING: Span mismatch fixed for '启动防御超标准洪水预案': 0-11 -> 0-10
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '应急指挥机构': 16-22 -> 16-21
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '平均灌溉供水总量': 7-15 -> 7-14
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '年平均生态供水总量': 16-25 -> 16-24
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '大坝': 6-8 -> 6-7
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '溢洪道': 10-13 -> 10-12
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '输水设备': 15-19 -> 15-18
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '水位': 8-10 -> 8-9
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '112.3m': 14-20 -> 14-19
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '防灾预警线': 22-27 -> 22-26
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '坝高': 12-14 -> 12-13
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '总库容': 18-21 -> 18-20
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '40m': 14-17 -> 14-16
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '655万m³': 21-27 -> 21-26
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '浦江县西水东调管理处': 4-14 -> 4-13
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '浦江县水务局': 32-38 -> 32-37
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '库区': 0-2 -> 0-1
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '大坝': 17-19 -> 17-18
+2026-01-21 11:26:32,461:WARNING: Span mismatch fixed for '水政监察大队': 26-32 -> 26-31
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '巡查': 34-36 -> 34-35
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '水库水位': 2-6 -> 2-5
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '163m': 10-14 -> 10-13
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '水库坝前水位': 1-7 -> 1-6
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '超标准洪水': 11-16 -> 11-15
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '应急指挥机构': 59-65 -> 59-64
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '启动防御超标准洪水预案': 72-83 -> 72-82
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '排洪闸': 9-12 -> 9-11
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '开度及下泄流量': 17-24 -> 17-23
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '上报': 26-28 -> 26-27
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '镇三防办': 29-33 -> 29-32
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '白云水库': 0-4 -> 0-3
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '大坝': 28-30 -> 28-29
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '放水涵管': 31-35 -> 31-34
+2026-01-21 11:26:32,462:WARNING: Span mismatch fixed for '溢洪道': 36-39 -> 36-38
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '科学调蓄': 2-6 -> 2-5
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '补水': 17-19 -> 17-18
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '水库': 7-9 -> 7-8
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '下游河道': 13-17 -> 13-16
+2026-01-21 11:26:32,463:WARNING: Entity indices out of range after fix, skipping: 21-30 for '800 万立方米。' in text length 30
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '水库坝前水位': 1-7 -> 1-6
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '设计水位': 9-13 -> 9-12
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '防汛领导小组': 34-40 -> 34-39
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '向上级有关部门报告': 52-61 -> 52-60
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '启动上下游群众转移预案': 62-73 -> 62-72
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '三市镇人民政府': 12-19 -> 12-18
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '防汛抗旱指挥机构': 4-12 -> 4-11
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '外胡水库': 32-36 -> 32-35
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '水库水位': 2-6 -> 2-5
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '163m': 9-13 -> 9-12
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '葛岙水库': 51-55 -> 0-3
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '多年平均供水': 84-90 -> 84-89
+2026-01-21 11:26:32,463:WARNING: Span mismatch fixed for '优质水供水量': 99-105 -> 99-104
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '供水保证率': 118-123 -> 118-122
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '2800万m³': 91-98 -> 91-97
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '2272 万 m³/年': 106-117 -> 106-116
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '95%': 123-126 -> 123-125
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '万安水库': 1-5 -> 1-4
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '溢洪道': 37-40 -> 37-39
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '防洪限制水位': 9-15 -> 9-14
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '145.0m': 16-22 -> 16-21
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '市水务局': 26-30 -> 26-29
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '下达调度令': 30-35 -> 30-34
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '开启': 35-37 -> 35-36
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '外胡水库': 2-6 -> 2-5
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '浦阳江': 27-30 -> 27-29
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '坝底海拔高程': 11-17 -> 11-16
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '海拔高程': 31-35 -> 13-16
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '自然落差': 43-47 -> 43-46
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '318.12m': 18-25 -> 18-24
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '70.12m': 36-42 -> 36-41
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '248m': 48-52 -> 48-51
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '县防汛指挥部': 7-13 -> 7-12
+2026-01-21 11:26:32,464:WARNING: Span mismatch fixed for '应急抢险': 20-24 -> 20-23
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '信息报送': 25-29 -> 25-28
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '大坝': 10-12 -> 10-11
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '60.48m': 8-14 -> 8-13
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '50m³/s': 41-47 -> 41-46
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '水库最大下泄流量': 29-37 -> 29-36
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '编制': 12-14 -> 12-13
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '奉化区水利局': 35-41 -> 35-40
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '宁波市水利局': 46-52 -> 46-51
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '正常蓄水位': 12-17 -> 12-16
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '105.00m': 21-28 -> 21-27
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '60.68m': 10-16 -> 10-15
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '50m³/s': 30-36 -> 30-35
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '水库最大下泄流量': 19-27 -> 19-26
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '斗岭水库': 0-4 -> 0-3
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '汨罗江流域': 7-12 -> 7-11
+2026-01-21 11:26:32,465:WARNING: Span mismatch fixed for '水库控制集雨面积': 44-52 -> 44-51
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '水库总库容': 61-66 -> 61-65
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '正常蓄水位': 76-81 -> 76-80
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '20 年一遇设计洪水位': 91-102 -> 91-101
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '200年一遇校核洪水位': 112-123 -> 112-122
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '死水位': 132-135 -> 132-134
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '1.34 km²': 52-60 -> 52-59
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '44.30 万m³': 66-75 -> 66-74
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '97.48 m': 82-89 -> 82-88
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '97.21 m': 103-110 -> 103-109
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '97.51 m': 124-131 -> 124-130
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '89.36 m': 136-143 -> 136-142
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '水位': 1-3 -> 1-2
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '溢洪道': 19-22 -> 19-21
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '355.12m': 9-16 -> 9-15
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '防洪特征水位': 42-48 -> 42-47
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '上级主管部门': 7-13 -> 7-12
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '调蓄': 54-56 -> 54-55
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '大坝': 59-61 -> 59-60
+2026-01-21 11:26:32,466:WARNING: Span mismatch fixed for '坝址': 3-5 -> 3-4
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '防洪控制点': 6-11 -> 6-10
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '水库下泄流量': 29-35 -> 29-34
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '固定泄量调度': 42-48 -> 42-47
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '三市镇': 0-3 -> 0-2
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '斗岭水库': 4-8 -> 4-7
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '审批': 19-21 -> 19-20
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '协调': 28-30 -> 28-29
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '取水闸': 26-29 -> 26-28
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '死水位': 6-9 -> 6-8
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '85.0m': 10-15 -> 10-14
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '开启': 22-24 -> 22-23
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '启闭闸门': 22-26 -> 22-25
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '壶源江': 17-20 -> 17-19
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '主流长': 25-28 -> 25-27
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '集雨面积': 32-36 -> 32-35
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '8km': 28-31 -> 28-30
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '20.67km2': 36-44 -> 36-43
+2026-01-21 11:26:32,467:WARNING: Span mismatch fixed for '启闭机房': 12-16 -> 12-15
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '发电机组': 17-21 -> 17-20
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '镇三防指挥所': 40-46 -> 40-45
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '汛期水位': 1-5 -> 1-4
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '355.12m ': 11-19 -> 11-18
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '鹤山市址山镇三防指挥所': 6-17 -> 6-16
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '水库水位': 2-6 -> 2-5
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '200年一遇校核洪水位': 11-22 -> 11-21
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for ' 200 年一遇洪水位': 60-71 -> 60-70
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '165.82m': 22-29 -> 22-28
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '165.82m': 71-78 -> 22-28
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '水库及下游抗洪抢险工作': 32-43 -> 32-42
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '址山镇三防指挥': 44-51 -> 44-50
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '址山镇三防指挥所': 90-98 -> 44-51
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '市三防指挥部': 100-106 -> 100-105
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for ' 20 年一遇洪水位': 7-17 -> 7-16
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '水库最大下泄流量': 19-27 -> 19-26
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '50m³/s': 30-36 -> 30-35
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for '水库水位': 4-8 -> 4-7
+2026-01-21 11:26:32,468:WARNING: Span mismatch fixed for ' 338.12m': 9-17 -> 9-16
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '供水调度': 34-38 -> 34-37
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '东江干流': 15-19 -> 15-18
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '长山水库': 0-4 -> 0-3
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '1500': 24-28 -> 24-27
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '2000': 36-40 -> 36-39
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '最高水位': 38-42 -> 38-41
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '1000年一遇校核洪水位': 43-55 -> 43-54
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '66.33m': 56-62 -> 56-61
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '水库水位': 2-6 -> 2-5
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '20年一遇设计洪水位': 8-18 -> 8-17
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '200年一遇校核洪水位': 29-40 -> 29-39
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '溢洪水深': 49-53 -> 49-52
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '165.20m': 18-25 -> 18-24
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '165.82m': 41-48 -> 41-47
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '2.82m': 54-59 -> 54-58
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '水库防汛工作': 62-68 -> 62-67
+2026-01-21 11:26:32,469:WARNING: Span mismatch fixed for '址山镇三防指挥': 69-76 -> 69-75
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '雨量站': 10-13 -> 10-12
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '鹤山市气象站': 14-20 -> 14-19
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '水库防洪控制断面': 0-8 -> 0-7
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '安全泄量': 22-26 -> 22-25
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '10.75*1.7m': 10-20 -> 10-19
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '15.72   m3/s': 29-41 -> 29-40
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '校核洪水位': 17-22 -> 17-21
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '设计洪水位': 44-49 -> 44-48
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for ' 357.52m': 23-31 -> 23-30
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '356.86m': 50-57 -> 50-56
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '水库库水位': 1-6 -> 1-5
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '库内水位': 45-49 -> 45-48
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '96.39 m': 8-15 -> 8-14
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for ' 50 （mm）': 28-36 -> 28-35
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '95.39 m': 52-59 -> 52-58
+2026-01-21 11:26:32,470:WARNING: Span mismatch fixed for '预报降雨': 22-26 -> 22-25
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '水库水位': 3-7 -> 3-6
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '防限水位': 53-57 -> 53-56
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '163m': 10-14 -> 10-13
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '镇三防指挥所': 37-43 -> 37-42
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '每隔一小时将水库水位、降雨量等情况报告': 18-37 -> 18-36
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '水库': 33-35 -> 33-34
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for ' 60.48m': 9-16 -> 9-15
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '60.68m': 25-31 -> 25-30
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '关闸蓄洪': 35-39 -> 35-38
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '葛岙水库': 3-7 -> 3-6
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '水位': 1-3 -> 1-2
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '水底孔': 27-30 -> 27-29
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '165.50m': 6-13 -> 6-12
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '开启': 24-26 -> 24-25
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '排沙': 30-32 -> 30-31
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '库水位': 9-12 -> 9-11
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '水库': 40-42 -> 40-41
+2026-01-21 11:26:32,471:WARNING: Span mismatch fixed for '下泄': 35-37 -> 35-36
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '汛限水位': 45-49 -> 45-48
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '水库水位': 5-9 -> 5-8
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '汛限水位': 16-20 -> 16-19
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '65.5m': 21-26 -> 21-25
+2026-01-21 11:26:32,472:WARNING: Entity indices out of range after fix, skipping: 40-42 for '' in text length 38
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '库水位': 27-30 -> 27-29
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '校核洪水标': 19-24 -> 19-23
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '66.33m': 31-37 -> 31-36
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '泄洪': 49-51 -> 49-50
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '库水位': 1-4 -> 1-3
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '150m': 7-11 -> 7-10
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '155m': 14-18 -> 14-17
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '采取错峰调度': 23-29 -> 23-28
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '平江县防汛抗旱指挥部': 0-10 -> 0-9
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '斗岭水库': 11-15 -> 11-14
+2026-01-21 11:26:32,472:WARNING: Span mismatch fixed for '审批': 34-36 -> 34-35
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '外胡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '杭坪镇外胡村': 9-15 -> 9-14
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '库水位': 29-32 -> 29-31
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '60.00m': 34-40 -> 34-39
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '20mm': 50-54 -> 50-53
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '县江': 2-4 -> 2-3
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '横山水库': 50-54 -> 50-53
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '河床': 38-40 -> 38-39
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '高程': 50-52 -> 50-51
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '10～35m': 43-49 -> 43-48
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '65.0～36.0m': 55-65 -> 55-64
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '外胡水库': 2-6 -> 2-5
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '金坑岭水库': 22-27 -> 22-26
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '壶源江电站': 28-33 -> 28-32
+2026-01-21 11:26:32,473:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '水库': 23-25 -> 2-3
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '横山水库': 16-20 -> 16-19
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '灌溉面积': 52-56 -> 52-55
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '3766亩': 57-62 -> 57-61
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '集雨面积': 13-17 -> 13-16
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '集雨面积': 39-43 -> 13-16
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '控制泄量': 68-72 -> 68-71
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '56.5km²': 19-26 -> 19-25
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '47.97km²': 44-52 -> 44-51
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '300m³/s': 73-80 -> 73-79
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '鄞江': 0-2 -> 0-1
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '周公宅水库': 43-48 -> 43-47
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '皎口水库': 49-53 -> 49-52
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '河长': 15-17 -> 15-16
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '69km': 17-21 -> 17-20
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '设计洪水位': 11-16 -> 11-15
+2026-01-21 11:26:32,474:WARNING: Span mismatch fixed for '校核洪水位': 32-37 -> 32-36
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for ' 65.31m': 16-23 -> 16-22
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '66.33m': 38-44 -> 38-43
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '调度运行管理工作': 6-14 -> 6-13
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '水库设计防洪标准': 3-11 -> 3-10
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '水位': 19-21 -> 19-20
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '溢洪道': 32-35 -> 32-34
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '355.12m': 23-30 -> 23-29
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '葛岙水库': 0-4 -> 0-3
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '库水位': 16-19 -> 16-18
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '64.73～60.00m': 25-37 -> 25-36
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for ' 64.73～62.00m ': 43-57 -> 43-56
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '水位': 1-3 -> 1-2
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '紧急水位': 5-9 -> 5-8
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '指挥所全体人员及物资进入现场': 11-25 -> 11-24
+2026-01-21 11:26:32,475:WARNING: Span mismatch fixed for '并通知下游作好防洪避险准备': 26-39 -> 26-38
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '水库': 19-21 -> 19-20
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '61.22m': 10-16 -> 10-15
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '加大下泄流量': 23-29 -> 23-28
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '敞泄': 35-37 -> 35-36
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '调度': 3-5 -> 3-4
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '鹤山市址山镇三防指挥所': 7-18 -> 7-17
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '东江': 2-4 -> 2-3
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '山顶高程': 26-30 -> 26-29
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '岸坡坡度': 42-46 -> 42-45
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '120～600m': 33-41 -> 33-40
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '10～35°': 48-54 -> 48-53
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '编制相应的调度方案': 28-37 -> 28-36
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '枢纽工程': 0-4 -> 0-3
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '非溢流坝': 7-11 -> 7-10
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '溢洪道': 12-15 -> 12-14
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '灌溉电站': 18-22 -> 18-21
+2026-01-21 11:26:32,476:WARNING: Span mismatch fixed for '水库': 13-15 -> 0-1
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '防洪调度': 51-55 -> 51-54
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '兴利调度': 56-60 -> 56-59
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '库水位': 4-7 -> 4-6
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for ' 62.99m ': 9-17 -> 9-16
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '64.73m': 25-31 -> 25-30
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '水库关闸蓄洪': 33-39 -> 33-38
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '大坝': 14-16 -> 14-15
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '撤离预警': 23-27 -> 23-26
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '外胡水库': 3-7 -> 3-6
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '金坑岭水库': 9-14 -> 9-13
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '年平均供水总量': 25-32 -> 25-31
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for ' 868 万 m3': 34-43 -> 34-42
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '水库水位': 2-6 -> 2-5
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '正常水位': 8-12 -> 8-11
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '20年一遇设计洪水位': 19-29 -> 19-28
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '溢洪水深': 37-41 -> 37-40
+2026-01-21 11:26:32,477:WARNING: Span mismatch fixed for '163m': 12-16 -> 12-15
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '165.20m': 29-36 -> 29-35
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '2.20m': 41-46 -> 41-45
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '水库防汛工作': 50-56 -> 50-55
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '址山镇三防指挥所': 57-65 -> 57-64
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '水情中心站': 13-18 -> 13-17
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '水情中心站': 27-32 -> 13-17
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '遥测站': 23-26 -> 23-25
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '渡头村': 0-3 -> 0-2
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '斗岭水库': 4-8 -> 4-7
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '执行': 38-40 -> 38-39
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '控制水位': 6-10 -> 6-9
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '355.12m': 14-21 -> 14-20
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '355.12m': 25-32 -> 14-20
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '水库水位': 1-5 -> 1-4
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '水库水位': 79-83 -> 1-4
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '62.99m': 8-14 -> 8-13
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for ' 300m³/s ': 43-52 -> 43-51
+2026-01-21 11:26:32,478:WARNING: Span mismatch fixed for '50m³/s': 71-77 -> 71-76
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '62.99～64.73m': 86-98 -> 86-97
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '下游下王控制断面安全泄量': 31-43 -> 31-42
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '最大下泄流量': 61-67 -> 61-66
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '关闸蓄洪': 115-119 -> 115-118
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '水库': 3-5 -> 3-4
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '库水位': 25-28 -> 25-27
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '设计洪水标准': 17-23 -> 17-22
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '65.31m': 29-35 -> 29-34
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '全开泄洪': 40-44 -> 40-43
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '剡江': 2-4 -> 2-3
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '亭下水库': 43-47 -> 43-46
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '鹤山市址山镇三防指挥所': 0-11 -> 0-10
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '组织协调有关职能部门工作': 62-74 -> 62-73
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '防洪限制水位': 13-19 -> 13-18
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '96.39m': 20-26 -> 20-25
+2026-01-21 11:26:32,479:WARNING: Span mismatch fixed for '梅汛期限制水位': 28-35 -> 28-34
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '台汛期限制水位': 43-50 -> 43-49
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '批复水位': 53-57 -> 53-56
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '非汛期正常蓄水位': 81-89 -> 81-88
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '60.00m': 36-42 -> 36-41
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '60.00m': 58-64 -> 36-41
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '62.00m': 91-97 -> 91-96
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '奉化江': 0-3 -> 0-2
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '海拔': 64-66 -> 64-65
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '976m': 67-71 -> 67-70
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '水库管理及水库调度': 0-9 -> 0-8
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '妥善保管水库调度运行有关资料并归档': 66-83 -> 66-82
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '上级主管部门': 59-65 -> 59-64
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '水库主流长': 0-5 -> 0-4
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '集雨面积': 9-13 -> 9-12
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '8km': 5-8 -> 5-7
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '20.67km2': 13-21 -> 13-20
+2026-01-21 11:26:32,480:WARNING: Span mismatch fixed for '控制蓄水位': 3-8 -> 3-7
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '62.00m': 9-15 -> 9-14
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 3-7 -> 3-6
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 36-40 -> 3-6
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '开发利用': 23-27 -> 23-26
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '保护': 28-30 -> 28-29
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 6-10 -> 6-9
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水利枢纽': 13-19 -> 13-18
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡库区': 32-36 -> 32-35
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 4-8 -> 4-7
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 13-17 -> 4-7
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 55-59 -> 0-3
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '三峡水库': 5-9 -> 5-8
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '统一调度': 12-16 -> 12-15
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,481:WARNING: Span mismatch fixed for '水利部': 19-22 -> 19-21
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水库': 28-32 -> 28-31
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '地方人民政府': 11-17 -> 11-16
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '水行政主管部门': 17-24 -> 17-23
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡库区': 40-44 -> 40-43
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡库区': 23-27 -> 23-26
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '湖北省人民政府': 21-28 -> 21-27
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水库': 30-34 -> 30-33
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水利枢纽': 0-6 -> 0-5
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '国家防汛抗旱指挥机构': 12-22 -> 12-21
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '长江防汛抗旱指挥机构': 24-34 -> 24-33
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '负责三峡水库防洪调度的实施': 50-63 -> 50-62
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水利枢纽管理单位': 11-21 -> 11-20
+2026-01-21 11:26:32,482:WARNING: Span mismatch fixed for '三峡水库': 61-65 -> 61-64
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '三峡库区': 0-4 -> 0-3
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '国家防汛抗旱指挥机构': 17-27 -> 17-26
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '长江防汛抗旱指挥机构': 29-39 -> 29-38
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '三峡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '长江水利委员会': 15-22 -> 15-21
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '湖北省人民政府': 27-34 -> 27-33
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '三峡水利枢纽管理单位': 0-10 -> 0-9
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '水库大坝': 31-35 -> 31-34
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '养护修理工作': 67-73 -> 67-72
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '长江水利委员': 5-11 -> 5-10
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '三峡水利枢纽': 17-23 -> 17-22
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '三峡库区': 3-7 -> 3-6
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '地方人民政府': 44-50 -> 44-49
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '水行政主管部门': 50-57 -> 50-56
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '长江水利委员会': 59-66 -> 59-65
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '三峡库区': 0-4 -> 0-3
+2026-01-21 11:26:32,483:WARNING: Span mismatch fixed for '水利部组织': 12-17 -> 12-16
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '国务院': 21-24 -> 21-23
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡库区': 22-26 -> 22-25
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡库区': 1-5 -> 1-4
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡库区': 22-26 -> 1-4
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡库区': 3-7 -> 3-6
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '排放': 7-9 -> 7-8
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '倾倒': 10-12 -> 10-11
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡库区': 1-5 -> 1-4
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '水行政主管部门': 53-60 -> 53-59
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '长江水利委员会': 62-69 -> 62-68
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '水行政主管部门': 22-29 -> 22-28
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '湖北省人民政府': 53-60 -> 15-21
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡水库': 32-36 -> 32-35
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '三峡水库': 1-5 -> 1-4
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '地方人民政府': 46-52 -> 46-51
+2026-01-21 11:26:32,484:WARNING: Span mismatch fixed for '水行政主管部门': 52-59 -> 52-58
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '长江水利委员会': 61-68 -> 61-67
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡库区': 0-4 -> 0-3
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡库区': 20-24 -> 0-3
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水库': 53-57 -> 53-56
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '地方人民政府': 28-34 -> 28-33
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '水行政主管部门': 34-41 -> 34-40
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡库区': 0-4 -> 0-3
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水库': 33-37 -> 33-36
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水库': 0-4 -> 0-3
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水库': 15-19 -> 0-3
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '弃置': 3-5 -> 3-4
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '堆放': 6-8 -> 6-7
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '人民政府水行政主管部门': 50-61 -> 50-60
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水利枢纽': 0-6 -> 0-5
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '三峡水库': 22-26 -> 22-25
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '水利部': 45-48 -> 45-47
+2026-01-21 11:26:32,485:WARNING: Span mismatch fixed for '长江水利委员会': 50-57 -> 50-56
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '三峡库区': 5-9 -> 5-8
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '三峡水库': 12-16 -> 12-15
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '校核洪水位': 16-21 -> 16-20
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '审批机关': 0-4 -> 0-3
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '分包': 10-12 -> 10-11
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '检测': 16-18 -> 16-17
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '签字盖章': 17-21 -> 17-20
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '流域管理机构': 0-6 -> 0-5
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '监督检查': 27-31 -> 27-30
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '人民政府水行政主管部门': 24-35 -> 24-34
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '没收': 47-49 -> 47-48
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '使用': 3-5 -> 3-4
+2026-01-21 11:26:32,486:WARNING: Span mismatch fixed for '上报': 7-9 -> 7-8
+2026-01-21 11:26:32,487:WARNING: Span mismatch fixed for '签字盖章': 15-19 -> 15-18
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '检测': 15-17 -> 15-16
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '人民政府水行政主管部门': 28-39 -> 28-38
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '人民政府水行政主管部门': 4-15 -> 4-14
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '流域管理机构': 16-22 -> 16-21
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '上级行政机关': 40-46 -> 40-45
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '监察机关': 48-52 -> 48-51
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '水利工程质量检测单位': 0-10 -> 0-9
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '调节': 40-42 -> 40-41
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '控制': 43-45 -> 43-44
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '分配': 46-48 -> 46-47
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '调度': 3-5 -> 3-4
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '调度': 21-23 -> 3-4
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '开展水资源调度': 0-7 -> 0-6
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '水库': 11-13 -> 11-12
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '闸坝': 14-16 -> 14-15
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '水电站': 17-20 -> 17-19
+2026-01-21 11:26:32,488:WARNING: Span mismatch fixed for '水利部组织': 0-5 -> 0-4
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '开展水资源调度': 9-16 -> 9-15
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '省级水行政主管部门': 0-9 -> 0-8
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '水利部': 43-46 -> 43-45
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '开展水资源调度': 19-26 -> 19-25
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '流域管理机构': 0-6 -> 0-5
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '地方水行政主管部门': 11-20 -> 11-19
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '下达': 51-53 -> 51-52
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '水资源调度': 0-5 -> 0-4
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '洪水调度': 10-14 -> 10-13
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '水行政主管部门': 0-7 -> 0-6
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '流域管理机构': 9-15 -> 9-14
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '统筹': 21-23 -> 21-22
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '征求': 40-42 -> 40-41
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '调水冲污': 2-6 -> 2-5
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '流域管理机构': 0-6 -> 0-5
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '水利部': 34-37 -> 34-36
+2026-01-21 11:26:32,489:WARNING: Span mismatch fixed for '报送': 37-39 -> 37-38
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '水工程管理单位': 7-14 -> 7-13
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '报送': 20-22 -> 20-21
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '流域管理机构': 4-10 -> 4-9
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '地方水行政主管部门': 15-24 -> 15-23
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '地方人民政府': 53-59 -> 53-58
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '有关主管部门': 61-67 -> 61-66
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '江河流域': 27-31 -> 27-30
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '通报': 49-51 -> 49-50
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '监督检查': 19-23 -> 19-22
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '水行政主管部门': 24-31 -> 24-30
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '流域管理机构': 32-38 -> 32-37
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '调度执行单位': 0-6 -> 0-5
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '水库运行管理单位': 19-27 -> 19-26
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '执行': 10-12 -> 2-3
+2026-01-21 11:26:32,490:WARNING: Span mismatch fixed for '水库': 0-2 -> 0-1
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '三峡水库': 23-27 -> 23-26
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '丹江口水库': 28-33 -> 28-32
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '水利部': 34-37 -> 34-36
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '水利部': 77-80 -> 34-36
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '长江水利委员会': 38-45 -> 38-44
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '报送': 93-95 -> 93-94
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '汛期水库水位': 0-6 -> 0-5
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '防洪限制水位': 9-15 -> 9-14
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '实施': 19-21 -> 19-20
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '调度': 38-40 -> 23-24
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '水库运行管理单位': 28-36 -> 28-35
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '蓄滞洪区': 0-4 -> 0-3
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '荆江分洪区': 25-30 -> 25-29
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '水利部': 35-38 -> 35-37
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '报送': 51-53 -> 51-52
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '蓄滞洪区': 5-9 -> 5-8
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '蓄滞洪区': 22-26 -> 5-8
+2026-01-21 11:26:32,491:WARNING: Span mismatch fixed for '长江水利委员会': 14-21 -> 14-20
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '省级人民政府': 29-35 -> 29-34
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '水利部': 40-43 -> 40-42
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '长江水利委员': 49-55 -> 14-19
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '提出': 55-57 -> 55-56
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '报送': 68-70 -> 68-69
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '执行': 73-75 -> 73-74
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '省级人民政府': 0-6 -> 0-5
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '水行政主管部门': 6-13 -> 6-12
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '水利部': 26-29 -> 26-28
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '长江水利委员会': 30-37 -> 30-36
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '长江水利委员会': 49-56 -> 49-55
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '省级人民政府水行政主管部门': 58-71 -> 58-70
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '启动': 86-88 -> 86-87
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '组织': 9-11 -> 9-10
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '省级人民政府水行政主管部门': 0-13 -> 0-12
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,492:WARNING: Span mismatch fixed for '组织开展': 13-17 -> 13-16
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '长江水利委员会': 0-7 -> 0-6
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '省级人民政府水行政主管部门': 14-27 -> 14-26
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '长江流域': 8-12 -> 8-11
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '报送': 41-43 -> 41-42
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '三峡水库': 3-7 -> 3-6
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '丹江口水库': 8-13 -> 8-12
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '水利部': 14-17 -> 14-16
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '水利部': 57-60 -> 14-16
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '长江水利委员': 18-24 -> 18-23
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '实施调度': 33-37 -> 33-36
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '报送': 73-75 -> 73-74
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '荆江分洪区': 3-8 -> 3-7
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '水利部': 13-16 -> 13-15
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '报送': 29-31 -> 29-30
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '执行': 34-36 -> 34-35
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '长江中下游': 3-8 -> 3-7
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '长江水利委员会': 22-29 -> 22-28
+2026-01-21 11:26:32,493:WARNING: Span mismatch fixed for '调度': 31-33 -> 31-32
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '钱塘江流域': 9-14 -> 9-13
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '新安江水库': 15-20 -> 15-19
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '国务院': 24-27 -> 24-26
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '省水利厅': 50-54 -> 50-53
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '汛限水位': 41-45 -> 41-44
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '新安江水库': 1-6 -> 1-5
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '新安江水库': 84-89 -> 1-5
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '104.5米': 10-16 -> 10-15
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '上涨': 22-24 -> 22-23
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '省防指': 26-29 -> 26-28
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '省应急管理厅': 35-41 -> 35-40
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '省水利厅': 42-46 -> 42-45
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '国家电网有限公司华东分部': 47-59 -> 47-58
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '杭州市林业水利局': 60-68 -> 60-67
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '建德市水利局': 69-75 -> 69-74
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '富春江水库': 0-5 -> 0-4
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '分水江水库': 13-18 -> 13-17
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '省水利厅': 23-27 -> 23-26
+2026-01-21 11:26:32,494:WARNING: Span mismatch fixed for '分水江水库': 0-5 -> 0-4
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '桐庐县林业水利局': 17-25 -> 17-24
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '湖南镇水库': 0-5 -> 0-4
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '预泄': 5-7 -> 5-6
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '衢州市水利局': 17-23 -> 17-22
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '苕溪流域': 0-4 -> 0-3
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '青山水库': 5-9 -> 5-8
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '州市林业水利局': 35-42 -> 35-41
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '赋石水库': 0-4 -> 0-3
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '老石坎水库': 5-10 -> 5-9
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '河口水库': 12-16 -> 12-15
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '湖州市水利局': 21-27 -> 21-26
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '盐官上河闸': 0-5 -> 0-4
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '长山河枢纽': 6-11 -> 6-10
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '南台头枢纽': 12-17 -> 12-16
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '盐官枢纽': 18-22 -> 18-21
+2026-01-21 11:26:32,495:WARNING: Span mismatch fixed for '独山枢纽': 23-27 -> 23-26
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '嘉兴市水利局': 30-36 -> 30-35
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '甬江流域': 0-4 -> 0-3
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '白溪': 5-7 -> 5-6
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '皎口': 8-10 -> 8-9
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '周公宅水库': 11-16 -> 11-15
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '宁波市水利局': 21-27 -> 21-26
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '临海西门站': 0-5 -> 0-4
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '牛头山水库': 15-20 -> 15-19
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '里石门水库': 34-39 -> 34-38
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '下岸水库': 53-57 -> 53-56
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '临海市水利局': 25-31 -> 25-30
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '天台县水利局': 44-50 -> 44-49
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '仙居县水利局': 62-68 -> 62-67
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '临海西门站': 0-5 -> 0-4
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '牛头山、里石门、下岸水库': 15-27 -> 15-26
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '台州市水利局': 32-38 -> 32-37
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '瓯江流域': 0-4 -> 0-3
+2026-01-21 11:26:32,496:WARNING: Span mismatch fixed for '青田鹤城站': 6-11 -> 6-10
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '滩坑': 20-22 -> 20-21
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '紧水滩水库': 23-28 -> 23-27
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '预泄': 29-31 -> 29-30
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '防洪调度': 32-36 -> 32-35
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '丽水市水利局': 37-43 -> 37-42
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '青田鹤城站': 1-6 -> 1-5
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '滩坑': 15-17 -> 15-16
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '紧水滩水库': 18-23 -> 18-22
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '防洪调度': 24-28 -> 24-27
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '省水利厅': 29-33 -> 29-32
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '飞云江流域': 0-5 -> 0-4
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '珊溪水库': 6-10 -> 6-9
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '防洪调度': 10-14 -> 10-13
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '实施': 21-23 -> 21-22
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '温州市水利局': 15-21 -> 15-20
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '姚江上游': 8-12 -> 8-11
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '梁湖枢纽': 20-24 -> 20-23
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '省水利厅': 27-31 -> 27-30
+2026-01-21 11:26:32,497:WARNING: Span mismatch fixed for '预泄调度': 2-6 -> 2-5
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '预泄调度': 38-42 -> 2-5
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '水库': 13-15 -> 13-14
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '水闸': 16-18 -> 16-17
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '泵站': 19-21 -> 19-20
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '水库': 0-2 -> 0-1
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '预泄调度': 21-25 -> 21-24
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '水库': 0-2 -> 0-1
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '防洪调度': 2-6 -> 2-5
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '蓄放水': 6-9 -> 6-8
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '发布': 25-27 -> 25-26
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '钱塘江流域': 0-5 -> 0-4
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '新安江水库': 6-11 -> 6-10
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '预泄': 11-13 -> 11-12
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '调度': 38-40 -> 38-39
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '国务院': 15-18 -> 15-17
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '省水利厅': 41-45 -> 41-44
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '主汛期汛限水位': 29-36 -> 29-35
+2026-01-21 11:26:32,498:WARNING: Span mismatch fixed for '防洪': 2-4 -> 2-3
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '预泄': 25-27 -> 25-26
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '预泄': 32-34 -> 25-26
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水库': 7-9 -> 7-8
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水闸': 10-12 -> 10-11
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '泵站': 13-15 -> 13-14
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水库': 0-2 -> 0-1
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '三峡水库': 24-28 -> 24-27
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '丹江口水库': 29-34 -> 29-33
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '防洪调度': 3-7 -> 3-6
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '实施调度': 54-58 -> 54-57
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '提出': 81-83 -> 81-82
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '报送': 94-96 -> 94-95
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水利部': 35-38 -> 35-37
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水利部': 78-81 -> 35-37
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '长江水利委员': 39-45 -> 39-44
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水利部': 55-58 -> 0-2
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '省级人民政府水行政主管部门': 24-37 -> 24-36
+2026-01-21 11:26:32,499:WARNING: Span mismatch fixed for '水利部': 26-29 -> 26-28
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '地方人民政府水行政主管部门': 32-45 -> 32-44
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '启动': 55-57 -> 55-56
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库': 6-8 -> 6-7
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '堤防': 9-11 -> 9-10
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水闸': 12-14 -> 12-13
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '执行': 31-33 -> 31-32
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库': 5-7 -> 5-6
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '大坝': 23-25 -> 23-24
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '库区': 26-28 -> 26-27
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '总库容': 10-13 -> 10-12
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '10万立方米': 13-19 -> 13-18
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库管理单位': 0-6 -> 0-5
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水行政主管部门': 28-35 -> 28-34
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库': 13-15 -> 0-1
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库': 53-55 -> 0-1
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '防洪调度': 36-40 -> 36-39
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库管理单位': 0-6 -> 0-5
+2026-01-21 11:26:32,500:WARNING: Span mismatch fixed for '水库': 41-43 -> 0-1
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '防洪调度': 43-47 -> 43-46
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '防洪': 11-13 -> 11-12
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '灌溉': 14-16 -> 14-15
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '供水': 17-19 -> 17-18
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '提出': 22-24 -> 22-23
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '水利部': 0-3 -> 0-2
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '监督检查': 38-42 -> 38-41
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '水资源调度': 2-7 -> 2-6
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '水库': 11-13 -> 11-12
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '闸坝': 14-16 -> 14-15
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '水电站': 17-20 -> 17-19
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '采取': 8-10 -> 8-9
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '统筹开展': 52-56 -> 52-55
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '地方人民政府水行政主管部门': 22-35 -> 22-34
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '水工程管理单位': 0-7 -> 0-6
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '调度': 25-27 -> 25-26
+2026-01-21 11:26:32,501:WARNING: Span mismatch fixed for '长江委': 0-3 -> 0-2
+2026-01-21 11:26:32,502:WARNING: Span mismatch fixed for '省级人民政府水行政主管部门': 4-17 -> 4-16
+2026-01-21 11:26:32,502:WARNING: Span mismatch fixed for '组织开展': 25-29 -> 25-28
+2026-01-21 11:26:32,502:WARNING: Span mismatch fixed for '长江委': 0-3 -> 0-2
+2026-01-21 11:26:32,502:WARNING: Span mismatch fixed for '水利部': 31-34 -> 31-33
+2026-01-21 11:26:32,502:WARNING: Span mismatch fixed for '有序调水': 15-19 -> 15-18
+2026-01-21 11:26:32,502:WARNING: Span mismatch fixed for '水利部': 20-23 -> 20-22
+2026-01-21 11:26:32,521:INFO: -------- admin data process DONE!--------
+2026-01-21 11:26:32,525:INFO: -------- Vocabulary Loaded! --------
+2026-01-21 11:26:52,020:INFO: device: cuda:0
+2026-01-21 11:26:52,025:INFO: -------- Vocabulary Loaded! --------
+2026-01-21 11:26:52,841:INFO: -------- Process Done! --------
+2026-01-21 11:26:52,842:INFO: -------- Process Done! --------
+2026-01-21 11:26:56,189:INFO: epoch: 1, train loss: 3246.55458984375
+2026-01-21 11:26:56,314:INFO: epoch: 1, f1 score: 0.0, dev loss: 1107.2911376953125
+2026-01-21 11:26:57,279:INFO: epoch: 2, train loss: 1938.5293579101562
+2026-01-21 11:26:57,407:INFO: epoch: 2, f1 score: 0.0, dev loss: 904.5496215820312
+2026-01-21 11:26:58,338:INFO: epoch: 3, train loss: 1614.0037719726563
+2026-01-21 11:26:58,462:INFO: epoch: 3, f1 score: 0.05917159763313609, dev loss: 758.0531005859375
+2026-01-21 11:26:58,545:INFO: --------Save best model!--------
+2026-01-21 11:26:59,470:INFO: epoch: 4, train loss: 1376.5266052246093
+2026-01-21 11:26:59,589:INFO: epoch: 4, f1 score: 0.18749999999999997, dev loss: 636.075439453125
+2026-01-21 11:26:59,671:INFO: --------Save best model!--------
+2026-01-21 11:27:00,653:INFO: epoch: 5, train loss: 1178.0640869140625
+2026-01-21 11:27:00,771:INFO: epoch: 5, f1 score: 0.2272727272727273, dev loss: 558.9715576171875
+2026-01-21 11:27:00,844:INFO: --------Save best model!--------
+2026-01-21 11:27:01,825:INFO: epoch: 6, train loss: 1028.1648803710937
+2026-01-21 11:27:01,947:INFO: epoch: 6, f1 score: 0.2111111111111111, dev loss: 524.7175903320312
+2026-01-21 11:27:02,868:INFO: epoch: 7, train loss: 926.474560546875
+2026-01-21 11:27:03,015:INFO: epoch: 7, f1 score: 0.3350785340314136, dev loss: 469.31390380859375
+2026-01-21 11:27:03,093:INFO: --------Save best model!--------
+2026-01-21 11:27:04,031:INFO: epoch: 8, train loss: 816.265673828125
+2026-01-21 11:27:04,154:INFO: epoch: 8, f1 score: 0.3211009174311926, dev loss: 444.9489440917969
+2026-01-21 11:27:05,136:INFO: epoch: 9, train loss: 734.312744140625
+2026-01-21 11:27:05,278:INFO: epoch: 9, f1 score: 0.2882882882882883, dev loss: 402.1002197265625
+2026-01-21 11:27:06,240:INFO: epoch: 10, train loss: 631.6622924804688
+2026-01-21 11:27:06,387:INFO: epoch: 10, f1 score: 0.32673267326732675, dev loss: 391.8685302734375
+2026-01-21 11:27:07,356:INFO: epoch: 11, train loss: 543.9752655029297
+2026-01-21 11:27:07,498:INFO: epoch: 11, f1 score: 0.32710280373831774, dev loss: 363.07843017578125
+2026-01-21 11:27:08,452:INFO: epoch: 12, train loss: 485.7655822753906
+2026-01-21 11:27:08,571:INFO: epoch: 12, f1 score: 0.36199095022624433, dev loss: 362.4249572753906
+2026-01-21 11:27:08,649:INFO: --------Save best model!--------
+2026-01-21 11:27:09,608:INFO: epoch: 13, train loss: 441.6407501220703
+2026-01-21 11:27:09,732:INFO: epoch: 13, f1 score: 0.3962264150943397, dev loss: 369.48919677734375
+2026-01-21 11:27:09,811:INFO: --------Save best model!--------
+2026-01-21 11:27:10,768:INFO: epoch: 14, train loss: 396.18170471191405
+2026-01-21 11:27:10,886:INFO: epoch: 14, f1 score: 0.4039408866995074, dev loss: 384.7757568359375
+2026-01-21 11:27:10,958:INFO: --------Save best model!--------
+2026-01-21 11:27:11,946:INFO: epoch: 15, train loss: 366.6654846191406
+2026-01-21 11:27:12,064:INFO: epoch: 15, f1 score: 0.403755868544601, dev loss: 389.2689514160156
+2026-01-21 11:27:13,022:INFO: epoch: 16, train loss: 314.78094482421875
+2026-01-21 11:27:13,149:INFO: epoch: 16, f1 score: 0.4495412844036698, dev loss: 388.9931640625
+2026-01-21 11:27:13,233:INFO: --------Save best model!--------
+2026-01-21 11:27:14,218:INFO: epoch: 17, train loss: 281.10987396240233
+2026-01-21 11:27:14,338:INFO: epoch: 17, f1 score: 0.4174757281553398, dev loss: 390.810302734375
+2026-01-21 11:27:15,295:INFO: epoch: 18, train loss: 256.3516906738281
+2026-01-21 11:27:15,418:INFO: epoch: 18, f1 score: 0.4356435643564356, dev loss: 383.13525390625
+2026-01-21 11:27:16,366:INFO: epoch: 19, train loss: 222.42135620117188
+2026-01-21 11:27:16,514:INFO: epoch: 19, f1 score: 0.49514563106796117, dev loss: 383.5236511230469
+2026-01-21 11:27:16,594:INFO: --------Save best model!--------
+2026-01-21 11:27:17,565:INFO: epoch: 20, train loss: 197.68128204345703
+2026-01-21 11:27:17,688:INFO: epoch: 20, f1 score: 0.4827586206896552, dev loss: 379.62646484375
+2026-01-21 11:27:18,666:INFO: epoch: 21, train loss: 173.74805145263673
+2026-01-21 11:27:18,804:INFO: epoch: 21, f1 score: 0.5145631067961165, dev loss: 386.2547912597656
+2026-01-21 11:27:18,883:INFO: --------Save best model!--------
+2026-01-21 11:27:19,872:INFO: epoch: 22, train loss: 164.08940887451172
+2026-01-21 11:27:19,993:INFO: epoch: 22, f1 score: 0.48113207547169806, dev loss: 395.0022277832031
+2026-01-21 11:27:20,898:INFO: epoch: 23, train loss: 146.63573760986327
+2026-01-21 11:27:21,039:INFO: epoch: 23, f1 score: 0.522167487684729, dev loss: 408.9302978515625
+2026-01-21 11:27:21,115:INFO: --------Save best model!--------
+2026-01-21 11:27:22,046:INFO: epoch: 24, train loss: 138.83551025390625
+2026-01-21 11:27:22,170:INFO: epoch: 24, f1 score: 0.49302325581395345, dev loss: 407.24652099609375
+2026-01-21 11:27:23,118:INFO: epoch: 25, train loss: 132.61456451416015
+2026-01-21 11:27:23,235:INFO: epoch: 25, f1 score: 0.522167487684729, dev loss: 391.6715393066406
+2026-01-21 11:27:24,204:INFO: epoch: 26, train loss: 115.04316635131836
+2026-01-21 11:27:24,349:INFO: epoch: 26, f1 score: 0.5070422535211268, dev loss: 424.9752197265625
+2026-01-21 11:27:25,299:INFO: epoch: 27, train loss: 101.92731170654297
+2026-01-21 11:27:25,439:INFO: epoch: 27, f1 score: 0.5288461538461539, dev loss: 425.7909851074219
+2026-01-21 11:27:25,518:INFO: --------Save best model!--------
+2026-01-21 11:27:26,413:INFO: epoch: 28, train loss: 94.3968894958496
+2026-01-21 11:27:26,535:INFO: epoch: 28, f1 score: 0.5507246376811594, dev loss: 433.2258605957031
+2026-01-21 11:27:26,614:INFO: --------Save best model!--------
+2026-01-21 11:27:27,566:INFO: epoch: 29, train loss: 87.61756896972656
+2026-01-21 11:27:27,691:INFO: epoch: 29, f1 score: 0.5402843601895734, dev loss: 424.396728515625
+2026-01-21 11:27:28,657:INFO: epoch: 30, train loss: 83.55749969482422
+2026-01-21 11:27:28,803:INFO: epoch: 30, f1 score: 0.5656565656565656, dev loss: 458.23406982421875
+2026-01-21 11:27:28,876:INFO: --------Save best model!--------
+2026-01-21 11:27:29,857:INFO: epoch: 31, train loss: 73.94515991210938
+2026-01-21 11:27:29,974:INFO: epoch: 31, f1 score: 0.5288461538461539, dev loss: 453.5093994140625
+2026-01-21 11:27:30,901:INFO: epoch: 32, train loss: 62.90685119628906
+2026-01-21 11:27:31,048:INFO: epoch: 32, f1 score: 0.5294117647058822, dev loss: 473.3447265625
+2026-01-21 11:27:31,970:INFO: epoch: 33, train loss: 65.80633163452148
+2026-01-21 11:27:32,108:INFO: epoch: 33, f1 score: 0.537037037037037, dev loss: 458.5387268066406
+2026-01-21 11:27:33,105:INFO: epoch: 34, train loss: 64.16440048217774
+2026-01-21 11:27:33,223:INFO: epoch: 34, f1 score: 0.5560975609756098, dev loss: 468.3070068359375
+2026-01-21 11:27:34,205:INFO: epoch: 35, train loss: 53.59152374267578
+2026-01-21 11:27:34,349:INFO: epoch: 35, f1 score: 0.530232558139535, dev loss: 486.43377685546875
+2026-01-21 11:27:34,349:INFO: Best val f1: 0.5656565656565656
+2026-01-21 11:27:34,349:INFO: Training Finished!
+2026-01-21 11:27:34,354:INFO: -------- Process Done! --------
+2026-01-21 11:27:34,371:INFO: --------Load model from /home/c403/msy/CLUENER2020/BiLSTM-CRF/experiments/clue/model.pth--------
+2026-01-21 11:27:34,626:INFO: --------Bad Cases reserved !--------
+2026-01-21 11:27:34,671:INFO: final test loss: 1119.11328125, f1 score: 0.37979797979797986
+2026-01-21 11:27:34,671:INFO: f1 score of ORG: 0.3958333333333333
+2026-01-21 11:27:34,671:INFO: f1 score of ACTION: 0.2524271844660194
+2026-01-21 11:27:34,671:INFO: f1 score of OBJ: 0.4065934065934066
+2026-01-21 11:27:34,671:INFO: f1 score of LEVEL_KEY: 0.2105263157894737
+2026-01-21 11:27:34,671:INFO: f1 score of VALUE: 0.6666666666666666
+2026-01-21 11:30:32,728:INFO: device: cuda:0
+2026-01-21 11:30:32,733:INFO: -------- Vocabulary Loaded! --------
+2026-01-21 11:30:33,530:INFO: -------- Process Done! --------
+2026-01-21 11:30:33,531:INFO: -------- Process Done! --------
+2026-01-21 11:30:36,847:INFO: epoch: 1, train loss: 3238.8233642578125
+2026-01-21 11:30:36,987:INFO: epoch: 1, f1 score: 0.0, dev loss: 1049.580322265625
+2026-01-21 11:30:37,931:INFO: epoch: 2, train loss: 1869.621630859375
+2026-01-21 11:30:38,059:INFO: epoch: 2, f1 score: 0.0, dev loss: 858.3146362304688
+2026-01-21 11:30:39,028:INFO: epoch: 3, train loss: 1559.2115844726563
+2026-01-21 11:30:39,163:INFO: epoch: 3, f1 score: 0.11594202898550725, dev loss: 704.3928833007812
+2026-01-21 11:30:39,240:INFO: --------Save best model!--------
+2026-01-21 11:30:40,229:INFO: epoch: 4, train loss: 1299.4515502929687
+2026-01-21 11:30:40,373:INFO: epoch: 4, f1 score: 0.19161676646706588, dev loss: 575.3444213867188
+2026-01-21 11:30:40,454:INFO: --------Save best model!--------
+2026-01-21 11:30:41,432:INFO: epoch: 5, train loss: 1087.2057189941406
+2026-01-21 11:30:41,550:INFO: epoch: 5, f1 score: 0.18292682926829268, dev loss: 485.71746826171875
+2026-01-21 11:30:42,527:INFO: epoch: 6, train loss: 945.1884094238281
+2026-01-21 11:30:42,670:INFO: epoch: 6, f1 score: 0.18292682926829268, dev loss: 448.487060546875
+2026-01-21 11:30:43,632:INFO: epoch: 7, train loss: 840.1337341308594
+2026-01-21 11:30:43,755:INFO: epoch: 7, f1 score: 0.18823529411764708, dev loss: 423.8371887207031
+2026-01-21 11:30:44,695:INFO: epoch: 8, train loss: 756.9839416503906
+2026-01-21 11:30:44,831:INFO: epoch: 8, f1 score: 0.23204419889502761, dev loss: 394.7781982421875
+2026-01-21 11:30:44,901:INFO: --------Save best model!--------
+2026-01-21 11:30:45,922:INFO: epoch: 9, train loss: 682.8731994628906
+2026-01-21 11:30:46,053:INFO: epoch: 9, f1 score: 0.2598870056497175, dev loss: 386.667724609375
+2026-01-21 11:30:46,128:INFO: --------Save best model!--------
+2026-01-21 11:30:47,088:INFO: epoch: 10, train loss: 614.9024871826172
+2026-01-21 11:30:47,234:INFO: epoch: 10, f1 score: 0.3687150837988826, dev loss: 374.4728698730469
+2026-01-21 11:30:47,311:INFO: --------Save best model!--------
+2026-01-21 11:30:48,282:INFO: epoch: 11, train loss: 550.9345764160156
+2026-01-21 11:30:48,422:INFO: epoch: 11, f1 score: 0.38823529411764707, dev loss: 352.9111633300781
+2026-01-21 11:30:48,500:INFO: --------Save best model!--------
+2026-01-21 11:30:49,423:INFO: epoch: 12, train loss: 506.3336212158203
+2026-01-21 11:30:49,541:INFO: epoch: 12, f1 score: 0.39999999999999997, dev loss: 358.4939880371094
+2026-01-21 11:30:49,609:INFO: --------Save best model!--------
+2026-01-21 11:30:50,575:INFO: epoch: 13, train loss: 455.3998748779297
+2026-01-21 11:30:50,721:INFO: epoch: 13, f1 score: 0.4361702127659574, dev loss: 341.5818786621094
+2026-01-21 11:30:50,792:INFO: --------Save best model!--------
+2026-01-21 11:30:51,765:INFO: epoch: 14, train loss: 416.6880157470703
+2026-01-21 11:30:51,911:INFO: epoch: 14, f1 score: 0.4226804123711341, dev loss: 333.44537353515625
+2026-01-21 11:30:52,864:INFO: epoch: 15, train loss: 370.2465423583984
+2026-01-21 11:30:52,985:INFO: epoch: 15, f1 score: 0.43575418994413406, dev loss: 347.6885986328125
+2026-01-21 11:30:53,936:INFO: epoch: 16, train loss: 332.7406707763672
+2026-01-21 11:30:54,060:INFO: epoch: 16, f1 score: 0.4835164835164835, dev loss: 347.4869079589844
+2026-01-21 11:30:54,130:INFO: --------Save best model!--------
+2026-01-21 11:30:55,111:INFO: epoch: 17, train loss: 293.3662353515625
+2026-01-21 11:30:55,237:INFO: epoch: 17, f1 score: 0.47311827956989244, dev loss: 356.49822998046875
+2026-01-21 11:30:56,233:INFO: epoch: 18, train loss: 277.30382385253904
+2026-01-21 11:30:56,377:INFO: epoch: 18, f1 score: 0.5240641711229946, dev loss: 337.94305419921875
+2026-01-21 11:30:56,453:INFO: --------Save best model!--------
+2026-01-21 11:30:57,423:INFO: epoch: 19, train loss: 250.17978210449218
+2026-01-21 11:30:57,561:INFO: epoch: 19, f1 score: 0.5052631578947369, dev loss: 346.62646484375
+2026-01-21 11:30:58,557:INFO: epoch: 20, train loss: 227.62666778564454
+2026-01-21 11:30:58,691:INFO: epoch: 20, f1 score: 0.5376344086021504, dev loss: 364.8360290527344
+2026-01-21 11:30:58,766:INFO: --------Save best model!--------
+2026-01-21 11:30:59,750:INFO: epoch: 21, train loss: 205.1370635986328
+2026-01-21 11:30:59,885:INFO: epoch: 21, f1 score: 0.5263157894736843, dev loss: 364.228515625
+2026-01-21 11:31:00,866:INFO: epoch: 22, train loss: 182.4869644165039
+2026-01-21 11:31:00,998:INFO: epoch: 22, f1 score: 0.5396825396825397, dev loss: 370.94659423828125
+2026-01-21 11:31:01,070:INFO: --------Save best model!--------
+2026-01-21 11:31:02,062:INFO: epoch: 23, train loss: 170.7367401123047
+2026-01-21 11:31:02,207:INFO: epoch: 23, f1 score: 0.5463917525773195, dev loss: 357.7313232421875
+2026-01-21 11:31:02,285:INFO: --------Save best model!--------
+2026-01-21 11:31:03,248:INFO: epoch: 24, train loss: 157.9143829345703
+2026-01-21 11:31:03,389:INFO: epoch: 24, f1 score: 0.5583756345177664, dev loss: 366.0048828125
+2026-01-21 11:31:03,456:INFO: --------Save best model!--------
+2026-01-21 11:31:04,438:INFO: epoch: 25, train loss: 142.81536407470702
+2026-01-21 11:31:04,566:INFO: epoch: 25, f1 score: 0.5208333333333333, dev loss: 381.14007568359375
+2026-01-21 11:31:05,526:INFO: epoch: 26, train loss: 131.7950355529785
+2026-01-21 11:31:05,665:INFO: epoch: 26, f1 score: 0.5408163265306122, dev loss: 388.7466735839844
+2026-01-21 11:31:06,620:INFO: epoch: 27, train loss: 123.33232727050782
+2026-01-21 11:31:06,754:INFO: epoch: 27, f1 score: 0.5048543689320388, dev loss: 391.0723876953125
+2026-01-21 11:31:07,734:INFO: epoch: 28, train loss: 116.32930221557618
+2026-01-21 11:31:07,870:INFO: epoch: 28, f1 score: 0.49504950495049505, dev loss: 402.6940612792969
+2026-01-21 11:31:08,846:INFO: epoch: 29, train loss: 108.69131317138672
+2026-01-21 11:31:08,977:INFO: epoch: 29, f1 score: 0.5656565656565656, dev loss: 396.0172424316406
+2026-01-21 11:31:09,056:INFO: --------Save best model!--------
+2026-01-21 11:31:10,002:INFO: epoch: 30, train loss: 102.5537712097168
+2026-01-21 11:31:10,146:INFO: epoch: 30, f1 score: 0.5482233502538071, dev loss: 412.8326416015625
+2026-01-21 11:31:11,147:INFO: epoch: 31, train loss: 91.95039672851563
+2026-01-21 11:31:11,279:INFO: epoch: 31, f1 score: 0.53125, dev loss: 420.94500732421875
+2026-01-21 11:31:12,250:INFO: epoch: 32, train loss: 84.67464675903321
+2026-01-21 11:31:12,373:INFO: epoch: 32, f1 score: 0.5435897435897437, dev loss: 436.00543212890625
+2026-01-21 11:31:13,349:INFO: epoch: 33, train loss: 77.56383895874023
+2026-01-21 11:31:13,466:INFO: epoch: 33, f1 score: 0.5538461538461538, dev loss: 447.60235595703125
+2026-01-21 11:31:14,441:INFO: epoch: 34, train loss: 75.90960693359375
+2026-01-21 11:31:14,558:INFO: epoch: 34, f1 score: 0.5408163265306122, dev loss: 448.52679443359375
+2026-01-21 11:31:15,521:INFO: epoch: 35, train loss: 71.53330307006836
+2026-01-21 11:31:15,647:INFO: epoch: 35, f1 score: 0.54, dev loss: 458.1014404296875
+2026-01-21 11:31:16,568:INFO: epoch: 36, train loss: 66.63290863037109
+2026-01-21 11:31:16,694:INFO: epoch: 36, f1 score: 0.5226130653266332, dev loss: 447.6695251464844
+2026-01-21 11:31:17,673:INFO: epoch: 37, train loss: 63.518985748291016
+2026-01-21 11:31:17,820:INFO: epoch: 37, f1 score: 0.5123152709359606, dev loss: 464.0171813964844
+2026-01-21 11:31:18,764:INFO: epoch: 38, train loss: 63.30158004760742
+2026-01-21 11:31:18,888:INFO: epoch: 38, f1 score: 0.5445544554455445, dev loss: 479.98992919921875
+2026-01-21 11:31:19,824:INFO: epoch: 39, train loss: 58.72506408691406
+2026-01-21 11:31:19,946:INFO: epoch: 39, f1 score: 0.5380710659898478, dev loss: 483.62200927734375
+2026-01-21 11:31:20,854:INFO: epoch: 40, train loss: 53.97366180419922
+2026-01-21 11:31:20,997:INFO: epoch: 40, f1 score: 0.5226130653266332, dev loss: 496.049560546875
+2026-01-21 11:31:21,974:INFO: epoch: 41, train loss: 51.44518280029297
+2026-01-21 11:31:22,110:INFO: epoch: 41, f1 score: 0.5408163265306122, dev loss: 493.1544494628906
+2026-01-21 11:31:23,064:INFO: epoch: 42, train loss: 48.11722106933594
+2026-01-21 11:31:23,200:INFO: epoch: 42, f1 score: 0.5538461538461538, dev loss: 506.539306640625
+2026-01-21 11:31:24,154:INFO: epoch: 43, train loss: 44.73456573486328
+2026-01-21 11:31:24,272:INFO: epoch: 43, f1 score: 0.5326633165829145, dev loss: 501.72955322265625
+2026-01-21 11:31:25,240:INFO: epoch: 44, train loss: 44.23672027587891
+2026-01-21 11:31:25,383:INFO: epoch: 44, f1 score: 0.5353535353535354, dev loss: 508.93243408203125
+2026-01-21 11:31:26,328:INFO: epoch: 45, train loss: 43.625084686279294
+2026-01-21 11:31:26,454:INFO: epoch: 45, f1 score: 0.5567010309278351, dev loss: 529.2264404296875
+2026-01-21 11:31:27,424:INFO: epoch: 46, train loss: 40.1837760925293
+2026-01-21 11:31:27,556:INFO: epoch: 46, f1 score: 0.5299999999999999, dev loss: 519.9002685546875
+2026-01-21 11:31:28,528:INFO: epoch: 47, train loss: 39.22428665161133
+2026-01-21 11:31:28,659:INFO: epoch: 47, f1 score: 0.5326633165829145, dev loss: 528.4656982421875
+2026-01-21 11:31:29,616:INFO: epoch: 48, train loss: 38.03633422851563
+2026-01-21 11:31:29,738:INFO: epoch: 48, f1 score: 0.5380710659898478, dev loss: 541.62353515625
+2026-01-21 11:31:30,726:INFO: epoch: 49, train loss: 36.880548095703126
+2026-01-21 11:31:30,845:INFO: epoch: 49, f1 score: 0.5555555555555556, dev loss: 525.622802734375
+2026-01-21 11:31:31,810:INFO: epoch: 50, train loss: 34.79205551147461
+2026-01-21 11:31:31,931:INFO: epoch: 50, f1 score: 0.5230769230769231, dev loss: 542.2216796875
+2026-01-21 11:31:31,932:INFO: Best val f1: 0.5656565656565656
+2026-01-21 11:31:31,932:INFO: Training Finished!
+2026-01-21 11:31:31,938:INFO: -------- Process Done! --------
+2026-01-21 11:31:31,958:INFO: --------Load model from /home/c403/msy/CLUENER2020/BiLSTM-CRF/experiments/clue/model.pth--------
+2026-01-21 11:31:32,211:INFO: --------Bad Cases reserved !--------
+2026-01-21 11:31:32,257:INFO: final test loss: 878.6978352864584, f1 score: 0.45030425963488846
+2026-01-21 11:31:32,257:INFO: f1 score of ORG: 0.5333333333333333
+2026-01-21 11:31:32,257:INFO: f1 score of ACTION: 0.24000000000000002
+2026-01-21 11:31:32,257:INFO: f1 score of OBJ: 0.4942528735632184
+2026-01-21 11:31:32,257:INFO: f1 score of LEVEL_KEY: 0.2142857142857143
+2026-01-21 11:31:32,257:INFO: f1 score of VALUE: 0.7586206896551724
+2026-01-21 11:31:44,604:INFO: device: cuda:0
+2026-01-21 11:31:44,609:INFO: -------- Vocabulary Loaded! --------
+2026-01-21 11:31:45,411:INFO: -------- Process Done! --------
+2026-01-21 11:31:45,412:INFO: -------- Process Done! --------
+2026-01-21 11:31:48,740:INFO: epoch: 1, train loss: 2553.3397583007813
+2026-01-21 11:31:48,879:INFO: epoch: 1, f1 score: 0.0, dev loss: 982.8402709960938
+2026-01-21 11:31:49,851:INFO: epoch: 2, train loss: 1705.34111328125
+2026-01-21 11:31:49,974:INFO: epoch: 2, f1 score: 0.06802721088435375, dev loss: 727.9322509765625
+2026-01-21 11:31:50,065:INFO: --------Save best model!--------
+2026-01-21 11:31:51,020:INFO: epoch: 3, train loss: 1298.2120971679688
+2026-01-21 11:31:51,165:INFO: epoch: 3, f1 score: 0.12222222222222222, dev loss: 591.2611694335938
+2026-01-21 11:31:51,249:INFO: --------Save best model!--------
+2026-01-21 11:31:52,208:INFO: epoch: 4, train loss: 1070.1398193359375
+2026-01-21 11:31:52,340:INFO: epoch: 4, f1 score: 0.1694915254237288, dev loss: 493.52093505859375
+2026-01-21 11:31:52,411:INFO: --------Save best model!--------
+2026-01-21 11:31:53,381:INFO: epoch: 5, train loss: 888.9217529296875
+2026-01-21 11:31:53,509:INFO: epoch: 5, f1 score: 0.2637362637362637, dev loss: 451.3443603515625
+2026-01-21 11:31:53,585:INFO: --------Save best model!--------
+2026-01-21 11:31:54,560:INFO: epoch: 6, train loss: 747.4557434082031
+2026-01-21 11:31:54,683:INFO: epoch: 6, f1 score: 0.3553299492385787, dev loss: 401.6954650878906
+2026-01-21 11:31:54,762:INFO: --------Save best model!--------
+2026-01-21 11:31:55,730:INFO: epoch: 7, train loss: 638.7039581298828
+2026-01-21 11:31:55,873:INFO: epoch: 7, f1 score: 0.35820895522388063, dev loss: 398.3216247558594
+2026-01-21 11:31:55,951:INFO: --------Save best model!--------
+2026-01-21 11:31:56,934:INFO: epoch: 8, train loss: 547.0626281738281
+2026-01-21 11:31:57,048:INFO: epoch: 8, f1 score: 0.38144329896907214, dev loss: 421.2362976074219
+2026-01-21 11:31:57,125:INFO: --------Save best model!--------
+2026-01-21 11:31:58,098:INFO: epoch: 9, train loss: 471.26454772949216
+2026-01-21 11:31:58,229:INFO: epoch: 9, f1 score: 0.41346153846153855, dev loss: 400.92047119140625
+2026-01-21 11:31:58,307:INFO: --------Save best model!--------
+2026-01-21 11:31:59,236:INFO: epoch: 10, train loss: 470.2330657958984
+2026-01-21 11:31:59,359:INFO: epoch: 10, f1 score: 0.3769633507853403, dev loss: 400.01422119140625
+2026-01-21 11:32:00,353:INFO: epoch: 11, train loss: 375.19428100585935
+2026-01-21 11:32:00,494:INFO: epoch: 11, f1 score: 0.4563106796116505, dev loss: 391.27044677734375
+2026-01-21 11:32:00,575:INFO: --------Save best model!--------
+2026-01-21 11:32:01,517:INFO: epoch: 12, train loss: 317.79232635498045
+2026-01-21 11:32:01,660:INFO: epoch: 12, f1 score: 0.42654028436018965, dev loss: 405.30328369140625
+2026-01-21 11:32:02,613:INFO: epoch: 13, train loss: 285.68978729248045
+2026-01-21 11:32:02,742:INFO: epoch: 13, f1 score: 0.4507042253521127, dev loss: 389.44622802734375
+2026-01-21 11:32:03,691:INFO: epoch: 14, train loss: 243.10296020507812
+2026-01-21 11:32:03,816:INFO: epoch: 14, f1 score: 0.5125628140703518, dev loss: 423.63043212890625
+2026-01-21 11:32:03,895:INFO: --------Save best model!--------
+2026-01-21 11:32:04,824:INFO: epoch: 15, train loss: 216.20958404541017
+2026-01-21 11:32:04,948:INFO: epoch: 15, f1 score: 0.5, dev loss: 419.69915771484375
+2026-01-21 11:32:05,887:INFO: epoch: 16, train loss: 181.44520111083983
+2026-01-21 11:32:06,004:INFO: epoch: 16, f1 score: 0.51, dev loss: 419.13433837890625
+2026-01-21 11:32:06,988:INFO: epoch: 17, train loss: 167.9066162109375
+2026-01-21 11:32:07,105:INFO: epoch: 17, f1 score: 0.5024154589371981, dev loss: 441.8066711425781
+2026-01-21 11:32:08,020:INFO: epoch: 18, train loss: 156.43527374267578
+2026-01-21 11:32:08,143:INFO: epoch: 18, f1 score: 0.5045045045045046, dev loss: 449.2108154296875
+2026-01-21 11:32:09,144:INFO: epoch: 19, train loss: 135.44806671142578
+2026-01-21 11:32:09,285:INFO: epoch: 19, f1 score: 0.48803827751196166, dev loss: 475.37396240234375
+2026-01-21 11:32:10,229:INFO: epoch: 20, train loss: 116.93108673095703
+2026-01-21 11:32:10,372:INFO: epoch: 20, f1 score: 0.5142857142857143, dev loss: 522.1990966796875
+2026-01-21 11:32:10,457:INFO: --------Save best model!--------
+2026-01-21 11:32:11,421:INFO: epoch: 21, train loss: 96.98956832885742
+2026-01-21 11:32:11,564:INFO: epoch: 21, f1 score: 0.5174129353233831, dev loss: 520.2351684570312
+2026-01-21 11:32:11,644:INFO: --------Save best model!--------
+2026-01-21 11:32:12,595:INFO: epoch: 22, train loss: 83.46191024780273
+2026-01-21 11:32:12,723:INFO: epoch: 22, f1 score: 0.522167487684729, dev loss: 542.2002563476562
+2026-01-21 11:32:12,802:INFO: --------Save best model!--------
+2026-01-21 11:32:13,754:INFO: epoch: 23, train loss: 72.55377655029297
+2026-01-21 11:32:13,874:INFO: epoch: 23, f1 score: 0.51, dev loss: 557.715087890625
+2026-01-21 11:32:14,814:INFO: epoch: 24, train loss: 71.92409820556641
+2026-01-21 11:32:14,934:INFO: epoch: 24, f1 score: 0.51, dev loss: 578.8748168945312
+2026-01-21 11:32:15,876:INFO: epoch: 25, train loss: 62.146654510498045
+2026-01-21 11:32:16,012:INFO: epoch: 25, f1 score: 0.5170731707317072, dev loss: 616.6319580078125
+2026-01-21 11:32:16,971:INFO: epoch: 26, train loss: 74.78961029052735
+2026-01-21 11:32:17,092:INFO: epoch: 26, f1 score: 0.5196078431372548, dev loss: 541.095947265625
+2026-01-21 11:32:18,053:INFO: epoch: 27, train loss: 86.7842918395996
+2026-01-21 11:32:18,178:INFO: epoch: 27, f1 score: 0.4827586206896552, dev loss: 522.2174682617188
+2026-01-21 11:32:19,145:INFO: epoch: 28, train loss: 74.02401962280274
+2026-01-21 11:32:19,285:INFO: epoch: 28, f1 score: 0.5365853658536586, dev loss: 560.4407958984375
+2026-01-21 11:32:19,368:INFO: --------Save best model!--------
+2026-01-21 11:32:20,339:INFO: epoch: 29, train loss: 58.405477142333986
+2026-01-21 11:32:20,475:INFO: epoch: 29, f1 score: 0.5177664974619289, dev loss: 581.21875
+2026-01-21 11:32:21,409:INFO: epoch: 30, train loss: 51.29957809448242
+2026-01-21 11:32:21,553:INFO: epoch: 30, f1 score: 0.542713567839196, dev loss: 575.7911376953125
+2026-01-21 11:32:21,632:INFO: --------Save best model!--------
+2026-01-21 11:32:22,597:INFO: epoch: 31, train loss: 46.52956924438477
+2026-01-21 11:32:22,741:INFO: epoch: 31, f1 score: 0.5288461538461539, dev loss: 593.557861328125
+2026-01-21 11:32:23,697:INFO: epoch: 32, train loss: 44.02083129882813
+2026-01-21 11:32:23,841:INFO: epoch: 32, f1 score: 0.5073170731707317, dev loss: 598.3038940429688
+2026-01-21 11:32:24,783:INFO: epoch: 33, train loss: 46.642294311523436
+2026-01-21 11:32:24,903:INFO: epoch: 33, f1 score: 0.5154639175257733, dev loss: 649.6493530273438
+2026-01-21 11:32:25,865:INFO: epoch: 34, train loss: 38.02316131591797
+2026-01-21 11:32:26,004:INFO: epoch: 34, f1 score: 0.5098039215686274, dev loss: 616.7671508789062
+2026-01-21 11:32:26,950:INFO: epoch: 35, train loss: 34.63575439453125
+2026-01-21 11:32:27,080:INFO: epoch: 35, f1 score: 0.5, dev loss: 658.1140747070312
+2026-01-21 11:32:28,048:INFO: epoch: 36, train loss: 33.62031478881836
+2026-01-21 11:32:28,191:INFO: epoch: 36, f1 score: 0.5098039215686274, dev loss: 650.7305908203125
+2026-01-21 11:32:29,165:INFO: epoch: 37, train loss: 31.96797409057617
+2026-01-21 11:32:29,310:INFO: epoch: 37, f1 score: 0.5273631840796019, dev loss: 669.998779296875
+2026-01-21 11:32:30,221:INFO: epoch: 38, train loss: 30.089567565917967
+2026-01-21 11:32:30,365:INFO: epoch: 38, f1 score: 0.5050505050505051, dev loss: 696.1707763671875
+2026-01-21 11:32:31,296:INFO: epoch: 39, train loss: 26.345766448974608
+2026-01-21 11:32:31,418:INFO: epoch: 39, f1 score: 0.5024630541871921, dev loss: 700.1080322265625
+2026-01-21 11:32:32,336:INFO: epoch: 40, train loss: 27.70858688354492
+2026-01-21 11:32:32,461:INFO: epoch: 40, f1 score: 0.47000000000000003, dev loss: 691.942138671875
+2026-01-21 11:32:33,396:INFO: epoch: 41, train loss: 27.649649810791015
+2026-01-21 11:32:33,536:INFO: epoch: 41, f1 score: 0.4975609756097561, dev loss: 691.1243896484375
+2026-01-21 11:32:34,475:INFO: epoch: 42, train loss: 24.752870178222658
+2026-01-21 11:32:34,620:INFO: epoch: 42, f1 score: 0.4824120603015075, dev loss: 715.2495727539062
+2026-01-21 11:32:35,590:INFO: epoch: 43, train loss: 23.710262298583984
+2026-01-21 11:32:35,713:INFO: epoch: 43, f1 score: 0.5098039215686274, dev loss: 682.2122192382812
+2026-01-21 11:32:36,684:INFO: epoch: 44, train loss: 22.73170700073242
+2026-01-21 11:32:36,802:INFO: epoch: 44, f1 score: 0.5174129353233831, dev loss: 729.6747436523438
+2026-01-21 11:32:37,791:INFO: epoch: 45, train loss: 19.95085220336914
+2026-01-21 11:32:37,909:INFO: epoch: 45, f1 score: 0.4824120603015075, dev loss: 732.5714111328125
+2026-01-21 11:32:38,890:INFO: epoch: 46, train loss: 20.420069885253906
+2026-01-21 11:32:39,038:INFO: epoch: 46, f1 score: 0.48039215686274517, dev loss: 728.2518920898438
+2026-01-21 11:32:39,953:INFO: epoch: 47, train loss: 18.661720275878906
+2026-01-21 11:32:40,085:INFO: epoch: 47, f1 score: 0.51, dev loss: 755.577392578125
+2026-01-21 11:32:41,062:INFO: epoch: 48, train loss: 19.21146926879883
+2026-01-21 11:32:41,178:INFO: epoch: 48, f1 score: 0.4926108374384237, dev loss: 749.525146484375
+2026-01-21 11:32:42,105:INFO: epoch: 49, train loss: 18.628892517089845
+2026-01-21 11:32:42,251:INFO: epoch: 49, f1 score: 0.4975124378109453, dev loss: 766.045654296875
+2026-01-21 11:32:43,174:INFO: epoch: 50, train loss: 18.216578674316406
+2026-01-21 11:32:43,293:INFO: epoch: 50, f1 score: 0.4827586206896552, dev loss: 746.0826416015625
+2026-01-21 11:32:44,205:INFO: epoch: 51, train loss: 18.30599365234375
+2026-01-21 11:32:44,338:INFO: epoch: 51, f1 score: 0.5074626865671642, dev loss: 756.0977172851562
+2026-01-21 11:32:45,285:INFO: epoch: 52, train loss: 18.475912475585936
+2026-01-21 11:32:45,417:INFO: epoch: 52, f1 score: 0.4827586206896552, dev loss: 764.6873779296875
+2026-01-21 11:32:46,372:INFO: epoch: 53, train loss: 17.05301513671875
+2026-01-21 11:32:46,516:INFO: epoch: 53, f1 score: 0.49504950495049505, dev loss: 778.2805786132812
+2026-01-21 11:32:47,463:INFO: epoch: 54, train loss: 14.936576080322265
+2026-01-21 11:32:47,607:INFO: epoch: 54, f1 score: 0.49514563106796117, dev loss: 754.7213134765625
+2026-01-21 11:32:48,548:INFO: epoch: 55, train loss: 15.796672058105468
+2026-01-21 11:32:48,663:INFO: epoch: 55, f1 score: 0.5074626865671642, dev loss: 784.4551391601562
+2026-01-21 11:32:49,611:INFO: epoch: 56, train loss: 14.341716003417968
+2026-01-21 11:32:49,736:INFO: epoch: 56, f1 score: 0.49504950495049505, dev loss: 788.3051147460938
+2026-01-21 11:32:50,655:INFO: epoch: 57, train loss: 14.49179458618164
+2026-01-21 11:32:50,776:INFO: epoch: 57, f1 score: 0.5024630541871921, dev loss: 786.07421875
+2026-01-21 11:32:51,696:INFO: epoch: 58, train loss: 13.310340118408202
+2026-01-21 11:32:51,840:INFO: epoch: 58, f1 score: 0.5049504950495048, dev loss: 794.2259521484375
+2026-01-21 11:32:52,776:INFO: epoch: 59, train loss: 13.375446319580078
+2026-01-21 11:32:52,905:INFO: epoch: 59, f1 score: 0.522167487684729, dev loss: 785.1038208007812
+2026-01-21 11:32:53,861:INFO: epoch: 60, train loss: 14.15230712890625
+2026-01-21 11:32:53,983:INFO: epoch: 60, f1 score: 0.4975124378109453, dev loss: 794.5515747070312
+2026-01-21 11:32:54,935:INFO: epoch: 61, train loss: 12.387407684326172
+2026-01-21 11:32:55,067:INFO: epoch: 61, f1 score: 0.51, dev loss: 803.8846435546875
+2026-01-21 11:32:56,031:INFO: epoch: 62, train loss: 11.876953125
+2026-01-21 11:32:56,170:INFO: epoch: 62, f1 score: 0.5074626865671642, dev loss: 797.2177734375
+2026-01-21 11:32:57,231:INFO: epoch: 63, train loss: 12.126622772216797
+2026-01-21 11:32:57,363:INFO: epoch: 63, f1 score: 0.5024630541871921, dev loss: 806.1896362304688
+2026-01-21 11:32:58,306:INFO: epoch: 64, train loss: 12.172437286376953
+2026-01-21 11:32:58,433:INFO: epoch: 64, f1 score: 0.5049504950495048, dev loss: 809.3953247070312
+2026-01-21 11:32:59,370:INFO: epoch: 65, train loss: 13.78857650756836
+2026-01-21 11:32:59,502:INFO: epoch: 65, f1 score: 0.49504950495049505, dev loss: 806.904296875
+2026-01-21 11:33:00,440:INFO: epoch: 66, train loss: 11.244414520263671
+2026-01-21 11:33:00,559:INFO: epoch: 66, f1 score: 0.5074626865671642, dev loss: 817.131591796875
+2026-01-21 11:33:01,477:INFO: epoch: 67, train loss: 11.748485565185547
+2026-01-21 11:33:01,600:INFO: epoch: 67, f1 score: 0.5024630541871921, dev loss: 816.5069580078125
+2026-01-21 11:33:02,553:INFO: epoch: 68, train loss: 11.801329040527344
+2026-01-21 11:33:02,678:INFO: epoch: 68, f1 score: 0.5, dev loss: 821.1409301757812
+2026-01-21 11:33:03,637:INFO: epoch: 69, train loss: 11.993208312988282
+2026-01-21 11:33:03,757:INFO: epoch: 69, f1 score: 0.5, dev loss: 822.8946533203125
+2026-01-21 11:33:04,723:INFO: epoch: 70, train loss: 11.275360870361329
+2026-01-21 11:33:04,844:INFO: epoch: 70, f1 score: 0.5024630541871921, dev loss: 811.5416259765625
+2026-01-21 11:33:05,781:INFO: epoch: 71, train loss: 10.097835540771484
+2026-01-21 11:33:05,923:INFO: epoch: 71, f1 score: 0.49, dev loss: 824.627197265625
+2026-01-21 11:33:06,848:INFO: epoch: 72, train loss: 10.572958374023438
+2026-01-21 11:33:06,992:INFO: epoch: 72, f1 score: 0.48514851485148514, dev loss: 818.9266357421875
+2026-01-21 11:33:07,941:INFO: epoch: 73, train loss: 11.678273773193359
+2026-01-21 11:33:08,071:INFO: epoch: 73, f1 score: 0.4975124378109453, dev loss: 826.18798828125
+2026-01-21 11:33:09,055:INFO: epoch: 74, train loss: 10.745008850097657
+2026-01-21 11:33:09,179:INFO: epoch: 74, f1 score: 0.5025125628140703, dev loss: 834.5245361328125
+2026-01-21 11:33:10,105:INFO: epoch: 75, train loss: 10.9676025390625
+2026-01-21 11:33:10,252:INFO: epoch: 75, f1 score: 0.5, dev loss: 825.1014404296875
+2026-01-21 11:33:11,193:INFO: epoch: 76, train loss: 10.863253784179687
+2026-01-21 11:33:11,339:INFO: epoch: 76, f1 score: 0.4975124378109453, dev loss: 820.2667236328125
+2026-01-21 11:33:12,319:INFO: epoch: 77, train loss: 10.72397232055664
+2026-01-21 11:33:12,450:INFO: epoch: 77, f1 score: 0.5, dev loss: 833.6806030273438
+2026-01-21 11:33:13,404:INFO: epoch: 78, train loss: 10.508433532714843
+2026-01-21 11:33:13,548:INFO: epoch: 78, f1 score: 0.4975124378109453, dev loss: 835.1991577148438
+2026-01-21 11:33:14,513:INFO: epoch: 79, train loss: 11.023409271240235
+2026-01-21 11:33:14,638:INFO: epoch: 79, f1 score: 0.49504950495049505, dev loss: 831.8027954101562
+2026-01-21 11:33:15,609:INFO: epoch: 80, train loss: 10.240129089355468
+2026-01-21 11:33:15,753:INFO: epoch: 80, f1 score: 0.5, dev loss: 836.951904296875
+2026-01-21 11:33:16,696:INFO: epoch: 81, train loss: 10.193833160400391
+2026-01-21 11:33:16,816:INFO: epoch: 81, f1 score: 0.4975124378109453, dev loss: 838.6134033203125
+2026-01-21 11:33:17,795:INFO: epoch: 82, train loss: 9.930999755859375
+2026-01-21 11:33:17,917:INFO: epoch: 82, f1 score: 0.49504950495049505, dev loss: 834.0938720703125
+2026-01-21 11:33:18,852:INFO: epoch: 83, train loss: 9.767660522460938
+2026-01-21 11:33:18,996:INFO: epoch: 83, f1 score: 0.48756218905472637, dev loss: 835.6758422851562
+2026-01-21 11:33:19,951:INFO: epoch: 84, train loss: 9.50858383178711
+2026-01-21 11:33:20,072:INFO: epoch: 84, f1 score: 0.4975124378109453, dev loss: 840.8902587890625
+2026-01-21 11:33:21,044:INFO: epoch: 85, train loss: 9.706726837158204
+2026-01-21 11:33:21,176:INFO: epoch: 85, f1 score: 0.4975124378109453, dev loss: 841.7564086914062
+2026-01-21 11:33:22,113:INFO: epoch: 86, train loss: 9.239575958251953
+2026-01-21 11:33:22,256:INFO: epoch: 86, f1 score: 0.5, dev loss: 845.4365234375
+2026-01-21 11:33:23,218:INFO: epoch: 87, train loss: 9.927162170410156
+2026-01-21 11:33:23,358:INFO: epoch: 87, f1 score: 0.5049504950495048, dev loss: 842.0518188476562
+2026-01-21 11:33:24,319:INFO: epoch: 88, train loss: 9.735003662109374
+2026-01-21 11:33:24,433:INFO: epoch: 88, f1 score: 0.5049504950495048, dev loss: 843.423095703125
+2026-01-21 11:33:25,365:INFO: epoch: 89, train loss: 9.580607604980468
+2026-01-21 11:33:25,486:INFO: epoch: 89, f1 score: 0.51, dev loss: 845.4577026367188
+2026-01-21 11:33:26,440:INFO: epoch: 90, train loss: 9.621141052246093
+2026-01-21 11:33:26,565:INFO: epoch: 90, f1 score: 0.49504950495049505, dev loss: 842.2366943359375
+2026-01-21 11:33:27,510:INFO: epoch: 91, train loss: 9.939947509765625
+2026-01-21 11:33:27,646:INFO: epoch: 91, f1 score: 0.4975124378109453, dev loss: 841.7042236328125
+2026-01-21 11:33:28,614:INFO: epoch: 92, train loss: 9.467188262939453
+2026-01-21 11:33:28,736:INFO: epoch: 92, f1 score: 0.5024630541871921, dev loss: 846.015380859375
+2026-01-21 11:33:29,706:INFO: epoch: 93, train loss: 9.050403594970703
+2026-01-21 11:33:29,845:INFO: epoch: 93, f1 score: 0.49504950495049505, dev loss: 847.6079711914062
+2026-01-21 11:33:30,805:INFO: epoch: 94, train loss: 10.019460296630859
+2026-01-21 11:33:30,950:INFO: epoch: 94, f1 score: 0.49504950495049505, dev loss: 847.4743041992188
+2026-01-21 11:33:31,854:INFO: epoch: 95, train loss: 9.844288635253907
+2026-01-21 11:33:32,003:INFO: epoch: 95, f1 score: 0.4975124378109453, dev loss: 846.6249389648438
+2026-01-21 11:33:32,940:INFO: epoch: 96, train loss: 9.563217163085938
+2026-01-21 11:33:33,064:INFO: epoch: 96, f1 score: 0.49, dev loss: 850.5189208984375
+2026-01-21 11:33:34,004:INFO: epoch: 97, train loss: 9.267099761962891
+2026-01-21 11:33:34,126:INFO: epoch: 97, f1 score: 0.48514851485148514, dev loss: 846.8574829101562
+2026-01-21 11:33:35,040:INFO: epoch: 98, train loss: 9.109587860107421
+2026-01-21 11:33:35,163:INFO: epoch: 98, f1 score: 0.4926108374384237, dev loss: 841.61279296875
+2026-01-21 11:33:36,121:INFO: epoch: 99, train loss: 9.1681640625
+2026-01-21 11:33:36,256:INFO: epoch: 99, f1 score: 0.49504950495049505, dev loss: 842.6656494140625
+2026-01-21 11:33:37,221:INFO: epoch: 100, train loss: 8.789473724365234
+2026-01-21 11:33:37,364:INFO: epoch: 100, f1 score: 0.4975124378109453, dev loss: 849.4473876953125
+2026-01-21 11:33:37,364:INFO: Best val f1: 0.542713567839196
+2026-01-21 11:33:37,364:INFO: Training Finished!
+2026-01-21 11:33:37,368:INFO: -------- Process Done! --------
+2026-01-21 11:33:37,385:INFO: --------Load model from /home/c403/msy/CLUENER2020/BiLSTM-CRF/experiments/clue/model.pth--------
+2026-01-21 11:33:37,631:INFO: --------Bad Cases reserved !--------
+2026-01-21 11:33:37,676:INFO: final test loss: 1097.455078125, f1 score: 0.4056795131845841
+2026-01-21 11:33:37,676:INFO: f1 score of ORG: 0.4
+2026-01-21 11:33:37,676:INFO: f1 score of ACTION: 0.2857142857142857
+2026-01-21 11:33:37,676:INFO: f1 score of OBJ: 0.41666666666666663
+2026-01-21 11:33:37,677:INFO: f1 score of LEVEL_KEY: 0.2857142857142857
+2026-01-21 11:33:37,677:INFO: f1 score of VALUE: 0.6885245901639345
