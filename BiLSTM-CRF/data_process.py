@@ -85,6 +85,10 @@ class Processor:
                                             logging.warning(f"Span text mismatch and cannot fix, skipping entity: {span_text} != {sub_name}")
                                             continue
                                 # 经过修正或原本一致后标注BIO
+                                # 增加索引边界校验，避免出现越界赋值导致 IndexError
+                                if not (0 <= start_index <= end_index < len(labels)):
+                                    logging.warning(f"Entity indices out of range after fix, skipping: {start_index}-{end_index} for '{sub_name}' in text length {len(labels)}")
+                                    continue
                                 if start_index == end_index:
                                     labels[start_index] = 'S-' + key
                                 else:

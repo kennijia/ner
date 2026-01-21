@@ -21,34 +21,47 @@ load_before = False  # 改为 False，确保从头微调
 # 是否对整个BERT进行fine tuning
 full_fine_tuning = True
 
-# 更换更强的预训练模型路径
-bert_model = roberta_model  # 切换到 chinese_roberta_wwm_large_ext
+# 模型选择开关
+model_type = 'bert' # 可选 'bert' 或 'roberta'
+
+if model_type == 'roberta':
+    bert_model = 'pretrained_bert_models/bert-base-chinese/'
+    hidden_size = 768
+elif model_type == 'roberta':
+    bert_model = 'pretrained_bert_models/chinese_roberta_wwm_large_ext/'
+    hidden_size = 1024
 
 # hyper-parameter
 learning_rate = 5e-5 # 提高整体学习率
 weight_decay = 0.01
 clip_grad = 1.0 
 
-batch_size = 8 
+batch_size = 32 
 gradient_accumulation_steps = 1 # 减少累积步数，增加更新频率
 
 epoch_num = 100 
-min_epoch_num = 10
+min_epoch_num = 5 # 降低最小轮数，允许更早停止
 patience = 0.00001
-patience_num = 50 
+patience_num = 10 # 降低耐心值，开启有效的 Early Stopping (原 50 太大)
 
 # R-Drop 超参数
-rdrop_alpha = 1.0 
+use_rdrop = False # 暂时关闭，排查性能下降原因
+rdrop_alpha = 4.0 # R-Drop 典型值在 1-5 之间
+
+# FGM 超参数
+use_fgm = False # 暂时关闭
+fgm_epsilon = 1.0
 
 # EMA 平滑系数
-ema_decay = 0.99 
+# 设为 0 以关闭 EMA (shadow = current)，回归原始简单框架
+ema_decay = 0.0 
 
 # 辅助损失权重
 aux_loss_alpha = 1.0 
 
 # 为不同层设置不同的学习率
-bert_lr = 3e-5 # 提高 BERT 学习率
-head_lr = 1e-3 # 大幅提高 head 学习率
+bert_lr = 5e-5 # 提高到标准微调学习率
+head_lr = 5e-5 # 与 BERT 保持一致，标准配置
 
 gpu = '0'
 
@@ -64,9 +77,9 @@ labels = ['ORG', 'ACTION', 'OBJ', 'LEVEL_KEY', 'VALUE']
 # ACTION 和 LEVEL_KEY 表现较差，这里赋予更高的权重（用于加权 Loss 或者作为论文分析点）
 class_weights = {
     'ORG': 1.0,
-    'ACTION': 3.0, # 维持高权重
-    'OBJ': 2.0,
-    'LEVEL_KEY': 2.5, # 维持高权重
+    'ACTION': 1.0, # 恢复为 1.0，强制加权会导致 Precision 暴跌，拖累 F1
+    'OBJ': 1.0,
+    'LEVEL_KEY': 1.0, # 恢复为 1.0
     'VALUE': 1.0
 }
 

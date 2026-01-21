@@ -101,14 +101,20 @@ def run():
     logging.info("--------Get Dataloader!--------")
     # Prepare model
     device = config.device
-    model = BertNER.from_pretrained(config.roberta_model, num_labels=len(config.label2id))
+    model = BertNER.from_pretrained(config.bert_model, num_labels=len(config.label2id))
     model.to(device)
     # Prepare optimizer
     if config.full_fine_tuning:
         bert_optimizer = list(model.bert.named_parameters())
-        lstm_optimizer = list(model.bilstm.named_parameters())
-        classifier_optimizer = list(model.classifier.named_parameters())
+        # 下游层 (BiLSTM, Classifier, CRF, Scalar Mix)
         no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+        
+        # Collect all head parameters
+        # 包含 BiLSTM, Classifier 和 CRF
+        head_params = list(model.classifier.parameters()) + \
+                      list(model.crf.parameters()) + \
+                      list(model.bilstm.parameters())
+
         optimizer_grouped_parameters = [
             # BERT 层：使用较小的学习率 config.bert_lr
             {'params': [p for n, p in bert_optimizer if not any(nd in n for nd in no_decay)],
@@ -116,9 +122,8 @@ def run():
             {'params': [p for n, p in bert_optimizer if any(nd in n for nd in no_decay)],
              'weight_decay': 0.0, 'lr': config.bert_lr},
             
-            # 下游层 (BiLSTM, Classifier, CRF)：使用较大的学习率 config.head_lr
-            {'params': list(model.bilstm.parameters()) + list(model.classifier.parameters()) + list(model.crf.parameters()),
-             'lr': config.head_lr, 'weight_decay': config.weight_decay}
+            # 下游层：使用较大的学习率 config.head_lr
+            {'params': head_params, 'lr': config.head_lr, 'weight_decay': config.weight_decay}
         ]
     # only fine-tune the head classifier
     else:

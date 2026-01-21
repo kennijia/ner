@@ -9,8 +9,10 @@ config.train_dir = config.data_dir + 'admin_train.npz'
 config.test_dir = config.data_dir + 'admin_test.npz'
 config.exp_dir = os.path.join(base_dir, 'experiments', 'my_full') + '/'
 # training params
-config.epoch_num = 50
+config.epoch_num = 100
 config.batch_size = 32
+# 增加早停耐心，避免训练过早终止
+config.patience_num = 100
 # use GPU 0 by default; change if needed
 config.gpu = '0'
 

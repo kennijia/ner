@@ -27,7 +27,9 @@ epoch_num = 50
 # batch_size = 8
 # epoch_num = 1
 min_epoch_num = 5
-patience = 0.0002
+# patience = 0.0002
+#不早停
+patience = 0
 patience_num = 5
 
 gpu = '0'
