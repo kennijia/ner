@@ -22,8 +22,8 @@ load_before = False
 full_fine_tuning = True
 
 # hyper-parameter
-learning_rate = 1e-5
-weight_decay = 0.01
+learning_rate = 2e-5
+weight_decay = 0.02
 clip_grad = 5
 
 batch_size = 32

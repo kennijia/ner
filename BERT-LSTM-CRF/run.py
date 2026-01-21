@@ -104,20 +104,22 @@ def run():
         lstm_optimizer = list(model.bilstm.named_parameters())
         classifier_optimizer = list(model.classifier.named_parameters())
         no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+        # Keep BERT base lr small, but speed up randomly initialized task layers.
+        head_lr = config.learning_rate * 20
         optimizer_grouped_parameters = [
             {'params': [p for n, p in bert_optimizer if not any(nd in n for nd in no_decay)],
              'weight_decay': config.weight_decay},
             {'params': [p for n, p in bert_optimizer if any(nd in n for nd in no_decay)],
              'weight_decay': 0.0},
             {'params': [p for n, p in lstm_optimizer if not any(nd in n for nd in no_decay)],
-             'lr': config.learning_rate * 5, 'weight_decay': config.weight_decay},
+             'lr': head_lr, 'weight_decay': config.weight_decay},
             {'params': [p for n, p in lstm_optimizer if any(nd in n for nd in no_decay)],
-             'lr': config.learning_rate * 5, 'weight_decay': 0.0},
+             'lr': head_lr, 'weight_decay': 0.0},
             {'params': [p for n, p in classifier_optimizer if not any(nd in n for nd in no_decay)],
-             'lr': config.learning_rate * 5, 'weight_decay': config.weight_decay},
+             'lr': head_lr, 'weight_decay': config.weight_decay},
             {'params': [p for n, p in classifier_optimizer if any(nd in n for nd in no_decay)],
-             'lr': config.learning_rate * 5, 'weight_decay': 0.0},
-            {'params': model.crf.parameters(), 'lr': config.learning_rate * 5}
+             'lr': head_lr, 'weight_decay': 0.0},
+            {'params': model.crf.parameters(), 'lr': head_lr}
         ]
     # only fine-tune the head classifier
     else:
@@ -125,9 +127,11 @@ def run():
         optimizer_grouped_parameters = [{'params': [p for n, p in param_optimizer]}]
     optimizer = AdamW(optimizer_grouped_parameters, lr=config.learning_rate, correct_bias=False)
     train_steps_per_epoch = train_size // config.batch_size
+    total_steps = config.epoch_num * train_steps_per_epoch
+    warmup_steps = max(1, int(0.1 * total_steps))
     scheduler = get_cosine_schedule_with_warmup(optimizer,
-                                                num_warmup_steps=(config.epoch_num // 10) * train_steps_per_epoch,
-                                                num_training_steps=config.epoch_num * train_steps_per_epoch)
+                                                num_warmup_steps=warmup_steps,
+                                                num_training_steps=total_steps)
 
     # Train the model
     logging.info("--------Start Training!--------")

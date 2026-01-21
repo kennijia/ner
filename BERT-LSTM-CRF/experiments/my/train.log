@@ -3367,3 +3367,1062 @@
 2026-01-21 17:13:02,485:INFO: f1 score of OBJ: 0.7619047619047619
 2026-01-21 17:13:02,485:INFO: f1 score of ORG: 0.6842105263157895
 2026-01-21 17:13:02,485:INFO: f1 score of VALUE: 0.8444444444444444
+2026-01-21 17:20:42,934:INFO: device: cuda:0
+2026-01-21 17:20:42,935:INFO: --------Process Done!--------
+2026-01-21 17:20:42,941:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:20:42,941:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:20:42,941:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:20:42,941:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:20:42,941:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:20:42,941:INFO: loading file None
+2026-01-21 17:20:42,941:INFO: loading file None
+2026-01-21 17:20:42,941:INFO: loading file None
+2026-01-21 17:20:43,252:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:20:43,252:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:20:43,252:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:20:43,252:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:20:43,252:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:20:43,252:INFO: loading file None
+2026-01-21 17:20:43,252:INFO: loading file None
+2026-01-21 17:20:43,253:INFO: loading file None
+2026-01-21 17:20:43,294:INFO: --------Dataset Build!--------
+2026-01-21 17:20:43,294:INFO: --------Get Dataloader!--------
+2026-01-21 17:20:43,295:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-21 17:20:43,295:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:20:43,295:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-21 17:20:49,484:INFO: Weights of BertNER not initialized from pretrained model: ['bilstm.weight_ih_l0', 'bilstm.weight_hh_l0', 'bilstm.bias_ih_l0', 'bilstm.bias_hh_l0', 'bilstm.weight_ih_l0_reverse', 'bilstm.weight_hh_l0_reverse', 'bilstm.bias_ih_l0_reverse', 'bilstm.bias_hh_l0_reverse', 'bilstm.weight_ih_l1', 'bilstm.weight_hh_l1', 'bilstm.bias_ih_l1', 'bilstm.bias_hh_l1', 'bilstm.weight_ih_l1_reverse', 'bilstm.weight_hh_l1_reverse', 'bilstm.bias_ih_l1_reverse', 'bilstm.bias_hh_l1_reverse', 'classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-21 17:20:49,485:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-21 17:20:50,916:INFO: --------Start Training!--------
+2026-01-21 17:20:54,450:INFO: Epoch: 1, train loss: 3123.6008544921874
+2026-01-21 17:20:54,693:INFO: Epoch: 1, dev loss: 1451.0918731689453, f1 score: 0
+2026-01-21 17:20:57,504:INFO: Epoch: 2, train loss: 1810.6174560546874
+2026-01-21 17:20:57,759:INFO: Epoch: 2, dev loss: 830.7679443359375, f1 score: 0.06802721088435375
+2026-01-21 17:20:57,760:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:00,201:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:00,202:INFO: --------Save best model!--------
+2026-01-21 17:21:02,965:INFO: Epoch: 3, train loss: 944.2839965820312
+2026-01-21 17:21:03,200:INFO: Epoch: 3, dev loss: 512.7219924926758, f1 score: 0.36444444444444446
+2026-01-21 17:21:03,200:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:05,380:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:05,381:INFO: --------Save best model!--------
+2026-01-21 17:21:08,289:INFO: Epoch: 4, train loss: 581.0000274658203
+2026-01-21 17:21:08,544:INFO: Epoch: 4, dev loss: 475.7996063232422, f1 score: 0.5
+2026-01-21 17:21:08,545:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:10,704:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:10,704:INFO: --------Save best model!--------
+2026-01-21 17:21:13,592:INFO: Epoch: 5, train loss: 396.1833221435547
+2026-01-21 17:21:13,849:INFO: Epoch: 5, dev loss: 386.3304443359375, f1 score: 0.5043478260869566
+2026-01-21 17:21:13,849:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:15,976:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:15,976:INFO: --------Save best model!--------
+2026-01-21 17:21:18,730:INFO: Epoch: 6, train loss: 264.4715835571289
+2026-01-21 17:21:18,986:INFO: Epoch: 6, dev loss: 403.1615905761719, f1 score: 0.5537190082644629
+2026-01-21 17:21:18,986:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:21,154:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:21,154:INFO: --------Save best model!--------
+2026-01-21 17:21:24,112:INFO: Epoch: 7, train loss: 186.3074188232422
+2026-01-21 17:21:24,370:INFO: Epoch: 7, dev loss: 366.6947479248047, f1 score: 0.5641025641025642
+2026-01-21 17:21:24,370:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:27,160:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:27,160:INFO: --------Save best model!--------
+2026-01-21 17:21:29,964:INFO: Epoch: 8, train loss: 132.93298797607423
+2026-01-21 17:21:30,200:INFO: Epoch: 8, dev loss: 410.9269104003906, f1 score: 0.6194690265486725
+2026-01-21 17:21:30,200:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:32,608:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:32,609:INFO: --------Save best model!--------
+2026-01-21 17:21:35,348:INFO: Epoch: 9, train loss: 121.54220886230469
+2026-01-21 17:21:35,589:INFO: Epoch: 9, dev loss: 403.1679382324219, f1 score: 0.6271186440677966
+2026-01-21 17:21:35,589:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:36,769:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:36,770:INFO: --------Save best model!--------
+2026-01-21 17:21:39,597:INFO: Epoch: 10, train loss: 85.18965072631836
+2026-01-21 17:21:39,856:INFO: Epoch: 10, dev loss: 396.3146667480469, f1 score: 0.6547085201793722
+2026-01-21 17:21:39,857:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:42,336:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:42,336:INFO: --------Save best model!--------
+2026-01-21 17:21:45,272:INFO: Epoch: 11, train loss: 65.77186965942383
+2026-01-21 17:21:45,513:INFO: Epoch: 11, dev loss: 441.1831512451172, f1 score: 0.6666666666666666
+2026-01-21 17:21:45,513:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:21:48,331:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:21:48,332:INFO: --------Save best model!--------
+2026-01-21 17:21:51,098:INFO: Epoch: 12, train loss: 68.9702995300293
+2026-01-21 17:21:51,338:INFO: Epoch: 12, dev loss: 525.1636810302734, f1 score: 0.65158371040724
+2026-01-21 17:21:54,106:INFO: Epoch: 13, train loss: 43.3798942565918
+2026-01-21 17:21:54,356:INFO: Epoch: 13, dev loss: 509.64842987060547, f1 score: 0.6371681415929203
+2026-01-21 17:21:57,115:INFO: Epoch: 14, train loss: 43.594824981689456
+2026-01-21 17:21:57,374:INFO: Epoch: 14, dev loss: 529.1800689697266, f1 score: 0.6608695652173914
+2026-01-21 17:22:00,241:INFO: Epoch: 15, train loss: 40.47856521606445
+2026-01-21 17:22:00,498:INFO: Epoch: 15, dev loss: 564.7732696533203, f1 score: 0.6255506607929515
+2026-01-21 17:22:03,295:INFO: Epoch: 16, train loss: 31.012326812744142
+2026-01-21 17:22:03,555:INFO: Epoch: 16, dev loss: 573.2913284301758, f1 score: 0.646288209606987
+2026-01-21 17:22:06,412:INFO: Epoch: 17, train loss: 27.13291244506836
+2026-01-21 17:22:06,663:INFO: Epoch: 17, dev loss: 558.8077239990234, f1 score: 0.6493506493506492
+2026-01-21 17:22:09,343:INFO: Epoch: 18, train loss: 21.931612396240233
+2026-01-21 17:22:09,601:INFO: Epoch: 18, dev loss: 613.9989471435547, f1 score: 0.5866666666666667
+2026-01-21 17:22:12,294:INFO: Epoch: 19, train loss: 14.725664520263672
+2026-01-21 17:22:12,532:INFO: Epoch: 19, dev loss: 596.0270690917969, f1 score: 0.6382978723404255
+2026-01-21 17:22:15,272:INFO: Epoch: 20, train loss: 19.424838256835937
+2026-01-21 17:22:15,531:INFO: Epoch: 20, dev loss: 636.4552001953125, f1 score: 0.7027027027027026
+2026-01-21 17:22:15,531:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:22:16,706:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:22:16,706:INFO: --------Save best model!--------
+2026-01-21 17:22:19,495:INFO: Epoch: 21, train loss: 19.027420043945312
+2026-01-21 17:22:19,737:INFO: Epoch: 21, dev loss: 574.803581237793, f1 score: 0.683982683982684
+2026-01-21 17:22:22,657:INFO: Epoch: 22, train loss: 14.689321899414063
+2026-01-21 17:22:22,895:INFO: Epoch: 22, dev loss: 651.1011505126953, f1 score: 0.6875
+2026-01-21 17:22:25,772:INFO: Epoch: 23, train loss: 9.128521728515626
+2026-01-21 17:22:26,008:INFO: Epoch: 23, dev loss: 669.4561996459961, f1 score: 0.6696035242290749
+2026-01-21 17:22:28,720:INFO: Epoch: 24, train loss: 11.73335952758789
+2026-01-21 17:22:28,962:INFO: Epoch: 24, dev loss: 737.2359924316406, f1 score: 0.6696428571428571
+2026-01-21 17:22:31,886:INFO: Epoch: 25, train loss: 14.465373992919922
+2026-01-21 17:22:32,148:INFO: Epoch: 25, dev loss: 719.2154846191406, f1 score: 0.6816143497757848
+2026-01-21 17:22:34,915:INFO: Epoch: 26, train loss: 8.821817779541016
+2026-01-21 17:22:35,153:INFO: Epoch: 26, dev loss: 696.9457702636719, f1 score: 0.6519823788546255
+2026-01-21 17:22:38,031:INFO: Epoch: 27, train loss: 9.106655883789063
+2026-01-21 17:22:38,277:INFO: Epoch: 27, dev loss: 721.674430847168, f1 score: 0.6551724137931035
+2026-01-21 17:22:41,180:INFO: Epoch: 28, train loss: 5.904996490478515
+2026-01-21 17:22:41,445:INFO: Epoch: 28, dev loss: 717.7458190917969, f1 score: 0.6551724137931035
+2026-01-21 17:22:44,211:INFO: Epoch: 29, train loss: 5.290278625488281
+2026-01-21 17:22:44,448:INFO: Epoch: 29, dev loss: 715.3015899658203, f1 score: 0.6636771300448431
+2026-01-21 17:22:47,378:INFO: Epoch: 30, train loss: 3.3000534057617186
+2026-01-21 17:22:47,621:INFO: Epoch: 30, dev loss: 737.5411682128906, f1 score: 0.6666666666666666
+2026-01-21 17:22:47,621:INFO: Best val f1: 0.7027027027027026
+2026-01-21 17:22:47,621:INFO: Training Finished!
+2026-01-21 17:22:47,629:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:22:47,629:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:22:47,629:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:22:47,629:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:22:47,629:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:22:47,629:INFO: loading file None
+2026-01-21 17:22:47,629:INFO: loading file None
+2026-01-21 17:22:47,629:INFO: loading file None
+2026-01-21 17:22:47,707:INFO: --------Dataset Build!--------
+2026-01-21 17:22:47,707:INFO: --------Get Data-loader!--------
+2026-01-21 17:22:47,707:INFO: loading configuration file /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:22:47,707:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:22:47,708:INFO: loading weights file /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:22:52,900:INFO: --------Load model from /root/msy/ner/BERT-LSTM-CRF/experiments/my/--------
+2026-01-21 17:22:52,901:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:22:52,902:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:22:52,902:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:22:52,902:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:22:52,902:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:22:52,902:INFO: loading file None
+2026-01-21 17:22:52,902:INFO: loading file None
+2026-01-21 17:22:52,902:INFO: loading file None
+2026-01-21 17:22:53,709:INFO: --------Bad Cases reserved !--------
+2026-01-21 17:22:53,712:INFO: test loss: 908.0079549153646, f1 score: 0.6975881261595547
+2026-01-21 17:22:53,713:INFO: f1 score of ACTION: 0.5102040816326531
+2026-01-21 17:22:53,713:INFO: f1 score of LEVEL_KEY: 0.5510204081632654
+2026-01-21 17:22:53,713:INFO: f1 score of OBJ: 0.8057553956834532
+2026-01-21 17:22:53,713:INFO: f1 score of ORG: 0.7179487179487181
+2026-01-21 17:22:53,713:INFO: f1 score of VALUE: 0.8735632183908046
+2026-01-21 17:24:27,398:INFO: device: cuda:0
+2026-01-21 17:24:27,398:INFO: --------Process Done!--------
+2026-01-21 17:24:27,405:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:24:27,405:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:24:27,405:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:24:27,405:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:24:27,405:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:24:27,405:INFO: loading file None
+2026-01-21 17:24:27,405:INFO: loading file None
+2026-01-21 17:24:27,405:INFO: loading file None
+2026-01-21 17:24:27,723:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:24:27,724:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:24:27,724:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:24:27,724:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:24:27,724:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:24:27,724:INFO: loading file None
+2026-01-21 17:24:27,724:INFO: loading file None
+2026-01-21 17:24:27,724:INFO: loading file None
+2026-01-21 17:24:27,770:INFO: --------Dataset Build!--------
+2026-01-21 17:24:27,770:INFO: --------Get Dataloader!--------
+2026-01-21 17:24:27,770:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-21 17:24:27,770:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:24:27,770:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-21 17:24:34,045:INFO: Weights of BertNER not initialized from pretrained model: ['bilstm.weight_ih_l0', 'bilstm.weight_hh_l0', 'bilstm.bias_ih_l0', 'bilstm.bias_hh_l0', 'bilstm.weight_ih_l0_reverse', 'bilstm.weight_hh_l0_reverse', 'bilstm.bias_ih_l0_reverse', 'bilstm.bias_hh_l0_reverse', 'bilstm.weight_ih_l1', 'bilstm.weight_hh_l1', 'bilstm.bias_ih_l1', 'bilstm.bias_hh_l1', 'bilstm.weight_ih_l1_reverse', 'bilstm.weight_hh_l1_reverse', 'bilstm.bias_ih_l1_reverse', 'bilstm.bias_hh_l1_reverse', 'classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-21 17:24:34,045:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-21 17:24:35,473:INFO: --------Start Training!--------
+2026-01-21 17:24:39,049:INFO: Epoch: 1, train loss: 3042.1355590820312
+2026-01-21 17:24:39,290:INFO: Epoch: 1, dev loss: 1159.8965911865234, f1 score: 0
+2026-01-21 17:24:41,901:INFO: Epoch: 2, train loss: 1455.3005676269531
+2026-01-21 17:24:42,141:INFO: Epoch: 2, dev loss: 757.3218383789062, f1 score: 0.11764705882352941
+2026-01-21 17:24:42,142:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:24:44,589:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:24:44,590:INFO: --------Save best model!--------
+2026-01-21 17:24:47,392:INFO: Epoch: 3, train loss: 825.6215026855468
+2026-01-21 17:24:47,649:INFO: Epoch: 3, dev loss: 491.3883361816406, f1 score: 0.4334975369458128
+2026-01-21 17:24:47,649:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:24:50,080:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:24:50,080:INFO: --------Save best model!--------
+2026-01-21 17:24:52,987:INFO: Epoch: 4, train loss: 511.4320373535156
+2026-01-21 17:24:53,247:INFO: Epoch: 4, dev loss: 432.24144744873047, f1 score: 0.49549549549549543
+2026-01-21 17:24:53,248:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:24:55,719:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:24:55,719:INFO: --------Save best model!--------
+2026-01-21 17:24:58,628:INFO: Epoch: 5, train loss: 352.15120391845704
+2026-01-21 17:24:58,886:INFO: Epoch: 5, dev loss: 455.7202835083008, f1 score: 0.5495495495495496
+2026-01-21 17:24:58,887:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:01,775:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:01,776:INFO: --------Save best model!--------
+2026-01-21 17:25:04,591:INFO: Epoch: 6, train loss: 242.35443878173828
+2026-01-21 17:25:04,827:INFO: Epoch: 6, dev loss: 348.2622833251953, f1 score: 0.5932203389830509
+2026-01-21 17:25:04,827:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:07,337:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:07,337:INFO: --------Save best model!--------
+2026-01-21 17:25:10,264:INFO: Epoch: 7, train loss: 159.89955444335936
+2026-01-21 17:25:10,491:INFO: Epoch: 7, dev loss: 482.9387969970703, f1 score: 0.547945205479452
+2026-01-21 17:25:13,276:INFO: Epoch: 8, train loss: 124.15978393554687
+2026-01-21 17:25:13,515:INFO: Epoch: 8, dev loss: 489.8591766357422, f1 score: 0.5941422594142258
+2026-01-21 17:25:13,517:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:15,997:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:15,997:INFO: --------Save best model!--------
+2026-01-21 17:25:18,783:INFO: Epoch: 9, train loss: 91.62920379638672
+2026-01-21 17:25:19,039:INFO: Epoch: 9, dev loss: 434.3469696044922, f1 score: 0.5316455696202531
+2026-01-21 17:25:21,768:INFO: Epoch: 10, train loss: 81.35202102661133
+2026-01-21 17:25:22,025:INFO: Epoch: 10, dev loss: 473.3635711669922, f1 score: 0.602510460251046
+2026-01-21 17:25:22,025:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:24,193:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:24,193:INFO: --------Save best model!--------
+2026-01-21 17:25:27,204:INFO: Epoch: 11, train loss: 63.79996795654297
+2026-01-21 17:25:27,440:INFO: Epoch: 11, dev loss: 472.20264434814453, f1 score: 0.6233766233766234
+2026-01-21 17:25:27,440:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:29,867:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:29,868:INFO: --------Save best model!--------
+2026-01-21 17:25:32,792:INFO: Epoch: 12, train loss: 47.500814819335936
+2026-01-21 17:25:33,034:INFO: Epoch: 12, dev loss: 494.03345489501953, f1 score: 0.5777777777777777
+2026-01-21 17:25:35,951:INFO: Epoch: 13, train loss: 50.20432586669922
+2026-01-21 17:25:36,197:INFO: Epoch: 13, dev loss: 523.9517974853516, f1 score: 0.6244725738396625
+2026-01-21 17:25:36,197:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:38,403:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:38,404:INFO: --------Save best model!--------
+2026-01-21 17:25:41,234:INFO: Epoch: 14, train loss: 33.5382682800293
+2026-01-21 17:25:41,469:INFO: Epoch: 14, dev loss: 520.8580780029297, f1 score: 0.6052631578947368
+2026-01-21 17:25:44,183:INFO: Epoch: 15, train loss: 32.51857147216797
+2026-01-21 17:25:44,424:INFO: Epoch: 15, dev loss: 489.08282470703125, f1 score: 0.6090534979423868
+2026-01-21 17:25:47,141:INFO: Epoch: 16, train loss: 25.666190338134765
+2026-01-21 17:25:47,389:INFO: Epoch: 16, dev loss: 535.6252593994141, f1 score: 0.6727272727272727
+2026-01-21 17:25:47,390:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:25:50,213:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:25:50,213:INFO: --------Save best model!--------
+2026-01-21 17:25:53,124:INFO: Epoch: 17, train loss: 20.68004379272461
+2026-01-21 17:25:53,359:INFO: Epoch: 17, dev loss: 555.2883453369141, f1 score: 0.5959183673469388
+2026-01-21 17:25:56,306:INFO: Epoch: 18, train loss: 26.37309341430664
+2026-01-21 17:25:56,565:INFO: Epoch: 18, dev loss: 519.8623352050781, f1 score: 0.64
+2026-01-21 17:25:59,491:INFO: Epoch: 19, train loss: 15.710224914550782
+2026-01-21 17:25:59,751:INFO: Epoch: 19, dev loss: 529.7485198974609, f1 score: 0.6363636363636364
+2026-01-21 17:26:02,614:INFO: Epoch: 20, train loss: 17.15650405883789
+2026-01-21 17:26:02,872:INFO: Epoch: 20, dev loss: 601.4344940185547, f1 score: 0.625
+2026-01-21 17:26:05,758:INFO: Epoch: 21, train loss: 16.468503570556642
+2026-01-21 17:26:05,997:INFO: Epoch: 21, dev loss: 632.1887283325195, f1 score: 0.6784140969162995
+2026-01-21 17:26:05,998:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:26:08,767:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:26:08,767:INFO: --------Save best model!--------
+2026-01-21 17:26:11,689:INFO: Epoch: 22, train loss: 8.113603973388672
+2026-01-21 17:26:11,947:INFO: Epoch: 22, dev loss: 581.9358215332031, f1 score: 0.6523605150214593
+2026-01-21 17:26:14,694:INFO: Epoch: 23, train loss: 8.752084350585937
+2026-01-21 17:26:14,947:INFO: Epoch: 23, dev loss: 633.1302261352539, f1 score: 0.6607929515418502
+2026-01-21 17:26:17,672:INFO: Epoch: 24, train loss: 7.050731658935547
+2026-01-21 17:26:17,907:INFO: Epoch: 24, dev loss: 714.7472381591797, f1 score: 0.6519823788546255
+2026-01-21 17:26:20,650:INFO: Epoch: 25, train loss: 8.580484008789062
+2026-01-21 17:26:20,908:INFO: Epoch: 25, dev loss: 632.7532577514648, f1 score: 0.6468085106382979
+2026-01-21 17:26:23,859:INFO: Epoch: 26, train loss: 5.754849243164062
+2026-01-21 17:26:24,117:INFO: Epoch: 26, dev loss: 655.5595245361328, f1 score: 0.6324786324786325
+2026-01-21 17:26:26,994:INFO: Epoch: 27, train loss: 2.3739669799804686
+2026-01-21 17:26:27,257:INFO: Epoch: 27, dev loss: 746.4906921386719, f1 score: 0.6519823788546255
+2026-01-21 17:26:30,236:INFO: Epoch: 28, train loss: 4.436892700195313
+2026-01-21 17:26:30,487:INFO: Epoch: 28, dev loss: 743.2417907714844, f1 score: 0.6666666666666666
+2026-01-21 17:26:33,399:INFO: Epoch: 29, train loss: 2.340074920654297
+2026-01-21 17:26:33,659:INFO: Epoch: 29, dev loss: 780.7133483886719, f1 score: 0.6519823788546255
+2026-01-21 17:26:36,442:INFO: Epoch: 30, train loss: 6.681422424316406
+2026-01-21 17:26:36,693:INFO: Epoch: 30, dev loss: 768.8069000244141, f1 score: 0.6491228070175439
+2026-01-21 17:26:39,634:INFO: Epoch: 31, train loss: 3.176427459716797
+2026-01-21 17:26:39,869:INFO: Epoch: 31, dev loss: 747.8311309814453, f1 score: 0.6607929515418502
+2026-01-21 17:26:39,870:INFO: Best val f1: 0.6784140969162995
+2026-01-21 17:26:39,870:INFO: Training Finished!
+2026-01-21 17:26:39,878:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:26:39,878:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:26:39,878:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:26:39,878:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:26:39,878:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:26:39,878:INFO: loading file None
+2026-01-21 17:26:39,878:INFO: loading file None
+2026-01-21 17:26:39,878:INFO: loading file None
+2026-01-21 17:26:39,953:INFO: --------Dataset Build!--------
+2026-01-21 17:26:39,953:INFO: --------Get Data-loader!--------
+2026-01-21 17:26:39,953:INFO: loading configuration file /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:26:39,954:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:26:39,954:INFO: loading weights file /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:26:45,173:INFO: --------Load model from /root/msy/ner/BERT-LSTM-CRF/experiments/my/--------
+2026-01-21 17:26:45,174:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:26:45,174:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:26:45,174:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:26:45,174:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:26:45,174:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:26:45,174:INFO: loading file None
+2026-01-21 17:26:45,174:INFO: loading file None
+2026-01-21 17:26:45,174:INFO: loading file None
+2026-01-21 17:26:45,976:INFO: --------Bad Cases reserved !--------
+2026-01-21 17:26:45,979:INFO: test loss: 1080.5430908203125, f1 score: 0.6716141001855287
+2026-01-21 17:26:45,980:INFO: f1 score of ACTION: 0.46808510638297873
+2026-01-21 17:26:45,980:INFO: f1 score of LEVEL_KEY: 0.5684210526315789
+2026-01-21 17:26:45,980:INFO: f1 score of OBJ: 0.7272727272727274
+2026-01-21 17:26:45,980:INFO: f1 score of ORG: 0.6666666666666666
+2026-01-21 17:26:45,980:INFO: f1 score of VALUE: 0.9090909090909092
+2026-01-21 17:27:02,206:INFO: device: cuda:0
+2026-01-21 17:27:02,206:INFO: --------Process Done!--------
+2026-01-21 17:27:02,213:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:27:02,213:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:27:02,213:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:27:02,213:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:27:02,213:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:27:02,213:INFO: loading file None
+2026-01-21 17:27:02,213:INFO: loading file None
+2026-01-21 17:27:02,213:INFO: loading file None
+2026-01-21 17:27:02,527:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:27:02,528:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:27:02,528:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:27:02,528:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:27:02,528:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:27:02,528:INFO: loading file None
+2026-01-21 17:27:02,528:INFO: loading file None
+2026-01-21 17:27:02,528:INFO: loading file None
+2026-01-21 17:27:02,568:INFO: --------Dataset Build!--------
+2026-01-21 17:27:02,569:INFO: --------Get Dataloader!--------
+2026-01-21 17:27:02,569:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-21 17:27:02,569:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:27:02,569:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-21 17:27:09,140:INFO: Weights of BertNER not initialized from pretrained model: ['bilstm.weight_ih_l0', 'bilstm.weight_hh_l0', 'bilstm.bias_ih_l0', 'bilstm.bias_hh_l0', 'bilstm.weight_ih_l0_reverse', 'bilstm.weight_hh_l0_reverse', 'bilstm.bias_ih_l0_reverse', 'bilstm.bias_hh_l0_reverse', 'bilstm.weight_ih_l1', 'bilstm.weight_hh_l1', 'bilstm.bias_ih_l1', 'bilstm.bias_hh_l1', 'bilstm.weight_ih_l1_reverse', 'bilstm.weight_hh_l1_reverse', 'bilstm.bias_ih_l1_reverse', 'bilstm.bias_hh_l1_reverse', 'classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-21 17:27:09,141:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-21 17:27:10,582:INFO: --------Start Training!--------
+2026-01-21 17:27:14,183:INFO: Epoch: 1, train loss: 2820.7330322265625
+2026-01-21 17:27:14,441:INFO: Epoch: 1, dev loss: 1053.8979949951172, f1 score: 0.05797101449275363
+2026-01-21 17:27:14,442:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:15,603:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:15,603:INFO: --------Save best model!--------
+2026-01-21 17:27:18,551:INFO: Epoch: 2, train loss: 1233.1930725097657
+2026-01-21 17:27:18,784:INFO: Epoch: 2, dev loss: 622.6153869628906, f1 score: 0.35233160621761656
+2026-01-21 17:27:18,785:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:21,253:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:21,253:INFO: --------Save best model!--------
+2026-01-21 17:27:24,007:INFO: Epoch: 3, train loss: 655.5342956542969
+2026-01-21 17:27:24,262:INFO: Epoch: 3, dev loss: 504.6458282470703, f1 score: 0.4796747967479675
+2026-01-21 17:27:24,263:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:26,719:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:26,719:INFO: --------Save best model!--------
+2026-01-21 17:27:29,662:INFO: Epoch: 4, train loss: 432.29184875488284
+2026-01-21 17:27:29,910:INFO: Epoch: 4, dev loss: 414.33358001708984, f1 score: 0.46288209606986896
+2026-01-21 17:27:32,711:INFO: Epoch: 5, train loss: 263.62545013427734
+2026-01-21 17:27:32,971:INFO: Epoch: 5, dev loss: 352.4621276855469, f1 score: 0.5872340425531916
+2026-01-21 17:27:32,971:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:35,474:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:35,474:INFO: --------Save best model!--------
+2026-01-21 17:27:38,123:INFO: Epoch: 6, train loss: 239.59215087890624
+2026-01-21 17:27:38,381:INFO: Epoch: 6, dev loss: 371.72008514404297, f1 score: 0.6271186440677966
+2026-01-21 17:27:38,381:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:40,547:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:40,548:INFO: --------Save best model!--------
+2026-01-21 17:27:43,406:INFO: Epoch: 7, train loss: 165.8932342529297
+2026-01-21 17:27:43,647:INFO: Epoch: 7, dev loss: 317.5600814819336, f1 score: 0.6065573770491803
+2026-01-21 17:27:46,509:INFO: Epoch: 8, train loss: 121.0697624206543
+2026-01-21 17:27:46,769:INFO: Epoch: 8, dev loss: 456.7597198486328, f1 score: 0.6330275229357799
+2026-01-21 17:27:46,769:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:49,241:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:49,241:INFO: --------Save best model!--------
+2026-01-21 17:27:52,142:INFO: Epoch: 9, train loss: 110.67252807617187
+2026-01-21 17:27:52,379:INFO: Epoch: 9, dev loss: 421.28196716308594, f1 score: 0.648888888888889
+2026-01-21 17:27:52,379:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:27:54,847:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:27:54,847:INFO: --------Save best model!--------
+2026-01-21 17:27:57,631:INFO: Epoch: 10, train loss: 95.65740966796875
+2026-01-21 17:27:57,868:INFO: Epoch: 10, dev loss: 434.1230163574219, f1 score: 0.6339285714285714
+2026-01-21 17:28:00,840:INFO: Epoch: 11, train loss: 91.60174865722657
+2026-01-21 17:28:01,100:INFO: Epoch: 11, dev loss: 487.0210189819336, f1 score: 0.6341463414634148
+2026-01-21 17:28:04,004:INFO: Epoch: 12, train loss: 69.37406158447266
+2026-01-21 17:28:04,262:INFO: Epoch: 12, dev loss: 485.99173736572266, f1 score: 0.6218487394957983
+2026-01-21 17:28:07,014:INFO: Epoch: 13, train loss: 69.47600631713867
+2026-01-21 17:28:07,263:INFO: Epoch: 13, dev loss: 491.7011184692383, f1 score: 0.6329113924050632
+2026-01-21 17:28:10,088:INFO: Epoch: 14, train loss: 58.544978332519534
+2026-01-21 17:28:10,347:INFO: Epoch: 14, dev loss: 593.0460205078125, f1 score: 0.6339285714285714
+2026-01-21 17:28:13,288:INFO: Epoch: 15, train loss: 43.359789276123045
+2026-01-21 17:28:13,526:INFO: Epoch: 15, dev loss: 580.5516586303711, f1 score: 0.6285714285714286
+2026-01-21 17:28:16,304:INFO: Epoch: 16, train loss: 37.846337890625
+2026-01-21 17:28:16,562:INFO: Epoch: 16, dev loss: 607.4669570922852, f1 score: 0.6753246753246753
+2026-01-21 17:28:16,563:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:28:19,101:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:28:19,101:INFO: --------Save best model!--------
+2026-01-21 17:28:22,049:INFO: Epoch: 17, train loss: 30.715863037109376
+2026-01-21 17:28:22,306:INFO: Epoch: 17, dev loss: 666.335823059082, f1 score: 0.6470588235294118
+2026-01-21 17:28:25,009:INFO: Epoch: 18, train loss: 25.814228820800782
+2026-01-21 17:28:25,270:INFO: Epoch: 18, dev loss: 639.9552764892578, f1 score: 0.6607929515418502
+2026-01-21 17:28:28,067:INFO: Epoch: 19, train loss: 25.814027404785158
+2026-01-21 17:28:28,313:INFO: Epoch: 19, dev loss: 736.0852966308594, f1 score: 0.6491228070175439
+2026-01-21 17:28:31,037:INFO: Epoch: 20, train loss: 34.15121841430664
+2026-01-21 17:28:31,296:INFO: Epoch: 20, dev loss: 707.9522399902344, f1 score: 0.6638297872340426
+2026-01-21 17:28:34,272:INFO: Epoch: 21, train loss: 32.8142578125
+2026-01-21 17:28:34,532:INFO: Epoch: 21, dev loss: 686.2244720458984, f1 score: 0.6440677966101694
+2026-01-21 17:28:37,444:INFO: Epoch: 22, train loss: 27.011766052246095
+2026-01-21 17:28:37,696:INFO: Epoch: 22, dev loss: 690.5706939697266, f1 score: 0.652892561983471
+2026-01-21 17:28:40,544:INFO: Epoch: 23, train loss: 18.519569396972656
+2026-01-21 17:28:40,782:INFO: Epoch: 23, dev loss: 631.7078475952148, f1 score: 0.6297872340425532
+2026-01-21 17:28:43,700:INFO: Epoch: 24, train loss: 16.6172737121582
+2026-01-21 17:28:43,961:INFO: Epoch: 24, dev loss: 697.8265991210938, f1 score: 0.6244725738396625
+2026-01-21 17:28:46,871:INFO: Epoch: 25, train loss: 13.713545227050782
+2026-01-21 17:28:47,132:INFO: Epoch: 25, dev loss: 710.8466339111328, f1 score: 0.646288209606987
+2026-01-21 17:28:49,867:INFO: Epoch: 26, train loss: 10.958934783935547
+2026-01-21 17:28:50,126:INFO: Epoch: 26, dev loss: 702.4727630615234, f1 score: 0.6390041493775933
+2026-01-21 17:28:50,126:INFO: Best val f1: 0.6753246753246753
+2026-01-21 17:28:50,126:INFO: Training Finished!
+2026-01-21 17:28:50,134:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:28:50,134:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:28:50,135:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:28:50,135:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:28:50,135:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:28:50,135:INFO: loading file None
+2026-01-21 17:28:50,135:INFO: loading file None
+2026-01-21 17:28:50,135:INFO: loading file None
+2026-01-21 17:28:50,211:INFO: --------Dataset Build!--------
+2026-01-21 17:28:50,212:INFO: --------Get Data-loader!--------
+2026-01-21 17:28:50,212:INFO: loading configuration file /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:28:50,212:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:28:50,213:INFO: loading weights file /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:28:55,452:INFO: --------Load model from /root/msy/ner/BERT-LSTM-CRF/experiments/my/--------
+2026-01-21 17:28:55,453:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:28:55,453:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:28:55,453:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:28:55,453:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:28:55,453:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:28:55,453:INFO: loading file None
+2026-01-21 17:28:55,453:INFO: loading file None
+2026-01-21 17:28:55,453:INFO: loading file None
+2026-01-21 17:28:56,259:INFO: --------Bad Cases reserved !--------
+2026-01-21 17:28:56,263:INFO: test loss: 774.5778198242188, f1 score: 0.6880570409982175
+2026-01-21 17:28:56,263:INFO: f1 score of ACTION: 0.4339622641509434
+2026-01-21 17:28:56,263:INFO: f1 score of LEVEL_KEY: 0.7199999999999999
+2026-01-21 17:28:56,263:INFO: f1 score of OBJ: 0.7567567567567568
+2026-01-21 17:28:56,263:INFO: f1 score of ORG: 0.711864406779661
+2026-01-21 17:28:56,263:INFO: f1 score of VALUE: 0.8089887640449438
+2026-01-21 17:32:11,171:INFO: device: cuda:0
+2026-01-21 17:32:11,171:INFO: --------Process Done!--------
+2026-01-21 17:32:11,178:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:32:11,178:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:32:11,178:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:32:11,178:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:32:11,178:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:32:11,178:INFO: loading file None
+2026-01-21 17:32:11,178:INFO: loading file None
+2026-01-21 17:32:11,178:INFO: loading file None
+2026-01-21 17:32:11,491:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:32:11,491:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:32:11,491:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:32:11,491:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:32:11,491:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:32:11,491:INFO: loading file None
+2026-01-21 17:32:11,491:INFO: loading file None
+2026-01-21 17:32:11,491:INFO: loading file None
+2026-01-21 17:32:11,533:INFO: --------Dataset Build!--------
+2026-01-21 17:32:11,533:INFO: --------Get Dataloader!--------
+2026-01-21 17:32:11,533:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-21 17:32:11,534:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:32:11,534:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-21 17:32:18,348:INFO: Weights of BertNER not initialized from pretrained model: ['bilstm.weight_ih_l0', 'bilstm.weight_hh_l0', 'bilstm.bias_ih_l0', 'bilstm.bias_hh_l0', 'bilstm.weight_ih_l0_reverse', 'bilstm.weight_hh_l0_reverse', 'bilstm.bias_ih_l0_reverse', 'bilstm.bias_hh_l0_reverse', 'bilstm.weight_ih_l1', 'bilstm.weight_hh_l1', 'bilstm.bias_ih_l1', 'bilstm.bias_hh_l1', 'bilstm.weight_ih_l1_reverse', 'bilstm.weight_hh_l1_reverse', 'bilstm.bias_ih_l1_reverse', 'bilstm.bias_hh_l1_reverse', 'classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-21 17:32:18,349:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-21 17:32:19,746:INFO: --------Start Training!--------
+2026-01-21 17:32:23,342:INFO: Epoch: 1, train loss: 2928.01787109375
+2026-01-21 17:32:23,592:INFO: Epoch: 1, dev loss: 1202.0909423828125, f1 score: 0.07633587786259542
+2026-01-21 17:32:23,592:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:32:26,048:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:32:26,048:INFO: --------Save best model!--------
+2026-01-21 17:32:28,764:INFO: Epoch: 2, train loss: 1572.2478759765625
+2026-01-21 17:32:29,021:INFO: Epoch: 2, dev loss: 657.134880065918, f1 score: 0.14358974358974358
+2026-01-21 17:32:29,021:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:32:31,501:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:32:31,501:INFO: --------Save best model!--------
+2026-01-21 17:32:34,285:INFO: Epoch: 3, train loss: 786.3927978515625
+2026-01-21 17:32:34,522:INFO: Epoch: 3, dev loss: 470.6610565185547, f1 score: 0.5178571428571429
+2026-01-21 17:32:34,522:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:32:37,345:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:32:37,346:INFO: --------Save best model!--------
+2026-01-21 17:32:40,331:INFO: Epoch: 4, train loss: 489.90294494628904
+2026-01-21 17:32:40,586:INFO: Epoch: 4, dev loss: 387.89422607421875, f1 score: 0.5020242914979758
+2026-01-21 17:32:43,472:INFO: Epoch: 5, train loss: 330.18358154296874
+2026-01-21 17:32:43,714:INFO: Epoch: 5, dev loss: 348.68675231933594, f1 score: 0.5725806451612903
+2026-01-21 17:32:43,716:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:32:46,147:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:32:46,148:INFO: --------Save best model!--------
+2026-01-21 17:32:49,032:INFO: Epoch: 6, train loss: 230.29498367309571
+2026-01-21 17:32:49,260:INFO: Epoch: 6, dev loss: 516.7724227905273, f1 score: 0.5361702127659574
+2026-01-21 17:32:52,103:INFO: Epoch: 7, train loss: 193.16504669189453
+2026-01-21 17:32:52,360:INFO: Epoch: 7, dev loss: 416.9349060058594, f1 score: 0.6106194690265486
+2026-01-21 17:32:52,360:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:32:54,848:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:32:54,849:INFO: --------Save best model!--------
+2026-01-21 17:32:57,790:INFO: Epoch: 8, train loss: 132.5547607421875
+2026-01-21 17:32:58,046:INFO: Epoch: 8, dev loss: 373.3437042236328, f1 score: 0.6550218340611355
+2026-01-21 17:32:58,047:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:33:00,890:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:33:00,890:INFO: --------Save best model!--------
+2026-01-21 17:33:03,772:INFO: Epoch: 9, train loss: 107.797216796875
+2026-01-21 17:33:04,029:INFO: Epoch: 9, dev loss: 387.8287124633789, f1 score: 0.6048387096774194
+2026-01-21 17:33:06,939:INFO: Epoch: 10, train loss: 111.82987823486329
+2026-01-21 17:33:07,174:INFO: Epoch: 10, dev loss: 408.62203216552734, f1 score: 0.6172839506172839
+2026-01-21 17:33:09,887:INFO: Epoch: 11, train loss: 73.18614349365234
+2026-01-21 17:33:10,123:INFO: Epoch: 11, dev loss: 478.47000885009766, f1 score: 0.6457399103139014
+2026-01-21 17:33:12,885:INFO: Epoch: 12, train loss: 72.88814163208008
+2026-01-21 17:33:13,143:INFO: Epoch: 12, dev loss: 485.94029235839844, f1 score: 0.6194690265486725
+2026-01-21 17:33:15,843:INFO: Epoch: 13, train loss: 52.40047378540039
+2026-01-21 17:33:16,099:INFO: Epoch: 13, dev loss: 486.3052673339844, f1 score: 0.6457399103139014
+2026-01-21 17:33:18,909:INFO: Epoch: 14, train loss: 57.63359603881836
+2026-01-21 17:33:19,168:INFO: Epoch: 14, dev loss: 496.1221008300781, f1 score: 0.6192468619246861
+2026-01-21 17:33:21,897:INFO: Epoch: 15, train loss: 45.26148300170898
+2026-01-21 17:33:22,138:INFO: Epoch: 15, dev loss: 444.26644134521484, f1 score: 0.6460176991150443
+2026-01-21 17:33:24,983:INFO: Epoch: 16, train loss: 34.68060073852539
+2026-01-21 17:33:25,240:INFO: Epoch: 16, dev loss: 526.1580810546875, f1 score: 0.6527196652719666
+2026-01-21 17:33:28,136:INFO: Epoch: 17, train loss: 29.245590209960938
+2026-01-21 17:33:28,396:INFO: Epoch: 17, dev loss: 554.669792175293, f1 score: 0.6577777777777778
+2026-01-21 17:33:28,397:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:33:30,622:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:33:30,622:INFO: --------Save best model!--------
+2026-01-21 17:33:33,504:INFO: Epoch: 18, train loss: 22.99070816040039
+2026-01-21 17:33:33,763:INFO: Epoch: 18, dev loss: 726.7895812988281, f1 score: 0.6578947368421052
+2026-01-21 17:33:33,763:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:33:35,923:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:33:35,923:INFO: --------Save best model!--------
+2026-01-21 17:33:38,722:INFO: Epoch: 19, train loss: 31.457823181152342
+2026-01-21 17:33:38,981:INFO: Epoch: 19, dev loss: 608.9538192749023, f1 score: 0.6696035242290749
+2026-01-21 17:33:38,982:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:33:41,193:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:33:41,193:INFO: --------Save best model!--------
+2026-01-21 17:33:44,203:INFO: Epoch: 20, train loss: 19.112838745117188
+2026-01-21 17:33:44,462:INFO: Epoch: 20, dev loss: 678.7225570678711, f1 score: 0.6311111111111111
+2026-01-21 17:33:47,416:INFO: Epoch: 21, train loss: 24.174815368652343
+2026-01-21 17:33:47,674:INFO: Epoch: 21, dev loss: 722.9867095947266, f1 score: 0.6491228070175439
+2026-01-21 17:33:50,539:INFO: Epoch: 22, train loss: 20.23340606689453
+2026-01-21 17:33:50,783:INFO: Epoch: 22, dev loss: 626.216064453125, f1 score: 0.6754385964912282
+2026-01-21 17:33:50,783:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:33:52,928:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:33:52,928:INFO: --------Save best model!--------
+2026-01-21 17:33:55,669:INFO: Epoch: 23, train loss: 15.649821472167968
+2026-01-21 17:33:55,920:INFO: Epoch: 23, dev loss: 626.7403411865234, f1 score: 0.6548672566371682
+2026-01-21 17:33:58,839:INFO: Epoch: 24, train loss: 11.688959503173828
+2026-01-21 17:33:59,096:INFO: Epoch: 24, dev loss: 720.1277008056641, f1 score: 0.6548672566371682
+2026-01-21 17:34:01,894:INFO: Epoch: 25, train loss: 13.487763214111329
+2026-01-21 17:34:02,139:INFO: Epoch: 25, dev loss: 853.1275329589844, f1 score: 0.6396396396396397
+2026-01-21 17:34:05,036:INFO: Epoch: 26, train loss: 16.3843505859375
+2026-01-21 17:34:05,275:INFO: Epoch: 26, dev loss: 810.9739074707031, f1 score: 0.6576576576576576
+2026-01-21 17:34:07,985:INFO: Epoch: 27, train loss: 13.798149108886719
+2026-01-21 17:34:08,243:INFO: Epoch: 27, dev loss: 810.3410797119141, f1 score: 0.6403508771929824
+2026-01-21 17:34:10,940:INFO: Epoch: 28, train loss: 11.525708770751953
+2026-01-21 17:34:11,182:INFO: Epoch: 28, dev loss: 848.9002075195312, f1 score: 0.64
+2026-01-21 17:34:14,080:INFO: Epoch: 29, train loss: 8.538663482666015
+2026-01-21 17:34:14,343:INFO: Epoch: 29, dev loss: 790.3000106811523, f1 score: 0.6403508771929824
+2026-01-21 17:34:17,284:INFO: Epoch: 30, train loss: 5.296080017089844
+2026-01-21 17:34:17,520:INFO: Epoch: 30, dev loss: 807.9247894287109, f1 score: 0.6607929515418502
+2026-01-21 17:34:20,171:INFO: Epoch: 31, train loss: 5.776248168945313
+2026-01-21 17:34:20,413:INFO: Epoch: 31, dev loss: 817.7210845947266, f1 score: 0.6403508771929824
+2026-01-21 17:34:23,383:INFO: Epoch: 32, train loss: 2.742182159423828
+2026-01-21 17:34:23,626:INFO: Epoch: 32, dev loss: 842.0261077880859, f1 score: 0.648888888888889
+2026-01-21 17:34:23,626:INFO: Best val f1: 0.6754385964912282
+2026-01-21 17:34:23,626:INFO: Training Finished!
+2026-01-21 17:34:23,633:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:34:23,633:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:34:23,633:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:34:23,633:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:34:23,634:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:34:23,634:INFO: loading file None
+2026-01-21 17:34:23,634:INFO: loading file None
+2026-01-21 17:34:23,634:INFO: loading file None
+2026-01-21 17:34:23,713:INFO: --------Dataset Build!--------
+2026-01-21 17:34:23,713:INFO: --------Get Data-loader!--------
+2026-01-21 17:34:23,713:INFO: loading configuration file /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:34:23,714:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:34:23,714:INFO: loading weights file /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:34:29,582:INFO: --------Load model from /root/msy/ner/BERT-LSTM-CRF/experiments/my/--------
+2026-01-21 17:34:29,583:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:34:29,584:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:34:29,584:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:34:29,584:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:34:29,584:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:34:29,584:INFO: loading file None
+2026-01-21 17:34:29,584:INFO: loading file None
+2026-01-21 17:34:29,584:INFO: loading file None
+2026-01-21 17:34:30,388:INFO: --------Bad Cases reserved !--------
+2026-01-21 17:34:30,392:INFO: test loss: 946.8136596679688, f1 score: 0.6971830985915495
+2026-01-21 17:34:30,392:INFO: f1 score of ACTION: 0.4786324786324786
+2026-01-21 17:34:30,392:INFO: f1 score of LEVEL_KEY: 0.6262626262626263
+2026-01-21 17:34:30,392:INFO: f1 score of OBJ: 0.7837837837837838
+2026-01-21 17:34:30,392:INFO: f1 score of ORG: 0.7610619469026548
+2026-01-21 17:34:30,392:INFO: f1 score of VALUE: 0.8351648351648352
+2026-01-21 17:35:40,487:INFO: device: cuda:0
+2026-01-21 17:35:40,487:INFO: --------Process Done!--------
+2026-01-21 17:35:40,493:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:35:40,493:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:35:40,493:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:35:40,493:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:35:40,494:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:35:40,494:INFO: loading file None
+2026-01-21 17:35:40,494:INFO: loading file None
+2026-01-21 17:35:40,494:INFO: loading file None
+2026-01-21 17:35:40,810:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:35:40,810:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:35:40,810:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:35:40,810:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:35:40,810:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:35:40,810:INFO: loading file None
+2026-01-21 17:35:40,810:INFO: loading file None
+2026-01-21 17:35:40,810:INFO: loading file None
+2026-01-21 17:35:40,851:INFO: --------Dataset Build!--------
+2026-01-21 17:35:40,851:INFO: --------Get Dataloader!--------
+2026-01-21 17:35:40,851:INFO: loading configuration file pretrained_bert_models/chinese_roberta_wwm_large_ext/config.json
+2026-01-21 17:35:40,851:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:35:40,852:INFO: loading weights file pretrained_bert_models/chinese_roberta_wwm_large_ext/pytorch_model.bin
+2026-01-21 17:35:47,107:INFO: Weights of BertNER not initialized from pretrained model: ['bilstm.weight_ih_l0', 'bilstm.weight_hh_l0', 'bilstm.bias_ih_l0', 'bilstm.bias_hh_l0', 'bilstm.weight_ih_l0_reverse', 'bilstm.weight_hh_l0_reverse', 'bilstm.bias_ih_l0_reverse', 'bilstm.bias_hh_l0_reverse', 'bilstm.weight_ih_l1', 'bilstm.weight_hh_l1', 'bilstm.bias_ih_l1', 'bilstm.bias_hh_l1', 'bilstm.weight_ih_l1_reverse', 'bilstm.weight_hh_l1_reverse', 'bilstm.bias_ih_l1_reverse', 'bilstm.bias_hh_l1_reverse', 'classifier.weight', 'classifier.bias', 'crf.start_transitions', 'crf.end_transitions', 'crf.transitions']
+2026-01-21 17:35:47,107:INFO: Weights from pretrained model not used in BertNER: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias']
+2026-01-21 17:35:48,524:INFO: --------Start Training!--------
+2026-01-21 17:35:51,927:INFO: Epoch: 1, train loss: 3095.2579345703125
+2026-01-21 17:35:52,183:INFO: Epoch: 1, dev loss: 1315.3205261230469, f1 score: 0
+2026-01-21 17:35:55,087:INFO: Epoch: 2, train loss: 1571.0937744140624
+2026-01-21 17:35:55,338:INFO: Epoch: 2, dev loss: 746.614616394043, f1 score: 0.10344827586206896
+2026-01-21 17:35:55,339:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:35:57,724:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:35:57,725:INFO: --------Save best model!--------
+2026-01-21 17:36:00,634:INFO: Epoch: 3, train loss: 833.0062744140625
+2026-01-21 17:36:00,872:INFO: Epoch: 3, dev loss: 442.15283203125, f1 score: 0.4675324675324675
+2026-01-21 17:36:00,873:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:02,996:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:02,996:INFO: --------Save best model!--------
+2026-01-21 17:36:05,726:INFO: Epoch: 4, train loss: 513.2879425048828
+2026-01-21 17:36:05,962:INFO: Epoch: 4, dev loss: 505.5550994873047, f1 score: 0.4772727272727273
+2026-01-21 17:36:05,962:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:08,466:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:08,466:INFO: --------Save best model!--------
+2026-01-21 17:36:11,160:INFO: Epoch: 5, train loss: 386.12523193359374
+2026-01-21 17:36:11,402:INFO: Epoch: 5, dev loss: 438.1732635498047, f1 score: 0.48847926267281105
+2026-01-21 17:36:11,403:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:13,873:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:13,873:INFO: --------Save best model!--------
+2026-01-21 17:36:16,725:INFO: Epoch: 6, train loss: 273.89506378173826
+2026-01-21 17:36:16,973:INFO: Epoch: 6, dev loss: 408.7350845336914, f1 score: 0.5816733067729084
+2026-01-21 17:36:16,974:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:19,817:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:19,817:INFO: --------Save best model!--------
+2026-01-21 17:36:22,628:INFO: Epoch: 7, train loss: 185.6262420654297
+2026-01-21 17:36:22,878:INFO: Epoch: 7, dev loss: 459.65809631347656, f1 score: 0.5762711864406779
+2026-01-21 17:36:25,704:INFO: Epoch: 8, train loss: 139.92682342529298
+2026-01-21 17:36:25,939:INFO: Epoch: 8, dev loss: 477.83106231689453, f1 score: 0.6460176991150443
+2026-01-21 17:36:25,939:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:28,168:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:28,168:INFO: --------Save best model!--------
+2026-01-21 17:36:30,883:INFO: Epoch: 9, train loss: 106.80160217285156
+2026-01-21 17:36:31,119:INFO: Epoch: 9, dev loss: 474.1138687133789, f1 score: 0.6203703703703703
+2026-01-21 17:36:33,812:INFO: Epoch: 10, train loss: 96.85697937011719
+2026-01-21 17:36:34,052:INFO: Epoch: 10, dev loss: 442.9604034423828, f1 score: 0.5991561181434599
+2026-01-21 17:36:36,975:INFO: Epoch: 11, train loss: 80.19477844238281
+2026-01-21 17:36:37,224:INFO: Epoch: 11, dev loss: 362.8449249267578, f1 score: 0.6611570247933884
+2026-01-21 17:36:37,225:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:39,347:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:39,348:INFO: --------Save best model!--------
+2026-01-21 17:36:42,282:INFO: Epoch: 12, train loss: 81.81795043945313
+2026-01-21 17:36:42,524:INFO: Epoch: 12, dev loss: 423.94459533691406, f1 score: 0.6465517241379309
+2026-01-21 17:36:45,202:INFO: Epoch: 13, train loss: 63.10726089477539
+2026-01-21 17:36:45,461:INFO: Epoch: 13, dev loss: 475.76021575927734, f1 score: 0.6636363636363637
+2026-01-21 17:36:45,463:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:47,614:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:47,614:INFO: --------Save best model!--------
+2026-01-21 17:36:50,542:INFO: Epoch: 14, train loss: 58.034521484375
+2026-01-21 17:36:50,776:INFO: Epoch: 14, dev loss: 523.7553024291992, f1 score: 0.6413502109704642
+2026-01-21 17:36:53,716:INFO: Epoch: 15, train loss: 52.22877731323242
+2026-01-21 17:36:53,956:INFO: Epoch: 15, dev loss: 616.7696685791016, f1 score: 0.6543778801843319
+2026-01-21 17:36:56,862:INFO: Epoch: 16, train loss: 52.07194519042969
+2026-01-21 17:36:57,120:INFO: Epoch: 16, dev loss: 583.4553985595703, f1 score: 0.6725663716814159
+2026-01-21 17:36:57,120:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:36:59,284:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:36:59,284:INFO: --------Save best model!--------
+2026-01-21 17:37:02,039:INFO: Epoch: 17, train loss: 50.47404556274414
+2026-01-21 17:37:02,296:INFO: Epoch: 17, dev loss: 493.4780502319336, f1 score: 0.6550218340611355
+2026-01-21 17:37:04,987:INFO: Epoch: 18, train loss: 34.885432434082034
+2026-01-21 17:37:05,228:INFO: Epoch: 18, dev loss: 570.5973358154297, f1 score: 0.6696035242290749
+2026-01-21 17:37:08,125:INFO: Epoch: 19, train loss: 39.993873596191406
+2026-01-21 17:37:08,364:INFO: Epoch: 19, dev loss: 529.1670227050781, f1 score: 0.6382978723404255
+2026-01-21 17:37:11,332:INFO: Epoch: 20, train loss: 24.5160888671875
+2026-01-21 17:37:11,574:INFO: Epoch: 20, dev loss: 552.0745697021484, f1 score: 0.6519823788546255
+2026-01-21 17:37:14,421:INFO: Epoch: 21, train loss: 20.251598358154297
+2026-01-21 17:37:14,672:INFO: Epoch: 21, dev loss: 660.3120880126953, f1 score: 0.672645739910314
+2026-01-21 17:37:14,673:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:37:17,074:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:37:17,074:INFO: --------Save best model!--------
+2026-01-21 17:37:19,909:INFO: Epoch: 22, train loss: 16.53462371826172
+2026-01-21 17:37:20,167:INFO: Epoch: 22, dev loss: 522.5704193115234, f1 score: 0.6781115879828326
+2026-01-21 17:37:20,167:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:37:22,557:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:37:22,558:INFO: --------Save best model!--------
+2026-01-21 17:37:25,484:INFO: Epoch: 23, train loss: 16.340691375732423
+2026-01-21 17:37:25,711:INFO: Epoch: 23, dev loss: 679.4051361083984, f1 score: 0.6347826086956522
+2026-01-21 17:37:28,627:INFO: Epoch: 24, train loss: 13.813065338134766
+2026-01-21 17:37:28,861:INFO: Epoch: 24, dev loss: 653.4683380126953, f1 score: 0.6609442060085837
+2026-01-21 17:37:31,634:INFO: Epoch: 25, train loss: 14.036863708496094
+2026-01-21 17:37:31,869:INFO: Epoch: 25, dev loss: 707.8435363769531, f1 score: 0.6991150442477876
+2026-01-21 17:37:31,870:INFO: Configuration saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:37:34,723:INFO: Model weights saved in /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:37:34,723:INFO: --------Save best model!--------
+2026-01-21 17:37:37,743:INFO: Epoch: 26, train loss: 9.073868560791016
+2026-01-21 17:37:37,981:INFO: Epoch: 26, dev loss: 650.0036163330078, f1 score: 0.6695278969957081
+2026-01-21 17:37:40,882:INFO: Epoch: 27, train loss: 13.118619537353515
+2026-01-21 17:37:41,140:INFO: Epoch: 27, dev loss: 720.5969085693359, f1 score: 0.6816143497757848
+2026-01-21 17:37:44,021:INFO: Epoch: 28, train loss: 7.882274627685547
+2026-01-21 17:37:44,276:INFO: Epoch: 28, dev loss: 675.2577972412109, f1 score: 0.6581196581196581
+2026-01-21 17:37:47,139:INFO: Epoch: 29, train loss: 8.386483001708985
+2026-01-21 17:37:47,393:INFO: Epoch: 29, dev loss: 764.0247650146484, f1 score: 0.6754385964912282
+2026-01-21 17:37:50,257:INFO: Epoch: 30, train loss: 5.4890594482421875
+2026-01-21 17:37:50,515:INFO: Epoch: 30, dev loss: 769.3020172119141, f1 score: 0.6724890829694323
+2026-01-21 17:37:53,274:INFO: Epoch: 31, train loss: 5.7579597473144535
+2026-01-21 17:37:53,523:INFO: Epoch: 31, dev loss: 735.0021667480469, f1 score: 0.6754385964912282
+2026-01-21 17:37:56,389:INFO: Epoch: 32, train loss: 3.4552345275878906
+2026-01-21 17:37:56,647:INFO: Epoch: 32, dev loss: 757.7734222412109, f1 score: 0.6814159292035398
+2026-01-21 17:37:59,550:INFO: Epoch: 33, train loss: 4.203044891357422
+2026-01-21 17:37:59,789:INFO: Epoch: 33, dev loss: 778.6736679077148, f1 score: 0.6875
+2026-01-21 17:38:02,589:INFO: Epoch: 34, train loss: 2.7072608947753904
+2026-01-21 17:38:02,830:INFO: Epoch: 34, dev loss: 785.0458221435547, f1 score: 0.6754385964912282
+2026-01-21 17:38:05,727:INFO: Epoch: 35, train loss: 1.6212486267089843
+2026-01-21 17:38:05,966:INFO: Epoch: 35, dev loss: 807.9552001953125, f1 score: 0.6902654867256636
+2026-01-21 17:38:05,966:INFO: Best val f1: 0.6991150442477876
+2026-01-21 17:38:05,966:INFO: Training Finished!
+2026-01-21 17:38:05,974:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:38:05,975:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:38:05,975:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:38:05,975:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:38:05,975:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:38:05,975:INFO: loading file None
+2026-01-21 17:38:05,975:INFO: loading file None
+2026-01-21 17:38:05,975:INFO: loading file None
+2026-01-21 17:38:06,051:INFO: --------Dataset Build!--------
+2026-01-21 17:38:06,051:INFO: --------Get Data-loader!--------
+2026-01-21 17:38:06,051:INFO: loading configuration file /root/msy/ner/BERT-LSTM-CRF/experiments/my/config.json
+2026-01-21 17:38:06,052:INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "lstm_dropout_prob": 0.5,
+  "lstm_embedding_size": 1024,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "num_labels": 16,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2026-01-21 17:38:06,052:INFO: loading weights file /root/msy/ner/BERT-LSTM-CRF/experiments/my/pytorch_model.bin
+2026-01-21 17:38:11,422:INFO: --------Load model from /root/msy/ner/BERT-LSTM-CRF/experiments/my/--------
+2026-01-21 17:38:11,423:INFO: Model name 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc, bert-base-german-dbmdz-cased, bert-base-german-dbmdz-uncased). Assuming 'pretrained_bert_models/chinese_roberta_wwm_large_ext/' is a path or url to a directory containing tokenizer files.
+2026-01-21 17:38:11,423:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/added_tokens.json. We won't load it.
+2026-01-21 17:38:11,423:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/special_tokens_map.json. We won't load it.
+2026-01-21 17:38:11,423:INFO: Didn't find file pretrained_bert_models/chinese_roberta_wwm_large_ext/tokenizer_config.json. We won't load it.
+2026-01-21 17:38:11,424:INFO: loading file pretrained_bert_models/chinese_roberta_wwm_large_ext/vocab.txt
+2026-01-21 17:38:11,424:INFO: loading file None
+2026-01-21 17:38:11,424:INFO: loading file None
+2026-01-21 17:38:11,424:INFO: loading file None
+2026-01-21 17:38:12,240:INFO: --------Bad Cases reserved !--------
+2026-01-21 17:38:12,244:INFO: test loss: 1127.4367268880208, f1 score: 0.703770197486535
+2026-01-21 17:38:12,244:INFO: f1 score of ACTION: 0.49056603773584906
+2026-01-21 17:38:12,244:INFO: f1 score of LEVEL_KEY: 0.673469387755102
+2026-01-21 17:38:12,244:INFO: f1 score of OBJ: 0.786206896551724
+2026-01-21 17:38:12,244:INFO: f1 score of ORG: 0.7288135593220341
+2026-01-21 17:38:12,244:INFO: f1 score of VALUE: 0.8222222222222222
