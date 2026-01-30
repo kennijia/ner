@@ -32,16 +32,16 @@ elif model_type == 'roberta':
     hidden_size = 1024
 
 # hyper-parameter
-learning_rate = 5e-5 # 提高整体学习率
+learning_rate = 2e-5 # 提高整体学习率
 weight_decay = 0.01
-clip_grad = 1.0 
+clip_grad = 5
 
 batch_size = 32 
 gradient_accumulation_steps = 1 # 减少累积步数，增加更新频率
 
 epoch_num = 100 
 min_epoch_num = 5 # 降低最小轮数，允许更早停止
-patience = 0.00001
+patience = 0.00002
 patience_num = 10 # 降低耐心值，开启有效的 Early Stopping (原 50 太大)
 
 # R-Drop 超参数
